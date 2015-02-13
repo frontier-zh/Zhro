@@ -1,0 +1,870 @@
+{"roomsHtml":"
+<ul class=\"title clx\">    
+	<li class=\"fx\">        \u623F\u578B</li>    
+	<li class=\"zc\">        \u65E9\u9910</li>    
+	<li class=\"qxzc\">\u53D6\u6D88\u653F\u7B56</li>    
+	<li class=\"rjj\">        \u65E5\u5747\u4EF7</li>
+</ul>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0014\">    
+	<dl class=\"left\">                
+		<dt>            
+			<img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/00005cSG.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        
+		</dt>                
+		<dd>                        
+			<a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u65F6\u79DF\u623F-4\u5C0F\u65F6<span class=\"arrow\"></span></a>                    
+		</dd>        
+		<dd>                        \u623F\u95F425\u33A1,            \u5927/\u53CC\u5E8A
+		</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span>
+		</dd>            
+	</dl>    
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox  clx\" sroomid=\"0023\"            rpid=\"293242\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>100</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>            
+	</div>        
+	<div class=\"clear\">    
+	</div>    
+	
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0014\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+		<ul class=\"imgList mb10 clx\">                        
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005cSG.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005cSG.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005STi.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005STi.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>                    
+		</ul>        
+		<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u5927/\u53CC\u5E8A&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A18\u5C42-20\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    </p>                
+		<p class=\"roomTxt\">            \u5176\u5B83\uFF1A\u5927\u5E8A1.8\u7C73\uFF0C\u6216\u53CC\u5E8A1.2\u7C73\uFF1B\n\u65F6\u79DF\u623F\u9700\u4E8E18:00\u524D\u79BB\u5E97</p>                
+		<div class=\"clear\">        
+	</div>   
+</div>    
+</div>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0002\">    
+	<dl class=\"left\">                
+		<dt>            
+			<img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/00005STi.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        
+		</dt>                
+		<dd>                        
+			<a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u5927\u5E8A\u623F<span class=\"arrow\"></span></a>                    
+		</dd>        
+		<dd>                        \u623F\u95F416\u33A1,            \u5927\u5E8A
+		</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span>
+		</dd>            
+	</dl>    
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0002\"            rpid=\"758028\" shotelid=\"90677281\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u65B0\u6625\u7279\u60E0\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>174</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90677281\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0002\"            rpid=\"838922\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>236</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox borst clx\" sroomid=\"0002\"            rpid=\"293242\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>237</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>            
+	</div>        
+	<div class=\"clear\">    
+	</div>    
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0002\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+			<ul class=\"imgList mb10 clx\">                        
+				<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005STi.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005STi.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+				<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00007ypS.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00007ypS.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>                    
+			</ul>        
+			<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u5927\u5E8A1.5\u7C73&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A18\u5C42-20\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    </p>                
+			<div class=\"clear\">        
+			</div>    
+	</div>   
+</div>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0004\">    
+	<dl class=\"left\">                
+		<dt>            <img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/00005cSG.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        </dt>                
+		<dd>                        <a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u53CC\u5E8A\u623F<span class=\"arrow\"></span></a>                    </dd>        
+		<dd>                        \u623F\u95F425\u33A1,            \u53CC\u5E8A</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span></dd>            
+	</dl>   
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0003\"            rpid=\"758028\" shotelid=\"90677281\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u65B0\u6625\u7279\u60E0\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>195</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90677281\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0002\"            rpid=\"723830\" shotelid=\"90562527\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8A\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>207</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90562527\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0002\"            rpid=\"769903\" shotelid=\"90684943\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u4EE3\u7406\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>208</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90684943\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0004\"            rpid=\"605454\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u9884\u4ED8\u7279\u60E0-\u8D60\u90011\u4EFD\u65E9\u9910                <br />                            </p>            
+			<p class=\"rpw2\">                \u5355\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>215</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0001\"            rpid=\"759967\" shotelid=\"90678584\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>217</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90678584\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0010\"            rpid=\"302337\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                                <span class=\"num_off\" tip=\"\u6B64\u623F\u578B\u6B63\u5728\u9650\u65F6\u62A2\u8D2D\u4E2D\uFF0C\u73B0\u5728\u9884\u8BA2<span class='red'>9.0</span>\u6298\uFF01\" method=\"flash\">                    9.0</span>                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"priceDesignated\" method=\"compareprice\" isauto=\"0\"                    producttype=\"16\" price=\"265\" save=\"26\">                    &yen;265</span>                                <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>239</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0002\"            rpid=\"607258\" shotelid=\"90562527\">            
+			<p class=\"rpw1\">                \u542B\u53CC\u65E9\uFF08\u9884\u4ED8A\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u53CC\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>258</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90562527\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0004\"            rpid=\"838922\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>265</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0004\"            rpid=\"293242\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>265</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox borst clx\" sroomid=\"0002\"            rpid=\"655035\" shotelid=\"90562527\">            
+			<p class=\"rpw1\">                \u542B\u53CC\u65E9(\u9884\u4ED8-5\u95F4\u8D77\u8BA2A)                <br />                            </p>            
+			<p class=\"rpw2\">                \u53CC\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>306</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90562527\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>           
+	</div>        
+	<div class=\"clear\">    
+	</div>    
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0004\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+		<ul class=\"imgList mb10 clx\">                        
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005cSG.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005cSG.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/0000fUlE.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/0000fUlE.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/0000czSv.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/0000czSv.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/0000hmvz.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/0000hmvz.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>                    
+	  </ul>        
+		<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u53CC\u5E8A1.2\u7C73&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A3\u5C42-21\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    </p>                
+		<div class=\"clear\">       
+		</div>   
+	</div>   
+</div>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0003\">    
+	<dl class=\"left\">                
+		<dt>            <img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/00009lEr.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        </dt>                
+		<dd>                        <a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u9AD8\u7EA7\u5927\u5E8A\u623F<span class=\"arrow\"></span></a>                    </dd>        
+		<dd>                        \u623F\u95F425\u33A1,            \u5927\u5E8A</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span></dd>            
+	</dl>    
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0004\"            rpid=\"758028\" shotelid=\"90677281\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u65B0\u6625\u7279\u60E0\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>195</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90677281\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0001\"            rpid=\"723830\" shotelid=\"90562527\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8A\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>207</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90562527\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0001\"            rpid=\"769903\" shotelid=\"90684943\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u4EE3\u7406\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>208</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90684943\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0003\"            rpid=\"605454\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u9884\u4ED8\u7279\u60E0-\u8D60\u90011\u4EFD\u65E9\u9910                <br />                            </p>            
+			<p class=\"rpw2\">                \u5355\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>215</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0012\"            rpid=\"302337\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                                <span class=\"num_off\" tip=\"\u6B64\u623F\u578B\u6B63\u5728\u9650\u65F6\u62A2\u8D2D\u4E2D\uFF0C\u73B0\u5728\u9884\u8BA2<span class='red'>9.0</span>\u6298\uFF01\" method=\"flash\">                    9.0</span>                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"priceDesignated\" method=\"compareprice\" isauto=\"0\"                    producttype=\"16\" price=\"265\" save=\"26\">                    &yen;265</span>                                <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>239</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0001\"            rpid=\"607258\" shotelid=\"90562527\">            
+			<p class=\"rpw1\">                \u542B\u53CC\u65E9\uFF08\u9884\u4ED8A\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u53CC\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>258</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90562527\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0003\"            rpid=\"838922\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>265</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0003\"            rpid=\"293242\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>265</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0001\"            rpid=\"655035\" shotelid=\"90562527\">            
+			<p class=\"rpw1\">                \u542B\u53CC\u65E9(\u9884\u4ED8-5\u95F4\u8D77\u8BA2A)                <br />                            </p>            
+			<p class=\"rpw2\">                \u53CC\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>306</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90562527\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox borst clx\" sroomid=\"0002\"            rpid=\"759967\" shotelid=\"90678584\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>217</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a href='javascript:void(0);' rel='nofollow' title=\"\u8BE5\u671F\u95F4\u623F\u95F4\u5DF2\u6EE1\uFF0C\u53EF\u4FEE\u6539\u65E5\u671F\u91CD\u65B0\u9884\u8BA2\u3002\" class='nobut'>                    \u8BA2\u5B8C</a>                                <br />                            </p>        
+		</div>            
+	</div>        
+	<div class=\"clear\">    
+	</div>    
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0003\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+		<ul class=\"imgList mb10 clx\">                        
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00009lEr.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00009lEr.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/0000jpWZ.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/0000jpWZ.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00007ypS.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00007ypS.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005STi.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005STi.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>                    
+		</ul>        
+		<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u5927\u5E8A1.8\u7C73&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A3\u5C42-21\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    
+		</p>                
+		<div class=\"clear\">        
+		</div>
+	</div>    
+</div>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0001\">    
+	<dl class=\"left\">                
+		<dt>            <img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/0000hIPI.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        </dt>                
+		<dd>                        <a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u7279\u4EF7\u623F(\u65E0\u7A97)<span class=\"arrow\"></span></a>                    </dd>        
+		<dd>                        \u623F\u95F425\u33A1,            \u5927\u5E8A</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span></dd>            
+	</dl>    
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0001\"            rpid=\"302337\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                                <span class=\"num_off\" tip=\"\u6B64\u623F\u578B\u6B63\u5728\u9650\u65F6\u62A2\u8D2D\u4E2D\uFF0C\u73B0\u5728\u9884\u8BA2<span class='red'>8.4</span>\u6298\uFF01\" method=\"flash\">                    8.4</span>                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"priceDesignated\" method=\"compareprice\" isauto=\"0\"                    producttype=\"16\" price=\"237\" save=\"38\">                    &yen;237</span>                                <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>199</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox borst clx\" sroomid=\"0001\"            rpid=\"838922\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>236</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>            
+	</div>        
+	<div class=\"clear\">    
+	</div>    
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0001\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+		<ul class=\"imgList mb10 clx\">                        
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/0000hIPI.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/0000hIPI.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/>
+			</li>                    
+		</ul>        
+		<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u5927\u5E8A1.8\u7C73&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A3\u5C42-4\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    
+		</p>                
+		<div class=\"clear\">        
+		</div>   
+	</div>    
+</div>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0011\">    
+	<dl class=\"left\">                
+		<dt>            <img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/00005STi.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        </dt>                
+		<dd>                        <a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u666F\u89C2\u5927\u5E8A\u623F<span class=\"arrow\"></span></a>                    </dd>        
+		<dd>                        \u623F\u95F425\u33A1,            \u5927\u5E8A</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span></dd>            
+	</dl>    
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0006\"            rpid=\"758028\" shotelid=\"90677281\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u65B0\u6625\u7279\u60E0\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"1\">                \u9650\u65F6\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>209</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"90677281\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0014\"            rpid=\"838922\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>284</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox borst clx\" sroomid=\"0014\"            rpid=\"293242\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>284</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>            
+	</div>        
+	<div class=\"clear\">    
+	</div>    
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0011\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+		<ul class=\"imgList mb10 clx\">                        
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005STi.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005STi.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>                    
+		</ul>        
+		<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u5927\u5E8A1.8\u7C73&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A16\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    </p>                
+		<div class=\"clear\">        
+		</div>    
+	</div>    
+</div>
+
+<div handle=\"room\" class=\"rpBox\" isshow=\"1\" roomid=\"0005\">    
+	<dl class=\"left\">                
+		<dt>            <img src2=\"http://pavo.elongstatic.com/i/Hotel70_70/00005e7s.jpg\" onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\"                width=\"70\" height=\"50\" bigimageurl=\"\" ispanorama=\"false\"                alt=\"\u5BA2\u623F\"                method='RoomDetail' />        </dt>                
+		<dd>                        <a class=\"rpname\" href=\"javascript:void(0);\" rel=\"nofollow\" method=\"RoomDetail\">                \u5957\u623F<span class=\"arrow\"></span></a>                    </dd>        
+		<dd>                        \u623F\u95F435-40\u33A1,            \u5927\u5E8A</dd>                
+		<dd class=\"wifi\">            \u514D\u8D39WIFI<span class=\"icon\"></span></dd>            
+	</dl>    
+	<div class=\"right\">                
+		<div handle=\"ratePlan\" class=\"infoBox bors clx\" sroomid=\"0005\"            rpid=\"838922\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9\uFF08\u9884\u4ED8\uFF09                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"2\">                \u4E0D\u53EF\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>379</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                <span class='iconYufu' title='\u4E3A\u4FDD\u969C\u60A8\u7684\u9884\u8BA2\uFF0C\u9700\u8981\u60A8\u9884\u5148\u5728\u7F51\u4E0A\u652F\u4ED8\u623F\u8D39\u3002'>                </span>                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>                
+		<div handle=\"ratePlan\" class=\"infoBox borst clx\" sroomid=\"0005\"            rpid=\"293242\" shotelid=\"31601371\">            
+			<p class=\"rpw1\">                \u4E0D\u542B\u65E9                <br />                            </p>            
+			<p class=\"rpw2\">                \u65E0\u65E9</p>            
+			<p class=\"rpw3\" method=\"cancel\" canceltype=\"0\">                \u514D\u8D39\u53D6\u6D88</p>            
+			<p class=\"rpw4\">                             <span class=\"price\" method=\"AvgPrice\"><dfn>                    &yen;</dfn>379</span>                          </p>            
+			<p class=\"rpw5\">                                                &nbsp;</p>            
+			<p class=\"rpw6\">                                &nbsp;</p>            
+			<p class=\"rpw7\">                                                <a method='Order' title=\"\" href='javascript:void(0);' rel='nofollow' class='button'                    shotelid=\"31601371\" >                    \u9884\u8BA2</a>                                <br />                            </p>        
+		</div>            
+	</div>        
+	<div class=\"clear\">    </div>    
+	<div class='roomInfo wauto none' mark=\"d\" roomid=\"0005\">        
+		<span class=\"clos\" method=\"RoomDetailClos\"></span>        
+		<ul class=\"imgList mb10 clx\">                        
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/00005e7s.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/00005e7s.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>            
+			<li><img src2='http://pavo.elongstatic.com/i/Hotel120_120/0000dMno.jpg' onerror=\"this.src='http://www.elongstatic.com/hotels/pic/no_pics_CN.gif'\" width='90' height='90' bigImageUrl='http://pavo.elongstatic.com/i/Hotel350_350/0000dMno.jpg' isPanorama='False' alt='\u5BA2\u623F' method='ShowImage'/></li>                    
+		</ul>        
+		<p class=\"roomTxt\">                        \u5E8A\u578B\uFF1A\u5927\u5E8A1.8\u7C73&nbsp;&nbsp;&nbsp;&nbsp;                        \u6700\u591A\u5165\u4F4F\u4EBA\u6570\uFF1A2\u4EBA&nbsp;&nbsp;&nbsp;&nbsp;                        \u697C\u5C42\uFF1A3\u5C42-17\u5C42&nbsp;&nbsp;&nbsp;&nbsp;                        \u4E0A\u7F51\u65B9\u5F0F\uFF1A\u65E0\u7EBF\uFF08Wi-Fi\uFF09[<span class='green'>\u514D\u8D39</span>]                    </p>                
+		<div class=\"clear\">        
+		</div>    
+	</div>    
+</div>
+<div class=\"clear\">
+</div>",
+
+"ShowBuy5Send1":false,
+"success":true,
+"showLongLeaseIcon":false,
+"HotelTipInfos":{
+	"ProductsInfo":[
+			{
+			"RatePlanId":"293242",
+			"SHotelID":"31601371",
+			"SRoomID":"0023",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":100,"GenSalePrice":100,"SalePrice":100,"ShowPrice":0,"WeekendSalePrice":100,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"758028",
+			"SHotelID":"90677281",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-31 19:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":174,"GenSalePrice":174,"SalePrice":174,"ShowPrice":0,"WeekendSalePrice":174,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"838922",
+			"SHotelID":"31601371",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":236.31,"GenSalePrice":236.31,"SalePrice":236,"ShowPrice":0,"WeekendSalePrice":236.31,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"293242",
+			"SHotelID":"31601371",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":237,"GenSalePrice":237,"SalePrice":237,"ShowPrice":0,"WeekendSalePrice":237,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"758028",
+			"SHotelID":"90677281",
+			"SRoomID":"0003",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-31 19:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":195,"GenSalePrice":195,"SalePrice":195,"ShowPrice":0,"WeekendSalePrice":195,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"723830",
+			"SHotelID":"90562527",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":207,"GenSalePrice":207,"SalePrice":207,"ShowPrice":0,"WeekendSalePrice":207,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"769903",
+			"SHotelID":"90684943",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":208,"GenSalePrice":208,"SalePrice":208,"ShowPrice":0,"WeekendSalePrice":208,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"605454",
+			"SHotelID":"31601371",
+			"SRoomID":"0004",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-30 23:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":215.34,"GenSalePrice":215.34,"SalePrice":215,"ShowPrice":0,"WeekendSalePrice":215.34,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u5355\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u65E9\u9910","Value":"\u542B\u65E9\u99101\u4EFD\u3002"},{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"759967",
+			"SHotelID":"90678584",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-30 23:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":217,"GenSalePrice":217,"SalePrice":217,"ShowPrice":0,"WeekendSalePrice":217,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"302337",
+			"SHotelID":"31601371",
+			"SRoomID":"0010",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":239,"GenSalePrice":239,"SalePrice":239,"ShowPrice":0,"WeekendSalePrice":239,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""},
+			{
+			"RatePlanId":"607258",
+			"SHotelID":"90562527",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":258,"GenSalePrice":258,"SalePrice":258,"ShowPrice":0,"WeekendSalePrice":258,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u53CC\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u65E9\u9910","Value":"\u542B\u65E9\u99102\u4EFD\u3002"},{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"838922",
+			"SHotelID":"31601371",
+			"SRoomID":"0004",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":264.81,"GenSalePrice":264.81,"SalePrice":265,"ShowPrice":0,"WeekendSalePrice":264.81,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"293242",
+			"SHotelID":"31601371",
+			"SRoomID":"0004",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":265,"GenSalePrice":265,"SalePrice":265,"ShowPrice":0,"WeekendSalePrice":265,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"655035",
+			"SHotelID":"90562527",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":306,"GenSalePrice":306,"SalePrice":306,"ShowPrice":0,"WeekendSalePrice":306,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u53CC\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u65E9\u9910","Value":"\u542B\u65E9\u99102\u4EFD\u3002"},{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"758028",
+			"SHotelID":"90677281",
+			"SRoomID":"0004",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-31 19:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":195,"GenSalePrice":195,"SalePrice":195,"ShowPrice":0,"WeekendSalePrice":195,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"723830",
+			"SHotelID":"90562527",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":207,"GenSalePrice":207,"SalePrice":207,"ShowPrice":0,"WeekendSalePrice":207,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"769903",
+			"SHotelID":"90684943",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":208,"GenSalePrice":208,"SalePrice":208,"ShowPrice":0,"WeekendSalePrice":208,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"605454",
+			"SHotelID":"31601371",
+			"SRoomID":"0003",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-30 23:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":215.34,"GenSalePrice":215.34,"SalePrice":215,"ShowPrice":0,"WeekendSalePrice":215.34,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u5355\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u65E9\u9910","Value":"\u542B\u65E9\u99101\u4EFD\u3002"},{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"302337",
+			"SHotelID":"31601371",
+			"SRoomID":"0012",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":239,"GenSalePrice":239,"SalePrice":239,"ShowPrice":0,"WeekendSalePrice":239,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"607258",
+			"SHotelID":"90562527",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":258,"GenSalePrice":258,"SalePrice":258,"ShowPrice":0,"WeekendSalePrice":258,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u53CC\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u65E9\u9910","Value":"\u542B\u65E9\u99102\u4EFD\u3002"},{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"838922",
+			"SHotelID":"31601371",
+			"SRoomID":"0003",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":264.81,"GenSalePrice":264.81,"SalePrice":265,"ShowPrice":0,"WeekendSalePrice":264.81,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"293242",
+			"SHotelID":"31601371",
+			"SRoomID":"0003",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":265,"GenSalePrice":265,"SalePrice":265,"ShowPrice":0,"WeekendSalePrice":265,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"655035",
+			"SHotelID":"90562527",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":306,"GenSalePrice":306,"SalePrice":306,"ShowPrice":0,"WeekendSalePrice":306,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u53CC\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u65E9\u9910","Value":"\u542B\u65E9\u99102\u4EFD\u3002"},{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"759967",
+			"SHotelID":"90678584",
+			"SRoomID":"0002",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-30 23:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":217,"GenSalePrice":217,"SalePrice":217,"ShowPrice":0,"WeekendSalePrice":217,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":true,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"302337",
+			"SHotelID":"31601371",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":199,"GenSalePrice":199,"SalePrice":199,"ShowPrice":0,"WeekendSalePrice":199,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"838922",
+			"SHotelID":"31601371",
+			"SRoomID":"0001",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":236.31,"GenSalePrice":236.31,"SalePrice":236,"ShowPrice":0,"WeekendSalePrice":236.31,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"758028",
+			"SHotelID":"90677281",
+			"SRoomID":"0006",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon02'></span>\u9650\u65F6\u53D6\u6D88</p><p>2015-01-31 19:59\u524D\u514D\u8D39\u53D8\u66F4/\u53D6\u6D88\uFF1B\u4E4B\u540E\u81F32015-01-31 23:59\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5C06\u6536\u53D6\u9996\u665A\u623F\u8D39\u505A\u4E3A\u7F5A\u91D1\uFF1B\u4E4B\u540E\u65E0\u6CD5\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":209,"GenSalePrice":209,"SalePrice":209,"ShowPrice":0,"WeekendSalePrice":209,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"838922",
+			"SHotelID":"31601371",
+			"SRoomID":"0014",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":283.81,"GenSalePrice":283.81,"SalePrice":284,"ShowPrice":0,"WeekendSalePrice":283.81,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"293242",
+			"SHotelID":"31601371",
+			"SRoomID":"0014",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":284,"GenSalePrice":284,"SalePrice":284,"ShowPrice":0,"WeekendSalePrice":284,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"838922",
+			"SHotelID":"31601371",
+			"SRoomID":"0005",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon03 gray'></span>\u4E0D\u53EF\u53D6\u6D88</p><p>\u8BA2\u5355\u4E00\u7ECF\u9884\u8BA2\u6210\u529F\uFF0C\u4E0D\u53EF\u53D8\u66F4/\u53D6\u6D88\uFF0C\u5982\u672A\u5165\u4F4F\u5C06\u6263\u9664\u5168\u989D\u623F\u8D39\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":378.81,"GenSalePrice":378.81,"SalePrice":379,"ShowPrice":0,"WeekendSalePrice":378.81,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u4FE1\u7528\u5361\u9884\u4ED8\u623F\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			},
+			{
+			"RatePlanId":"293242",
+			"SHotelID":"31601371",
+			"SRoomID":"0005",
+			"CancelRuleDesc":"<p class=\"popBoxtitle mb5\"><span class='icon01'></span>\u514D\u8D39\u53D6\u6D88</p><p>\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002</p>",
+			"PriceOfDays":[{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":379,"GenSalePrice":379,"SalePrice":379,"ShowPrice":0,"WeekendSalePrice":379,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+			"ProductAttachDesc":[{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+			"GiftDesc":null,
+			"PromotionAmount":0,
+			"PromotionDesc":""
+			}
+		],
+	"HotelId":"31601371"
+	},
+"warmTips":[],
+"hasHighSpeed":true,
+"bookStatus":0,
+"isTeJia":true,
+"promotionSummaryInfo":{"MoneySymbol":"&yen;","LowestPrice":"100","PromotionType":"None","PromotionAmount":"","PromotionDesc":"","LowestPriceRoomid":"0014","LowestRPId":293242},
+"orderMessageInfo":"16\u5C0F\u65F6\u524D",
+"lowestProduct":{
+	"SHotelID":"31601371",
+	"SupplierID":41619,
+	"MRoomTypeID":"0014",
+	"SRoomTypeID":"0023",
+	"RatePlanID":293242,
+	"RatePlanName":"\u4E0D\u542B\u65E9",
+	"BreakfastDesc":"\u65E0\u65E9",
+	"IsEnableBook":true,
+	"ProductType":3,
+	"IsLongCui":false,
+	"IsTejia":false,
+	"PaymentType":1,
+	"MaxPerson":2,
+	"PromotionType":0,
+	"PromotionAmount":0,
+	"PromotionDesc":"",
+	"GiftDesc":null,
+	"RoomNumStatus":1,
+	"PriceStatus":1,
+	"RemainRoomNum":2147483647,
+	"ShowOrder":0,
+	"AvgPrice":100,
+	"Currency":"RMB",
+	"IsNeedVouch":false,
+	"CancelRuleType":0,
+	"CancelRuleDesc":"\u8BA2\u5355\u63D0\u4EA4\u540E\u53EF\u968F\u65F6\u514D\u8D39\u53D6\u6D88/\u53D8\u66F4\u3002",
+	"ProductAttachDesc":[
+		{"Key":"\u52A0\u5E8A","Value":"\u4E0D\u63D0\u4F9B\u52A0\u5E8A\u670D\u52A1\u3002"},
+		{"Key":"\u652F\u4ED8\u65B9\u5F0F","Value":"\u9884\u8BA2\u514D\u8D39\uFF0C\u5165\u4F4F\u540E\u9152\u5E97\u524D\u53F0\u4ED8\u6B3E\u3002"}],
+	"PriceOfDays":[
+		{"Day":"2015/1/31 0:00","Week":"\u5468\u516D","Currency":"RMB","Price":100,"GenSalePrice":100,"SalePrice":100,"ShowPrice":0,"WeekendSalePrice":100,"PerBreakfastPrice":0,"IsHotelWeekEnd":true,"IsPricePromotion":false,"BreakfastCount":0,"AddBedPrice":0,"IsAddBed":false,"IsFullRoomDay":false,"Breakfast":"\u65E0\u65E9"}],
+	"CompareCurrency":null,
+	"CompareMoneySymbol":null,
+	"IsManualCompare":false,
+	"MoneySymbol":"&yen;",
+	"ComparePrice":0,
+	"IsShowComparePrice":false,
+	"MinAdvanceBookingHours":0,
+	"MinStayDays":1,
+	"IsOntimeConfirm":false,
+	"OntimeConfirmAmount":0,
+	"IsMobileOnly":false
+	},
+"hotelGrade":6,
+"isAfterCouponPrice":true,
+"cacheKey":"Detail0701_31601371_CN_20150131_20150201_1_1_1_ZD_50_81_0000_False_True_True_detail"
+}
