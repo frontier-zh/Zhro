@@ -52,7 +52,108 @@ Dialog::on_pushButton_clicked()
         }
         i++;
     }
-    this->ui->lineEdit_2->setText( url);
+    this->ui->lineEdit_2->setText( url );
+    //QString  txt= QString(this->ui->lineEdit_3->text().constData());
+
+    QString  src= this->ui->plainTextEdit->toPlainText();
+    QString  des= fromEncodedUnicode(src);
+    this->ui->plainTextEdit_2->setPlainText(des);
+
+//    foreach(QString item, src.split("\\u")){
+//        qDebug() << item << " " << item.toInt(0,16);
+//        char  chb= ((char)item.toInt(0,16));
+//        qDebug() << chb;
+//        QByteArray bar = QByteArray(1,chb);
+//        qDebug() << QTextCodec::codecForName("GBK")->toUnicode(bar);
+//    }
+
+
+
+//    QString  text= "\u623F\u578B";
+//    qDebug() << text << " "  << text.size();
+//    this->ui->lineEdit_4->setText( text );
+//    char*  ch1= "\u623f";
+//    char*  ch2= "\u578B";
+//    QString  txt1 = ch1;
+//    txt1.append(ch2);
+//    qDebug() << txt1;
 
 }
 
+
+QString
+Dialog::fromEncodedUnicode(QString in)
+{
+        QString out;
+        QChar aChar;
+        int off = 0;
+        int len = in.size();
+        while (off < len) {
+            aChar = in.at(off++);
+            qDebug() << aChar;
+            if (aChar == '\\') {
+                aChar = in.at(off++);
+                qDebug() << aChar;
+                if (aChar == 'u') {
+                    qDebug() << aChar;
+                    // Read the xxxx
+                    int value = 0;
+                    for (int i = 0; i < 4; i++) {
+                        aChar = in.at(off++);
+                        qDebug() << aChar << " " << aChar.toLatin1();
+                        switch (aChar.toLatin1()) {
+                        case '0':
+                        case '1':
+                        case '2':
+                        case '3':
+                        case '4':
+                        case '5':
+                        case '6':
+                        case '7':
+                        case '8':
+                        case '9':
+                            value = (value << 4) + aChar.toLatin1() - '0';
+                            break;
+                        case 'a':
+                        case 'b':
+                        case 'c':
+                        case 'd':
+                        case 'e':
+                        case 'f':
+                            value = (value << 4) + 10 + aChar.toLatin1() - 'a';
+                            break;
+                        case 'A':
+                        case 'B':
+                        case 'C':
+                        case 'D':
+                        case 'E':
+                        case 'F':
+                            value = (value << 4) + 10 + aChar.toLatin1() - 'A';
+                            break;
+                        default:
+                            break;
+                        }
+                    }
+                    out.append(QChar(value));
+                    qDebug() << value << " " << QChar(value);
+
+                } else {
+                    if (aChar == 't') {
+                        aChar = '\t';
+                    } else if (aChar == 'r') {
+                        aChar = '\r';
+                    } else if (aChar == 'n') {
+                        aChar = '\n';
+                    } else if (aChar == 'f') {
+                        aChar = '\f';
+                    }
+                    out.append(aChar);
+                }
+            } else {
+                out.append(aChar);
+            }
+        }
+        qDebug() << out;
+        qDebug() << "-------------------------";
+        return  out;
+}
