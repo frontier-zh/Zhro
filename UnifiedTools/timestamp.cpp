@@ -1,5 +1,6 @@
 #include "timestamp.h"
 #include "ui_timestamp.h"
+#include "public_define.h"
 
 TimeStamp::TimeStamp(QWidget *parent) :
     QDialog(parent),
@@ -52,8 +53,6 @@ void TimeStamp::on_button_clicked()
     }
     bool isls = false;
     if( !dtime.isEmpty() ){
-        qDebug() << format;
-        qDebug() << dtime;
         if( dtime.contains(":") ){
             QStringList etime = dtime.split(":");
             QString     slast = etime.at(etime.size()-1);
@@ -62,11 +61,9 @@ void TimeStamp::on_button_clicked()
                 isls = true;
             }
         }
-        qDebug() << format;
         QDateTime  now = QDateTime::fromString(dtime, format);
-        qDebug() << now.toMSecsSinceEpoch();
         result = QString::number(now.toMSecsSinceEpoch());
-        qDebug() << result;
+        QLOG_TRACE() << "format: " << format << "  switch result: " << result;
         if( isls ){
             result = result.mid(0, result.size() - 3 );
         }

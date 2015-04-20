@@ -5,6 +5,7 @@
 #include "unicodetozh.h"
 #include "timestamp.h"
 #include "httpanalyse.h"
+#include "public_define.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),

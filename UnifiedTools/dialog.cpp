@@ -1,6 +1,7 @@
 #include "dialog.h"
 #include "ui_dialog.h"
 #include <QTextCodec>
+#include "public_define.h"
 
 
 Dialog::Dialog(QWidget *parent) :

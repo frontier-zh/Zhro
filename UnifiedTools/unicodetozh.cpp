@@ -1,5 +1,6 @@
 #include "unicodetozh.h"
 #include "ui_unicodetozh.h"
+#include "public_define.h"
 
 UnicodeTozh::UnicodeTozh(QWidget *parent) :
     QDialog(parent),
@@ -16,7 +17,7 @@ UnicodeTozh::~UnicodeTozh()
 void UnicodeTozh::on_pushButton_clicked()
 {
     QString  src= this->ui->plainTextEdit->toPlainText();
-    qDebug() << src.contains("\\u");
+    QLOG_TRACE() << "ifnot include \\u : " << src.contains("\\u");
     if( src.contains("\\u") ){
         QString  des= fromEncodedUnicode(src);
         this->ui->plainTextEdit_2->setPlainText(des);

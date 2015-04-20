@@ -58,7 +58,7 @@
     </font>
    </property>
    <property name="text">
-    <string>设置抓包分析URL：</string>
+    <string>设置抓包分析URL</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">

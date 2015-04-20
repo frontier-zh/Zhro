@@ -17,7 +17,8 @@ public:
     }
 
 protected:
-    void run();
+    void    run();
+    void    obtain(QString str);
 
 signals:
 
@@ -27,6 +28,9 @@ private:
 
     QString     url;
     QMap<QString, QVariant>  result;
+    bool        isfinish;
+    bool        ispacket;
+    bool        ismethod;
 
 };
 

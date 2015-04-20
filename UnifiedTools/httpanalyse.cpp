@@ -1,6 +1,7 @@
 #include "httpanalyse.h"
 #include "ui_httpanalyse.h"
 #include "capturethread.h"
+#include "public_define.h"
 
 
 HttpAnalyse::HttpAnalyse(QWidget *parent) :
@@ -17,10 +18,10 @@ HttpAnalyse::~HttpAnalyse()
 
 void
 HttpAnalyse::on_button_clicked()
-{
-    this->ui->button->setVisible(false);
+{  
     QString url = this->ui->edit->text();
     if( !url.isEmpty() ){
+        this->ui->button->setVisible(false);
         if( url.contains("http://") ){
             url = url.mid(url.indexOf("/",10));
         }
@@ -38,7 +39,7 @@ HttpAnalyse::loadthreadFinished()
     CaptureThread *thread = qobject_cast<CaptureThread*>(sender());
     QMap<QString,QVariant> info = thread->getData();
     foreach(QString key, info.keys()){
-        qDebug() << "key: " << info.value(key);
+        QLOG_TRACE() << key << " : " << info.value(key);
         if( key.contains("Accept:", Qt::CaseInsensitive)){
             this->ui->edit1->setText(info.value(key).toString());
         }else if( key.contains("Content-Type:",Qt::CaseInsensitive)){

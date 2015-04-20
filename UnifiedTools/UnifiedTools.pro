@@ -10,10 +10,12 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = UnifiedTools
 TEMPLATE = app
+DESTDIR = $$PWD/bin
 
 LIBS += \
     -lpacket \
-    -lwpcap
+    -lwpcap \
+    -lws2_32
 
 SOURCES += main.cpp\
         mainwindow.cpp \
@@ -22,7 +24,8 @@ SOURCES += main.cpp\
     unicodetozh.cpp \
     timestamp.cpp \
     httpanalyse.cpp \
-    capturethread.cpp
+    capturethread.cpp \
+    log.cpp
 
 HEADERS  += mainwindow.h \
     dialog.h \
@@ -31,7 +34,9 @@ HEADERS  += mainwindow.h \
     timestamp.h \
     httpanalyse.h \
     pheader.h \
-    capturethread.h
+    capturethread.h \
+    public_define.h \
+    log.h
 
 FORMS    += mainwindow.ui \
     dialog.ui \
