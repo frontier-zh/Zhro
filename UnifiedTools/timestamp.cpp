@@ -7,6 +7,8 @@ TimeStamp::TimeStamp(QWidget *parent) :
     ui(new Ui::TimeStamp)
 {
     ui->setupUi(this);
+    this->ui->lineEdit->setPlaceholderText("输入10/13/14位时间戳 并选择格式");
+    this->ui->lineEdit_3->setPlaceholderText("输入日期时间 并选择格式匹配");
     QStringList list;
     list << "yyyy-MM-dd hh:mm:ss:zzz"
          << "yyyyMMddhhmmsszzz"
@@ -22,10 +24,17 @@ TimeStamp::TimeStamp(QWidget *parent) :
     this->ui->lineEdit->setValidator(new QRegExpValidator(regxp,this)); //设置编辑框只能输入特定格式.
     this->ui->lineEdit_2->setEnabled(false);
     this->ui->lineEdit_4->setEnabled(false);    //设置不能编辑模式,只做显示.
+    this->ui->button->setToolTip("<font color='#ff0000'>时间戳转换前,请先进行格式选择.</font>");
+    _time = new QTimer(this);
+    connect(_time,SIGNAL(timeout()),this,SLOT(updateTimeStamp()));
+    _time->start(500);
+
 }
 
 TimeStamp::~TimeStamp()
 {
+    _time->stop();
+    delete _time;
     delete ui;
 }
 
@@ -69,4 +78,11 @@ void TimeStamp::on_button_clicked()
         }
         this->ui->lineEdit_4->setText(result);
     }
+}
+
+void TimeStamp::updateTimeStamp()
+{
+    QDateTime  now = QDateTime::currentDateTime();
+    QString    mark = QString::number(now.toMSecsSinceEpoch()/1000);
+    this->ui->label_10->setText("<font color=#ff0000>"+mark+"</font>");
 }

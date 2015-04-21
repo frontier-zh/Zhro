@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QtCore>
+#include <QTimer>
 
 namespace Ui {
 class TimeStamp;
@@ -18,9 +19,11 @@ public:
 
 private slots:
     void on_button_clicked();
+    void updateTimeStamp();
 
 private:
     Ui::TimeStamp *ui;
+    QTimer        *_time;
 };
 
 #endif // TIMESTAMP_H

@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QDialog>
 #include "dialog.h"
+#include <QListWidget>
+#include <QListWidgetItem>
 
 namespace Ui {
 class MainWindow;
@@ -18,11 +20,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_button_clicked();
-    void on_button2_clicked();
-    void on_button3_clicked();
-    void on_button4_clicked();
-    void on_button5_clicked();
+    void on_listWidget_doubleClicked(const QModelIndex &index);
 
 private:
     Ui::MainWindow *ui;

@@ -47,7 +47,9 @@ typedef struct ip_header {
 typedef struct tcp_header {
     u_short th_sport;         /* source port */
     u_short th_dport;         /* destination port */
-    u_int th_seq;             /* sequence number */
+    //u_int th_seq;             /* sequence number */
+    u_short th_seq;         /* only sequence number */
+    u_short th_reserve;         /* unuse reserve */
     u_int th_ack;             /* acknowledgement number */
     u_short th_len_resv_code; /* datagram length and reserved code */
     u_short th_window;        /* window */

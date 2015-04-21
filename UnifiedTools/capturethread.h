@@ -28,7 +28,7 @@ private:
 
     QString     url;
     QMap<QString, QVariant>  result;
-    bool        isfinish;
+    long        sequence;
     bool        ispacket;
     bool        ismethod;
 

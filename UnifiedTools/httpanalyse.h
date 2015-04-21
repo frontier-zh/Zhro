@@ -15,6 +15,7 @@ class HttpAnalyse : public QDialog
 public:
     explicit HttpAnalyse(QWidget *parent = 0);
     ~HttpAnalyse();
+    void    clearCacheRemain();
 
 private slots:
     void on_button_clicked();

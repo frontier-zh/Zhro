@@ -22,7 +22,22 @@
   <property name="styleSheet">
    <string notr="true"/>
   </property>
+  <property name="class" stdset="0">
+   <string>bgw</string>
+  </property>
   <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget.bgw{
+	border-right:1px solid rgb(170,170,170);
+	background:qlineargradient(spread:reflect,
+		x1:0,y1:0,x2:1,y2:0,
+		stop:0 rgba(70,70,70,255),
+		stop:1 rgba(150,150,150,255));
+}</string>
+   </property>
+   <property name="class" stdset="0">
+    <string>bgw</string>
+   </property>
    <widget class="QWidget" name="horizontalLayoutWidget_2">
     <property name="geometry">
      <rect>
@@ -39,166 +54,15 @@
      <rect>
       <x>10</x>
       <y>9</y>
-      <width>131</width>
+      <width>141</width>
       <height>531</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QWidget" name="widget" native="true">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <widget class="QPushButton" name="button">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>20</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>楷体</family>
-          <pointsize>11</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>Http访问</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="button2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>60</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>楷体</family>
-          <pointsize>11</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>UrlEncode编码</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="button3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>100</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>楷体</family>
-          <pointsize>11</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>Unicode转中文</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="button4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>140</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>楷体</family>
-          <pointsize>11</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>时间戳转换</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="button5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>180</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>楷体</family>
-          <pointsize>11</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>Http请求标头</string>
-        </property>
-       </widget>
-      </widget>
+      <widget class="QListWidget" name="listWidget"/>
      </item>
     </layout>
-   </widget>
-   <widget class="Line" name="line">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>10</y>
-      <width>41</width>
-      <height>531</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>楷体</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">

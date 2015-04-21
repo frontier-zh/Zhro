@@ -7,6 +7,8 @@ UnicodeTozh::UnicodeTozh(QWidget *parent) :
     ui(new Ui::UnicodeTozh)
 {
     ui->setupUi(this);
+    this->ui->pushButton->setToolTip("<font color='#ff0000'>请确定转换内容中含有 类似字符\\u9752\\u5C9B </font>");
+    this->ui->plainTextEdit->setToolTip("输入内容中含有类似字符\\u9752\\u5C9B");
 }
 
 UnicodeTozh::~UnicodeTozh()

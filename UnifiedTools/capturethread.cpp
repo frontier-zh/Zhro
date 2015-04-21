@@ -10,7 +10,7 @@
 #include "public_define.h"
 
 CaptureThread::CaptureThread(QObject *parent) :
-    QThread(parent)
+    QThread(parent), sequence(0)
 {
 }
 
@@ -72,9 +72,9 @@ void CaptureThread::run()
     pcap_setfilter(adhandle, &filter);
 
     int i=0;
-    isfinish = true;
     ispacket = false;
     ismethod = false;
+    sequence = 0;
     QString string = "";
     QString lastip = "";
     while( (res = pcap_next_ex(adhandle, &pheader, &pkt_data)) >= 0 ){
@@ -102,27 +102,30 @@ void CaptureThread::run()
         //TCP Header.
         if( eheader->ether_type == 8 ){
             ip_header * ih = (ip_header*)(pkt_data+14);
-            QString  currip = QString("%1.%2.%3.%4").arg(ih->daddr.byte1).arg(ih->daddr.byte2)
-                                                    .arg(ih->daddr.byte3).arg(ih->daddr.byte4);
-            //qDebug() << "last_ip: " << lastip;
-            //qDebug() << "curr_ip: " << currip;
-            if( currip.compare(lastip) ){
-                if( isfinish ){
-                    obtain(string);
-                    string = "";
-                    ispacket = false;
-                    lastip = currip;
-                }else{
-                    break;
-                }
-            }
+            tcp_header * th = (tcp_header*)(pkt_data+34);
+            int     tcp_sequence = ntohs(th->th_seq);
             sprintf(buff,"Total length: %d \t Protocol: %d\n", ntohs(ih->tlen), ih->proto);
             info.append(buff);
             sprintf(buff,"Source IP: %d.%d.%d.%d \n", ih->saddr.byte1, ih->saddr.byte2, ih->saddr.byte3, ih->saddr.byte4);
             info.append(buff);
             sprintf(buff,"Destin IP: %d.%d.%d.%d \n", ih->daddr.byte1, ih->daddr.byte2, ih->daddr.byte3, ih->daddr.byte4);
             info.append(buff);
-            QLOG_TRACE() << info;
+            //qDebug() << info;
+            QString  currip = QString("%1.%2.%3.%4").arg(ih->daddr.byte1).arg(ih->daddr.byte2)
+                                                    .arg(ih->daddr.byte3).arg(ih->daddr.byte4);
+            //qDebug() << "last_ip: " << lastip;
+            //qDebug() << "curr_ip: " << currip;
+            //qDebug() << "only sequence: " << tcp_sequence;
+            if( !lastip.isEmpty() ){
+                if( currip.compare(lastip) ){
+                    continue;
+                }
+                if( tcp_sequence != sequence){
+                    //qDebug() << "seq1: " << sequence << " seq2: " << tcp_sequence;
+                    obtain(string);
+                    break;
+                }
+            }
             //type ICMP[1] TCP[6] UDP[17] 未知[其他]
             if(ih->proto == 6 ) { /* tcp packet only */
                 char    buffer[BUFFER_MAX_LENGTH] = {0};
@@ -157,7 +160,13 @@ void CaptureThread::run()
                         bufsize ++;
                     }
                 }
-                //qDebug() << buffer;
+                if( string.contains(url) ){
+                    lastip = currip;
+                    sequence = tcp_sequence;
+                }else{
+                    string = "";
+                }
+                QLOG_TRACE() << buffer;
                 i++;
             }
         }
@@ -171,7 +180,7 @@ void CaptureThread::obtain(QString str)
 {
     if( !str.isEmpty() ){
         if( str.contains(url)){
-            QLOG_TRACE() << " Find it!";
+            QLOG_TRACE() << " Got it ! ";
             //qDebug() << str;
             QStringList  headers = str.split("\r\n");
             foreach( QString item, headers ){
@@ -201,7 +210,6 @@ void CaptureThread::obtain(QString str)
             if( ismethod ){
                 result.insert("Post:",headers.at(headers.size()-1));
             }
-            isfinish = false;
         }
     }
 }

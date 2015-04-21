@@ -13,18 +13,34 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog.bgw{
+	border-right:1px solid rgb(170,170,170);
+	background:qlineargradient(spread:reflect,
+		x1:0,y1:0,x2:1,y2:0,
+		stop:0 rgba(207,210,184,255),
+		stop:1 rgba(198,210,100,255));
+}
+QPushButton:pressed {
+         background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #aadbfe, stop: 1 #f6f7fa);
+
+}</string>
+  </property>
+  <property name="class" stdset="0">
+   <string>bgw</string>
+  </property>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>129</y>
+     <y>197</y>
      <width>191</width>
      <height>28</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Times New Roman</family>
+     <family>微软雅黑</family>
     </font>
    </property>
   </widget>
@@ -32,14 +48,14 @@
    <property name="geometry">
     <rect>
      <x>470</x>
-     <y>130</y>
+     <y>198</y>
      <width>221</width>
      <height>28</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Times New Roman</family>
+     <family>微软雅黑</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -56,8 +72,8 @@
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
-     <pointsize>12</pointsize>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
@@ -68,15 +84,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>130</y>
+     <y>198</y>
      <width>91</width>
      <height>24</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
-     <pointsize>12</pointsize>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
@@ -86,35 +102,35 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>133</y>
-     <width>151</width>
+     <x>330</x>
+     <y>201</y>
+     <width>111</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
-     <pointsize>12</pointsize>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>转     北京时间</string>
+    <string>转      北京时间</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>212</y>
-     <width>151</width>
+     <x>330</x>
+     <y>280</y>
+     <width>111</width>
      <height>24</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
-     <pointsize>12</pointsize>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
@@ -125,14 +141,14 @@
    <property name="geometry">
     <rect>
      <x>470</x>
-     <y>210</y>
+     <y>278</y>
      <width>221</width>
      <height>28</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Times New Roman</family>
+     <family>微软雅黑</family>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -142,14 +158,14 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>210</y>
+     <y>278</y>
      <width>191</width>
      <height>28</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Times New Roman</family>
+     <family>微软雅黑</family>
     </font>
    </property>
    <property name="text">
@@ -160,15 +176,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>212</y>
+     <y>280</y>
      <width>71</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
-     <pointsize>12</pointsize>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
@@ -186,7 +202,7 @@
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
+     <family>微软雅黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -202,26 +218,109 @@
    </property>
    <property name="font">
     <font>
-     <family>楷体</family>
-     <pointsize>12</pointsize>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
     <string>格式：</string>
    </property>
   </widget>
-  <zorder>lineEdit</zorder>
-  <zorder>lineEdit_2</zorder>
-  <zorder>button</zorder>
-  <zorder>label</zorder>
-  <zorder>label_2</zorder>
-  <zorder>label_3</zorder>
-  <zorder>lineEdit_4</zorder>
-  <zorder>lineEdit_3</zorder>
-  <zorder>label_4</zorder>
-  <zorder>comboBox</zorder>
-  <zorder>label_5</zorder>
-  <zorder>horizontalSpacer_5</zorder>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>118</y>
+     <width>271</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>10位时间戳: 1429578070</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>281</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>13位时间戳: 1429578070387</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>162</y>
+     <width>281</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>14位时间戳: 1429578070.387</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>120</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>当前时间戳: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>120</y>
+     <width>151</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

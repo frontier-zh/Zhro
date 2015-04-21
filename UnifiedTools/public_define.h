@@ -3,6 +3,7 @@
 
 #include <QtDebug>
 #include "log.h"
+#include <QMessageBox>
 
 #ifndef QT_NO_DEBUG
 #define DBG_FUNCTION QLOG_TRACE() << __FUNCTION__;

@@ -18,6 +18,8 @@ Dialog::Dialog(QWidget *parent) :
     ui->setupUi(this);
     this->ui->comboBox->insertItems(0,encode);
     this->ui->comboBox_2->insertItems(0,method);
+    this->ui->httpreq->setPlaceholderText("请输入访问测试的Url.");
+    this->ui->pushButton->setToolTip("<font color='#ff0000'>点击访问前,请先选择获取方式和编码类型.</font>");
 }
 
 Dialog::~Dialog()
@@ -32,7 +34,7 @@ Dialog::~Dialog()
 void
 Dialog::on_pushButton_clicked()
 {
-    QString address = this->ui->httpreq->toPlainText();
+    QString address = this->ui->httpreq->text();
     QString postinf = this->ui->poststr->toPlainText();
     QString scookie = this->ui->cookiestring->toPlainText();
     QVariant refurl = this->ui->referurl->toPlainText();

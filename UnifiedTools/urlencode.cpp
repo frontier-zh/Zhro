@@ -17,6 +17,8 @@ UrlEncode::UrlEncode(QWidget *parent) :
     list1 << "编码" << "解码";
     this->ui->comboBox->insertItems(0,list);
     this->ui->comboBox_2->insertItems(0,list1);
+    this->ui->lineEdit->setPlaceholderText("请输入含有中文的转换串.");
+    this->ui->pushButton->setToolTip("<font color='#ff0000'>Urlencode选择Big5时,请先进行繁体简体转换.</font>");
 }
 
 UrlEncode::~UrlEncode()

@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     logger.setLoggingLevel(QsLogging::TraceLevel);
     const QString sLogPath(QDir(a.applicationDirPath()).filePath("log_tools.txt"));
 
-    FileDestination  *fileDestination = new FileDestination(sLogPath, 10*1024*1024, 5 );
+    FileDestination  *fileDestination = new FileDestination(sLogPath, 10*1024*1024, 1 );
     logger.addDestination(fileDestination);
     MainWindow w;
 //    w.setAutoFillBackground(true);
