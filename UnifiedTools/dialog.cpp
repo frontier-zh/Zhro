@@ -1,6 +1,7 @@
 #include "dialog.h"
 #include "ui_dialog.h"
 #include <QTextCodec>
+#include <QRegExp>
 #include "public_define.h"
 
 
@@ -12,6 +13,8 @@ Dialog::Dialog(QWidget *parent) :
     manager = new QNetworkAccessManager();
     request = new QNetworkRequest();
     reply   = NULL;
+    _timer  = new   QTimer();
+    connect(_timer, SIGNAL(timeout()),  this, SLOT(reqNonRespone()));
     QStringList  encode,method;
     encode << "GB2312" << "UTF-8" << "Big5";
     method << "GET" << "POST";
@@ -34,57 +37,178 @@ Dialog::~Dialog()
 void
 Dialog::on_pushButton_clicked()
 {
+    //clist.clear();
     QString address = this->ui->httpreq->text();
     QString postinf = this->ui->poststr->toPlainText();
     QString scookie = this->ui->cookiestring->toPlainText();
     QVariant refurl = this->ui->referurl->toPlainText();
+    QString encode = this->ui->comboBox->currentText();
+    QString method = this->ui->comboBox_2->currentText();
+    address.trimmed();
 
+    urlEncodeChinese(address, encode);
+    if( address.contains("%%") ){
+        address.replace("%%", "%");
+    }
+    address = address.trimmed();
     QUrl url(address);
     cookieJar = new QNetworkCookieJar();
-    QList<QNetworkCookie>   cookieList;
+
     request->setUrl(url);
-    request->setRawHeader("Content-Type","application/x-www-form-urlencoded");
+    if( address.startsWith("https://") ){
+        config = request->sslConfiguration();
+        config.setPeerVerifyMode(QSslSocket::VerifyNone);
+        config.setProtocol(QSsl::TlsV1SslV3);
+        request->setSslConfiguration(config);
+    }
     request->setHeader(QNetworkRequest::UserAgentHeader,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36");
     if( !scookie.isEmpty()){
+        scookie.replace(QRegExp("%tld"), QString::number( QDateTime::currentDateTime().toMSecsSinceEpoch()/1000));
         foreach(QString item,  scookie.split(";")){
             item = item.trimmed();
             QVariant key = item.split("=").at(0);
             QVariant value = item.mid(item.indexOf("=")+1);
-            cookieList.append(QNetworkCookie(key.toByteArray(),value.toByteArray()));
+            foreach( QNetworkCookie  ite, clist ){
+                if( !QString(ite.name()).compare(key.toString()) ){
+                    clist.removeOne(ite);
+                    break;
+                }
+            }
+            clist.append(QNetworkCookie(key.toByteArray(),value.toByteArray()));
         }
-        if(cookieList.size()){
-            cookieJar->setCookiesFromUrl(cookieList, url);
+        if(clist.size()){
+            cookieJar->setCookiesFromUrl(clist, url);
         }
         manager->setCookieJar(cookieJar);
     }
     if( !refurl.toString().isEmpty()){
         request->setRawHeader("Referer",refurl.toByteArray());
     }
-    if( !postinf.isEmpty() ){
-        QByteArray      post_data;
+    QByteArray      post_data;
+    if( !postinf.isEmpty() ){     
         post_data.append(postinf);
         request->setRawHeader("Content-Length",QByteArray::number(post_data.size()));
-        reply = manager->post(*request, post_data);
+        request->setRawHeader("Content-Type","application/x-www-form-urlencoded");      
     }else{
-        reply = manager->get(*request);
+        request->setRawHeader("Content-Type","text/html, application/xhtml+xml, */*");
+        request->setRawHeader("Accept","text/html, application/xhtml+xml, */*");
     }
+    if( method.contains("get",Qt::CaseInsensitive) ){
+        reply = manager->get(*request);
+        qDebug() << "get method";
+    }else{
+        reply = manager->post(*request, post_data);
+        qDebug() << "post method";
+    }
+    if( !_timer->isActive()){
+        _timer->start(30000);
+    }
+    //connect(manager,SIGNAL(finished(QNetworkReply*)),this,SLOT(httpRespone()));
     connect(reply,SIGNAL(finished()),this,SLOT(httpRespone()));
+    connect(reply, SIGNAL(error(QNetworkReply::NetworkError)), this, SLOT(httpError(QNetworkReply::NetworkError)));
     this->ui->pushButton->hide();
 }
 
 void
 Dialog::httpRespone()
 {
+    if( _timer->isActive()){
+        _timer->stop();
+    }
+
+    if( (reply->error() != QNetworkReply::NoError) &&
+        (reply->error() != QNetworkReply::ContentNotFoundError) &&
+        (reply->error() != QNetworkReply::UnknownContentError) ){
+        qDebug() << "reply->error()";
+    }
+
+    qDebug() << "============ httpRespone start ==============";
     QString  errtype = "";
+    QString  address = "";
+    QString  requrl = reply->url().toString();
     QVariant status_code = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute);
     this->ui->httprsp->setText(status_code.toString());
     foreach( RHQPair item, reply->rawHeaderPairs()){
-        if( item.first.contains("Location") ){
+        qDebug() << item.first.data() << ":" << item.second.data();
+        if((item.first.contains("Location") || item.first.contains("location"))
+                && (status_code.toInt() == 301 || status_code.toInt() == 302) ){
             this->ui->httpgoto->setPlainText(item.second.data());
+            address = QString(item.second.data());
+            address = address.replace("..","");
+            if( !address.contains("http://") ){
+                if( address.indexOf("/") == 0 ){
+                    int pos = requrl.indexOf("/",7);
+                    if( pos != -1 ){
+                        requrl = requrl.mid(0,requrl.indexOf("/",7));
+                    }
+                }else{
+                    int pos = requrl.indexOf("/",7);
+                    if( pos == -1 ){
+                        requrl = requrl + "/";
+                    }else{
+                        requrl = requrl.mid(0,requrl.indexOf("/",7) + 1);
+                    }
+                }
+                address = requrl + address;
+            }
             break;
         }
         this->ui->httpgoto->setPlainText("");
     }
+    QString cookies = "";
+    foreach( RHQPair item, reply->rawHeaderPairs()){
+        if( item.first.contains("Set-Cookie") ){
+            cookies = QString(item.second.data());
+            break;
+        }
+    }
+    if( !cookies.isEmpty() ){
+        foreach(QString part, cookies.split("\n")){
+            bool    exist = true;
+            QStringList subp = part.split(";");
+            if( subp.size() ){
+                qDebug() << "--------------------------";
+                qDebug() << subp.at(0);
+                QString     subc = subp.at(0);
+                QStringList text = subc.split("=");
+                if( text.size() ){
+                    QString key = text.at(0);
+                    foreach(QNetworkCookie  item, clist){
+                        if( !QString(item.name()).compare(key)){
+                            exist = false;
+                            break;
+                        }
+                    }
+                    if( exist ){
+                        QVariant key = text.at(0);
+                        QVariant value = subc.mid(subc.indexOf("=")+1);
+                        qDebug() << "name: " << key << " value: " << value;
+                        clist.append(QNetworkCookie(key.toByteArray(),value.toByteArray()));
+                    }
+                }
+            }
+        }
+    }
+    qDebug() << clist.size();
+    if( !address.isEmpty() ){
+        SAFE_DELETE(reply);
+        SAFE_DELETE(request);
+        request = new QNetworkRequest();
+
+        QUrl url(address);
+        request->setUrl(url);
+        request->setHeader(QNetworkRequest::UserAgentHeader,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36");
+        request->setRawHeader("Accept-Language","zh-CN");
+        request->setRawHeader("Referer","");
+        if( clist.size() ){
+            cookieJar->setCookiesFromUrl(clist, url);
+        }
+        manager->setCookieJar(cookieJar);
+        reply = manager->get(*request);
+        connect(reply,SIGNAL(finished()),this,SLOT(httpRespone()));
+        return;
+    }
+
     this->ui->pushButton->show();
     confirmErrortype(reply->error(),errtype);
     this->ui->httperrcode->setText(errtype);
@@ -94,6 +218,28 @@ Dialog::httpRespone()
     QString encode = this->ui->comboBox->currentText();
     QString webcontext = QTextCodec::codecForName(encode.toUtf8())->toUnicode(web);
     this->ui->httpcontent->setPlainText(webcontext);
+    if( reply->isOpen() ){
+        qDebug() << "close http connect.";
+        reply->close();
+    }
+    reply->deleteLater();
+    reply = NULL;
+    qDebug() << "============ httpRespone end ==============";
+}
+
+void
+Dialog::reqNonRespone()
+{
+    if( _timer->isActive()){
+        _timer->stop();
+    }
+    if( reply != NULL ){
+        qDebug() << "request timeout: " << reply->url().toString() << reply->isOpen();
+        if( reply->isOpen() ){
+            qDebug() <<"respone data: " << reply->readAll();
+            reply->close();
+        }
+    }
 }
 
 void
@@ -191,5 +337,36 @@ void Dialog::confirmErrortype(QNetworkReply::NetworkError err, QString &typ)
             break;
         default:
             break;
+    }
+}
+
+void
+Dialog::httpError(QNetworkReply::NetworkError errcode)
+{
+    qDebug()<<"http request error: "<<errcode << reply;
+}
+void
+Dialog::urlEncodeChinese(QString &url, QString &encode)
+{
+    int i = 0;
+    while( i < url.size() )
+    {
+        QByteArray  ba,bt;
+        QChar cha = url.at(i);
+        ulong uni = cha.unicode();
+        if(uni >= 0x4E00 && uni <= 0x9FA5)
+        {
+            QString  str = QString(url.at(i));
+            ba = QTextCodec::codecForName(encode.toUtf8())->fromUnicode(str);
+            for(int j=0; j<ba.toHex().size(); j++)
+            {
+                if(j%2==0){
+                    bt.append("%");
+                }
+                bt.append(ba.toHex().toUpper().at(j));
+            }
+            url.replace(url.at(i),bt);
+        }
+        i++;
     }
 }

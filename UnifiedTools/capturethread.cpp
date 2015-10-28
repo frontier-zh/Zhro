@@ -126,7 +126,7 @@ void CaptureThread::run()
                     break;
                 }
             }
-            //type ICMP[1] TCP[6] UDP[17] æœªçŸ¥[å…¶ä»–]
+            //type ICMP[1] TCP[6] UDP[17] Î´Öª[ÆäËû]
             if(ih->proto == 6 ) { /* tcp packet only */
                 char    buffer[BUFFER_MAX_LENGTH] = {0};
                 int     ip_len = ntohs(ih->tlen);

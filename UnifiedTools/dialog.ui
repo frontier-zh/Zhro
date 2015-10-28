@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>782</width>
-    <height>541</height>
+    <width>1094</width>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,8 +32,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>208</y>
+     <x>70</x>
+     <y>234</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -51,8 +51,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>252</y>
+     <x>70</x>
+     <y>278</y>
      <width>71</width>
      <height>20</height>
     </rect>
@@ -70,8 +70,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>360</y>
+     <x>70</x>
+     <y>386</y>
      <width>71</width>
      <height>16</height>
     </rect>
@@ -89,8 +89,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="httprsp">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>230</y>
+     <x>70</x>
+     <y>256</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -105,8 +105,8 @@ QPushButton:pressed {
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>580</x>
-     <y>220</y>
+     <x>620</x>
+     <y>246</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -124,8 +124,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="httpcontent">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>380</y>
+     <x>70</x>
+     <y>406</y>
      <width>701</width>
      <height>141</height>
     </rect>
@@ -141,8 +141,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="httpgoto">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>272</y>
+     <x>70</x>
+     <y>298</y>
      <width>701</width>
      <height>29</height>
     </rect>
@@ -157,8 +157,8 @@ QPushButton:pressed {
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>230</y>
+     <x>490</x>
+     <y>256</y>
      <width>69</width>
      <height>22</height>
     </rect>
@@ -173,8 +173,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>208</y>
+     <x>490</x>
+     <y>234</y>
      <width>81</width>
      <height>21</height>
     </rect>
@@ -192,8 +192,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>60</y>
+     <x>70</x>
+     <y>86</y>
      <width>121</width>
      <height>16</height>
     </rect>
@@ -211,8 +211,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="referurl">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>80</y>
+     <x>70</x>
+     <y>106</y>
      <width>701</width>
      <height>27</height>
     </rect>
@@ -227,8 +227,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="httperrmsg">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>322</y>
+     <x>70</x>
+     <y>348</y>
      <width>701</width>
      <height>31</height>
     </rect>
@@ -243,8 +243,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>302</y>
+     <x>70</x>
+     <y>328</y>
      <width>121</width>
      <height>16</height>
     </rect>
@@ -262,8 +262,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>208</y>
+     <x>210</x>
+     <y>234</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -281,8 +281,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="httperrcode">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>230</y>
+     <x>210</x>
+     <y>256</y>
      <width>241</width>
      <height>20</height>
     </rect>
@@ -297,8 +297,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="cookiestring">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>180</y>
+     <x>70</x>
+     <y>206</y>
      <width>701</width>
      <height>27</height>
     </rect>
@@ -313,8 +313,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>160</y>
+     <x>70</x>
+     <y>186</y>
      <width>121</width>
      <height>16</height>
     </rect>
@@ -332,8 +332,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>106</y>
+     <x>70</x>
+     <y>132</y>
      <width>121</width>
      <height>16</height>
     </rect>
@@ -351,8 +351,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="poststr">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>127</y>
+     <x>70</x>
+     <y>153</y>
      <width>701</width>
      <height>31</height>
     </rect>
@@ -367,8 +367,8 @@ QPushButton:pressed {
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>6</y>
+     <x>70</x>
+     <y>32</y>
      <width>701</width>
      <height>27</height>
     </rect>
@@ -464,8 +464,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="httpreq">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>34</y>
+     <x>70</x>
+     <y>60</y>
      <width>701</width>
      <height>27</height>
     </rect>

@@ -5,6 +5,8 @@
 #include "unicodetozh.h"
 #include "timestamp.h"
 #include "httpanalyse.h"
+#include "taskimport.h"
+#include "datacomparison.h"
 #include "public_define.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -22,8 +24,8 @@ MainWindow::MainWindow(QWidget *parent) :
     titles.append("Unicode转中文");
     titles.append("时间戳转换");
     titles.append("Http请求标头");
-    titles.append("待添加");
-    titles.append("待添加-1");
+    titles.append("采集任务导入");
+    titles.append("房源信息对比");
     titles.append("待添加-2");
     titles.append("待添加-3");
     titles.append("待添加-4");
@@ -59,15 +61,26 @@ void MainWindow::on_listWidget_doubleClicked(const QModelIndex &index)
         dl = NULL;
     }
     if( type == 0 ){
+        QLOG_TRACE() << "------------HTTP访问测试-------------";
         dl = new Dialog(this);
     }else if( type == 1 ){
+        QLOG_TRACE() << "------------UrlEncode编码-------------";
         dl = new UrlEncode(this);
     }else if( type == 2 ){
+        QLOG_TRACE() << "------------Unicode转中文-------------";
         dl = new UnicodeTozh(this);
     }else if( type == 3 ){
+        QLOG_TRACE() << "------------时间戳转换-------------";
         dl = new TimeStamp(this);
     }else if( type == 4 ){
+        QLOG_TRACE() << "------------HTTP访问测试-------------";
         dl = new HttpAnalyse(this);
+    }else if( type == 5 ){
+        QLOG_TRACE() << "------------任务导入模块-------------";
+        dl = new TaskImport(this);
+    }else if( type == 6 ){
+        QLOG_TRACE() << "------------房源信息对比-------------";
+        dl = new DataComparison(this);
     }else {
         return;
     }

@@ -8,7 +8,10 @@
 #include <QNetworkRequest>
 #include <QNetworkCookie>
 #include <QNetworkCookieJar>
+#include <QSslConfiguration>
+#include <QtCore>
 
+#define SAFE_DELETE(p)  if(p){delete p; p=NULL;}
 typedef  QPair<QByteArray,QByteArray>   RHQPair;
 
 namespace Ui {
@@ -26,19 +29,26 @@ public:
     QNetworkRequest *request;
     QNetworkReply   *reply;
     QNetworkCookieJar   *cookieJar;
+    QSslConfiguration   config;
+
+    void    urlEncodeChinese(QString &url, QString &encode);
 
 private slots:
 
     void    on_pushButton_clicked();
 
     void    httpRespone();
-
+    void    reqNonRespone();
     void    on_comboBox_2_currentTextChanged(const QString &arg1);
 
     void    confirmErrortype(QNetworkReply::NetworkError, QString &);
 
+    void    httpError(QNetworkReply::NetworkError errcode);
+
 private:
     Ui::Dialog *ui;
+    QTimer              *_timer;
+    QList<QNetworkCookie>   clist;
 };
 
 #endif // DIALOG_H

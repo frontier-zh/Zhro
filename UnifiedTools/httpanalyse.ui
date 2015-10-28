@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>794</width>
-    <height>539</height>
+    <width>969</width>
+    <height>607</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,8 +32,8 @@ QPushButton:pressed {
   <widget class="QPushButton" name="button">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>60</y>
+     <x>200</x>
+     <y>92</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -51,8 +51,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>20</y>
+     <x>200</x>
+     <y>52</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -67,8 +67,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
+     <x>70</x>
+     <y>42</y>
      <width>141</width>
      <height>51</height>
     </rect>
@@ -86,8 +86,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>100</y>
+     <x>70</x>
+     <y>132</y>
      <width>361</width>
      <height>31</height>
     </rect>
@@ -108,8 +108,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit1">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>148</y>
+     <x>200</x>
+     <y>180</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -124,8 +124,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit2">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>196</y>
+     <x>200</x>
+     <y>228</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -140,8 +140,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit3">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>238</y>
+     <x>200</x>
+     <y>270</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -156,8 +156,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit4">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>280</y>
+     <x>200</x>
+     <y>312</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -172,8 +172,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit5">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>326</y>
+     <x>200</x>
+     <y>358</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -188,8 +188,8 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="edit6">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>370</y>
+     <x>200</x>
+     <y>402</y>
      <width>641</width>
      <height>31</height>
     </rect>
@@ -204,8 +204,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="plainedit">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>410</y>
+     <x>200</x>
+     <y>442</y>
      <width>641</width>
      <height>51</height>
     </rect>
@@ -220,8 +220,8 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="plainedit1">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>470</y>
+     <x>200</x>
+     <y>502</y>
      <width>641</width>
      <height>51</height>
     </rect>
@@ -236,8 +236,8 @@ QPushButton:pressed {
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>151</y>
+     <x>70</x>
+     <y>183</y>
      <width>130</width>
      <height>341</height>
     </rect>

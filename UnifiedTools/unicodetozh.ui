@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>846</width>
-    <height>513</height>
+    <width>957</width>
+    <height>596</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,8 +32,8 @@ QPushButton:pressed {
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>240</y>
+     <x>350</x>
+     <y>260</y>
      <width>161</width>
      <height>31</height>
     </rect>
@@ -51,8 +51,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>244</y>
+     <x>80</x>
+     <y>264</y>
      <width>201</width>
      <height>21</height>
     </rect>
@@ -70,9 +70,9 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="plainTextEdit">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>74</y>
-     <width>681</width>
+     <x>80</x>
+     <y>94</y>
+     <width>731</width>
      <height>161</height>
     </rect>
    </property>
@@ -87,8 +87,8 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>40</y>
+     <x>80</x>
+     <y>60</y>
      <width>221</width>
      <height>31</height>
     </rect>
@@ -106,9 +106,9 @@ QPushButton:pressed {
   <widget class="QPlainTextEdit" name="plainTextEdit_2">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>280</y>
-     <width>681</width>
+     <x>80</x>
+     <y>300</y>
+     <width>731</width>
      <height>201</height>
     </rect>
    </property>
@@ -123,8 +123,8 @@ QPushButton:pressed {
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>240</y>
+     <x>590</x>
+     <y>260</y>
      <width>161</width>
      <height>31</height>
     </rect>
@@ -137,6 +137,27 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>↑中文转Unicode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>反斜杠u(\u)开头的16进制Unicode编码转换成中文汉字</string>
    </property>
   </widget>
  </widget>
