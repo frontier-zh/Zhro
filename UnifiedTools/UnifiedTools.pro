@@ -16,53 +16,70 @@ LIBS += \
     -lpacket \
     -lwpcap \
     -lws2_32
+INCLUDEPATH += headers/
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    dialog.cpp \
-    urlencode.cpp \
-    unicodetozh.cpp \
-    timestamp.cpp \
-    httpanalyse.cpp \
-    capturethread.cpp \
-    log.cpp \
-    taskimport.cpp \
-    tasksourcedatabase.cpp \
-    tasktargetdatabase.cpp \
-    datahandle.cpp \
-    datacomparison.cpp \
-    taskimportthread.cpp \
-    datacomparisonthread.cpp \
-    widget.cpp
+SOURCES += sources/main.cpp\
+        sources/mainwindow.cpp \
+        sources/dialog.cpp \
+        sources/urlencode.cpp \
+        sources/unicodetozh.cpp \
+        sources/timestamp.cpp \
+        sources/httpanalyse.cpp \
+        sources/capturethread.cpp \
+        sources/log.cpp \
+        sources/taskimport.cpp \
+        sources/tasksourcedatabase.cpp \
+        sources/tasktargetdatabase.cpp \
+        sources/datahandle.cpp \
+        sources/datacomparison.cpp \
+        sources/taskimportthread.cpp \
+        sources/datacomparisonthread.cpp \
+        sources/widget.cpp \
+        sources/distancelatlng.cpp \
+        sources/drawpolygon.cpp \
+        sources/refinelatlng.cpp \
+        sources/tcpclisocket.cpp
 
-HEADERS  += mainwindow.h \
-    dialog.h \
-    urlencode.h \
-    unicodetozh.h \
-    timestamp.h \
-    httpanalyse.h \
-    pheader.h \
-    capturethread.h \
-    public_define.h \
-    log.h \
-    taskimport.h \
-    tasksourcedatabase.h \
-    tasktargetdatabase.h \
-    datahandle.h \
-    datacomparison.h \
-    taskimportthread.h \
-    datacomparisonthread.h \
-    widget.h
+HEADERS  += headers/mainwindow.h \
+        headers/dialog.h \
+        headers/urlencode.h \
+        headers/unicodetozh.h \
+        headers/timestamp.h \
+        headers/httpanalyse.h \
+        headers/pheader.h \
+        headers/capturethread.h \
+        headers/public_define.h \
+        headers/log.h \
+        headers/taskimport.h \
+        headers/tasksourcedatabase.h \
+        headers/tasktargetdatabase.h \
+        headers/datahandle.h \
+        headers/datacomparison.h \
+        headers/taskimportthread.h \
+        headers/datacomparisonthread.h \
+        headers/widget.h \
+        headers/distancelatlng.h \
+        headers/public_helper.h \
+        headers/drawpolygon.h \
+        headers/refinelatlng.h \
+        headers/tcpclisocket.h
 
-FORMS    += mainwindow.ui \
-    dialog.ui \
-    urlencode.ui \
-    unicodetozh.ui \
-    timestamp.ui \
-    httpanalyse.ui \
-    taskimport.ui \
-    datacomparison.ui
+
+FORMS    += forms/mainwindow.ui \
+        forms/dialog.ui \
+        forms/urlencode.ui \
+        forms/unicodetozh.ui \
+        forms/timestamp.ui \
+        forms/httpanalyse.ui \
+        forms/taskimport.ui \
+        forms/datacomparison.ui \
+        forms/distancelatlng.ui \
+        forms/drawpolygon.ui \
+        forms/refinelatlng.ui \
+        forms/tcpclisocket.ui
+
 
 RESOURCES += \
-    resource.qrc
+        resource.qrc
+
 RC_FILE    = UnifiedTools.rc
