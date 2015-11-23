@@ -34,7 +34,6 @@ SOURCES += sources/main.cpp\
         sources/datacomparison.cpp \
         sources/taskimportthread.cpp \
         sources/datacomparisonthread.cpp \
-        sources/widget.cpp \
         sources/distancelatlng.cpp \
         sources/drawpolygon.cpp \
         sources/refinelatlng.cpp \
@@ -57,7 +56,6 @@ HEADERS  += headers/mainwindow.h \
         headers/datacomparison.h \
         headers/taskimportthread.h \
         headers/datacomparisonthread.h \
-        headers/widget.h \
         headers/distancelatlng.h \
         headers/public_helper.h \
         headers/drawpolygon.h \

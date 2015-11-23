@@ -1121,3 +1121,612 @@ TRACE | 2015-11-10T11:08:57.768     ------------UrlEncode编码-------------
 TRACE | 2015-11-10T11:08:58.999     ------------HTTP访问测试------------- 
 TRACE | 2015-11-10T11:09:00.550     ------------TCP/IP[Cli_Send]------------- 
 TRACE | 2015-11-10T11:27:28.265     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-11-10T11:54:20.076     ------------HTTP访问测试------------- 
+TRACE | 2015-11-10T11:54:23.996     ------------UrlEncode编码------------- 
+TRACE | 2015-11-10T11:54:25.180     ------------Unicode转中文------------- 
+TRACE | 2015-11-10T11:54:26.444     ------------时间戳转换------------- 
+TRACE | 2015-11-10T11:54:27.955     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-11-10T11:54:38.796     ------------经纬度范围细化------------- 
+TRACE | 2015-11-10T11:54:43.252     ------------地图使用------------- 
+TRACE | 2015-11-10T11:54:48.467     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-11-10T11:54:49.948     ------------房源信息对比------------- 
+TRACE | 2015-11-10T11:54:51.467     ------------任务导入模块------------- 
+TRACE | 2015-11-10T11:54:53.011     ------------HTTP访问测试------------- 
+TRACE | 2015-11-10T11:54:55.772     ------------时间戳转换------------- 
+TRACE | 2015-11-10T11:54:56.372     ------------Unicode转中文------------- 
+TRACE | 2015-11-10T11:54:58.004     ------------UrlEncode编码------------- 
+TRACE | 2015-11-10T11:59:32.612     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-11-11T08:46:45.856     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-11-11T14:46:40.801     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T07:43:36.289     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T07:44:35.640     get method 
+TRACE | 2015-11-12T07:44:36.036     ============ httpRespone start ============== 
+TRACE | 2015-11-12T07:44:36.038     Server : Tengine 
+TRACE | 2015-11-12T07:44:36.038     Date : Wed, 11 Nov 2015 23:44:35 GMT 
+TRACE | 2015-11-12T07:44:36.038     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T07:44:36.038     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T07:44:36.038     Connection : keep-alive 
+TRACE | 2015-11-12T07:44:36.038     Vary : Accept-Encoding 
+TRACE | 2015-11-12T07:44:36.039     Content-Encoding : gzip 
+TRACE | 2015-11-12T07:44:36.039     0 
+TRACE | 2015-11-12T07:44:36.170     close http connect. 
+TRACE | 2015-11-12T07:44:36.171     ============ httpRespone end ============== 
+TRACE | 2015-11-12T07:44:47.074     get method 
+TRACE | 2015-11-12T07:44:47.360     ============ httpRespone start ============== 
+TRACE | 2015-11-12T07:44:47.360     Server : Tengine 
+TRACE | 2015-11-12T07:44:47.360     Date : Wed, 11 Nov 2015 23:44:46 GMT 
+TRACE | 2015-11-12T07:44:47.360     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T07:44:47.361     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T07:44:47.361     Connection : keep-alive 
+TRACE | 2015-11-12T07:44:47.361     Vary : Accept-Encoding 
+TRACE | 2015-11-12T07:44:47.361     Content-Encoding : gzip 
+TRACE | 2015-11-12T07:44:47.361     0 
+TRACE | 2015-11-12T07:44:47.380     close http connect. 
+TRACE | 2015-11-12T07:44:47.380     ============ httpRespone end ============== 
+TRACE | 2015-11-12T07:44:55.458     get method 
+TRACE | 2015-11-12T07:44:55.742     ============ httpRespone start ============== 
+TRACE | 2015-11-12T07:44:55.742     Server : Tengine 
+TRACE | 2015-11-12T07:44:55.743     Date : Wed, 11 Nov 2015 23:44:54 GMT 
+TRACE | 2015-11-12T07:44:55.743     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T07:44:55.743     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T07:44:55.743     Connection : keep-alive 
+TRACE | 2015-11-12T07:44:55.743     Vary : Accept-Encoding 
+TRACE | 2015-11-12T07:44:55.744     Content-Encoding : gzip 
+TRACE | 2015-11-12T07:44:55.744     0 
+TRACE | 2015-11-12T07:44:55.772     close http connect. 
+TRACE | 2015-11-12T07:44:55.772     ============ httpRespone end ============== 
+TRACE | 2015-11-12T07:45:00.362     get method 
+TRACE | 2015-11-12T07:45:00.549     ============ httpRespone start ============== 
+TRACE | 2015-11-12T07:45:00.549     Server : Tengine 
+TRACE | 2015-11-12T07:45:00.549     Date : Wed, 11 Nov 2015 23:44:59 GMT 
+TRACE | 2015-11-12T07:45:00.550     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T07:45:00.550     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T07:45:00.550     Connection : keep-alive 
+TRACE | 2015-11-12T07:45:00.550     Vary : Accept-Encoding 
+TRACE | 2015-11-12T07:45:00.550     Content-Encoding : gzip 
+TRACE | 2015-11-12T07:45:00.550     0 
+TRACE | 2015-11-12T07:45:00.601     close http connect. 
+TRACE | 2015-11-12T07:45:00.601     ============ httpRespone end ============== 
+TRACE | 2015-11-12T10:46:32.263     get method 
+TRACE | 2015-11-12T10:46:33.058     ============ httpRespone start ============== 
+TRACE | 2015-11-12T10:46:33.058     Server : Tengine 
+TRACE | 2015-11-12T10:46:33.058     Date : Thu, 12 Nov 2015 02:46:32 GMT 
+TRACE | 2015-11-12T10:46:33.058     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T10:46:33.058     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T10:46:33.059     Connection : keep-alive 
+TRACE | 2015-11-12T10:46:33.059     Vary : Accept-Encoding 
+TRACE | 2015-11-12T10:46:33.059     Content-Encoding : gzip 
+TRACE | 2015-11-12T10:46:33.084     0 
+TRACE | 2015-11-12T10:46:33.297     close http connect. 
+TRACE | 2015-11-12T10:46:33.298     ============ httpRespone end ============== 
+TRACE | 2015-11-12T10:46:54.105     ------------地图使用------------- 
+TRACE | 2015-11-12T10:47:23.288     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T10:47:46.009     get method 
+TRACE | 2015-11-12T10:47:46.377     ============ httpRespone start ============== 
+TRACE | 2015-11-12T10:47:46.378     Server : Tengine 
+TRACE | 2015-11-12T10:47:46.378     Date : Thu, 12 Nov 2015 02:47:45 GMT 
+TRACE | 2015-11-12T10:47:46.378     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T10:47:46.378     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T10:47:46.378     Connection : keep-alive 
+TRACE | 2015-11-12T10:47:46.379     Vary : Accept-Encoding 
+TRACE | 2015-11-12T10:47:46.379     Content-Encoding : gzip 
+TRACE | 2015-11-12T10:47:46.379     0 
+TRACE | 2015-11-12T10:47:46.422     close http connect. 
+TRACE | 2015-11-12T10:47:46.422     ============ httpRespone end ============== 
+TRACE | 2015-11-12T10:48:08.513     ------------轮廓绘制------------- 
+TRACE | 2015-11-12T10:48:14.440     ------------地图使用------------- 
+TRACE | 2015-11-12T10:48:34.688     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T10:48:44.529     get method 
+TRACE | 2015-11-12T10:48:44.837     ============ httpRespone start ============== 
+TRACE | 2015-11-12T10:48:44.837     Server : Tengine 
+TRACE | 2015-11-12T10:48:44.838     Date : Thu, 12 Nov 2015 02:48:43 GMT 
+TRACE | 2015-11-12T10:48:44.838     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T10:48:44.838     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T10:48:44.838     Connection : keep-alive 
+TRACE | 2015-11-12T10:48:44.838     Vary : Accept-Encoding 
+TRACE | 2015-11-12T10:48:44.839     Content-Encoding : gzip 
+TRACE | 2015-11-12T10:48:44.839     0 
+TRACE | 2015-11-12T10:48:44.885     close http connect. 
+TRACE | 2015-11-12T10:48:44.886     ============ httpRespone end ============== 
+TRACE | 2015-11-12T10:49:20.753     get method 
+TRACE | 2015-11-12T10:49:20.907     ============ httpRespone start ============== 
+TRACE | 2015-11-12T10:49:20.907     Server : Tengine 
+TRACE | 2015-11-12T10:49:20.908     Date : Thu, 12 Nov 2015 02:49:20 GMT 
+TRACE | 2015-11-12T10:49:20.908     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T10:49:20.908     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T10:49:20.908     Connection : keep-alive 
+TRACE | 2015-11-12T10:49:20.908     Vary : Accept-Encoding 
+TRACE | 2015-11-12T10:49:20.908     Content-Encoding : gzip 
+TRACE | 2015-11-12T10:49:20.908     0 
+TRACE | 2015-11-12T10:49:20.968     close http connect. 
+TRACE | 2015-11-12T10:49:20.969     ============ httpRespone end ============== 
+TRACE | 2015-11-12T10:49:50.361     get method 
+TRACE | 2015-11-12T10:49:50.634     ============ httpRespone start ============== 
+TRACE | 2015-11-12T10:49:50.634     Server : Tengine 
+TRACE | 2015-11-12T10:49:50.635     Date : Thu, 12 Nov 2015 02:49:49 GMT 
+TRACE | 2015-11-12T10:49:50.635     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T10:49:50.635     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T10:49:50.635     Connection : keep-alive 
+TRACE | 2015-11-12T10:49:50.635     Vary : Accept-Encoding 
+TRACE | 2015-11-12T10:49:50.636     Content-Encoding : gzip 
+TRACE | 2015-11-12T10:49:50.636     0 
+TRACE | 2015-11-12T10:49:50.828     close http connect. 
+TRACE | 2015-11-12T10:49:50.828     ============ httpRespone end ============== 
+TRACE | 2015-11-12T10:53:34.626     get method 
+TRACE | 2015-11-12T10:53:34.792     ============ httpRespone start ============== 
+TRACE | 2015-11-12T10:53:34.792     Server : Tengine 
+TRACE | 2015-11-12T10:53:34.792     Date : Thu, 12 Nov 2015 02:53:33 GMT 
+TRACE | 2015-11-12T10:53:34.792     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T10:53:34.793     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T10:53:34.793     Connection : keep-alive 
+TRACE | 2015-11-12T10:53:34.793     Vary : Accept-Encoding 
+TRACE | 2015-11-12T10:53:34.793     Content-Encoding : gzip 
+TRACE | 2015-11-12T10:53:34.793     0 
+TRACE | 2015-11-12T10:53:34.802     close http connect. 
+TRACE | 2015-11-12T10:53:34.802     ============ httpRespone end ============== 
+TRACE | 2015-11-12T11:00:42.458     get method 
+TRACE | 2015-11-12T11:00:42.606     ============ httpRespone start ============== 
+TRACE | 2015-11-12T11:00:42.606     Server : Tengine 
+TRACE | 2015-11-12T11:00:42.606     Date : Thu, 12 Nov 2015 03:00:41 GMT 
+TRACE | 2015-11-12T11:00:42.606     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T11:00:42.606     Content-Length : 104 
+TRACE | 2015-11-12T11:00:42.607     Connection : keep-alive 
+TRACE | 2015-11-12T11:00:42.607     0 
+TRACE | 2015-11-12T11:00:42.609     close http connect. 
+TRACE | 2015-11-12T11:00:42.609     ============ httpRespone end ============== 
+TRACE | 2015-11-12T11:01:16.435     get method 
+TRACE | 2015-11-12T11:01:16.535     ============ httpRespone start ============== 
+TRACE | 2015-11-12T11:01:16.535     Server : Tengine 
+TRACE | 2015-11-12T11:01:16.536     Date : Thu, 12 Nov 2015 03:01:15 GMT 
+TRACE | 2015-11-12T11:01:16.536     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T11:01:16.536     Content-Length : 104 
+TRACE | 2015-11-12T11:01:16.536     Connection : keep-alive 
+TRACE | 2015-11-12T11:01:16.536     0 
+TRACE | 2015-11-12T11:01:16.537     close http connect. 
+TRACE | 2015-11-12T11:01:16.538     ============ httpRespone end ============== 
+TRACE | 2015-11-12T11:01:18.242     get method 
+TRACE | 2015-11-12T11:01:18.305     ============ httpRespone start ============== 
+TRACE | 2015-11-12T11:01:18.305     Server : Tengine 
+TRACE | 2015-11-12T11:01:18.305     Date : Thu, 12 Nov 2015 03:01:17 GMT 
+TRACE | 2015-11-12T11:01:18.305     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T11:01:18.306     Content-Length : 104 
+TRACE | 2015-11-12T11:01:18.306     Connection : keep-alive 
+TRACE | 2015-11-12T11:01:18.306     0 
+TRACE | 2015-11-12T11:01:18.306     close http connect. 
+TRACE | 2015-11-12T11:01:18.307     ============ httpRespone end ============== 
+TRACE | 2015-11-12T13:34:24.677     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T13:34:29.991     get method 
+TRACE | 2015-11-12T13:34:30.106     ============ httpRespone start ============== 
+TRACE | 2015-11-12T13:34:30.107     Server : Tengine 
+TRACE | 2015-11-12T13:34:30.108     Date : Thu, 12 Nov 2015 05:34:29 GMT 
+TRACE | 2015-11-12T13:34:30.108     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T13:34:30.108     Content-Length : 1001 
+TRACE | 2015-11-12T13:34:30.108     Connection : keep-alive 
+TRACE | 2015-11-12T13:34:30.108     0 
+TRACE | 2015-11-12T13:34:30.133     close http connect. 
+TRACE | 2015-11-12T13:34:30.133     ============ httpRespone end ============== 
+TRACE | 2015-11-12T14:15:20.650     get method 
+TRACE | 2015-11-12T14:15:20.923     ============ httpRespone start ============== 
+TRACE | 2015-11-12T14:15:20.923     Server : Tengine 
+TRACE | 2015-11-12T14:15:20.923     Date : Thu, 12 Nov 2015 06:15:20 GMT 
+TRACE | 2015-11-12T14:15:20.923     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T14:15:20.923     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T14:15:20.924     Connection : keep-alive 
+TRACE | 2015-11-12T14:15:20.924     Vary : Accept-Encoding 
+TRACE | 2015-11-12T14:15:20.924     Content-Encoding : gzip 
+TRACE | 2015-11-12T14:15:20.924     0 
+TRACE | 2015-11-12T14:15:20.984     close http connect. 
+TRACE | 2015-11-12T14:15:20.984     ============ httpRespone end ============== 
+TRACE | 2015-11-12T14:46:03.636     ------------地图使用------------- 
+TRACE | 2015-11-12T15:13:13.886     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T15:13:23.831     get method 
+TRACE | 2015-11-12T15:13:24.158     ============ httpRespone start ============== 
+TRACE | 2015-11-12T15:13:24.159     Server : Tengine 
+TRACE | 2015-11-12T15:13:24.159     Date : Thu, 12 Nov 2015 07:13:23 GMT 
+TRACE | 2015-11-12T15:13:24.159     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T15:13:24.159     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T15:13:24.159     Connection : keep-alive 
+TRACE | 2015-11-12T15:13:24.160     Vary : Accept-Encoding 
+TRACE | 2015-11-12T15:13:24.160     Content-Encoding : gzip 
+TRACE | 2015-11-12T15:13:24.160     0 
+TRACE | 2015-11-12T15:13:24.199     close http connect. 
+TRACE | 2015-11-12T15:13:24.199     ============ httpRespone end ============== 
+TRACE | 2015-11-12T15:37:08.904     ------------Unicode转中文------------- 
+TRACE | 2015-11-12T15:37:10.063     ------------HTTP访问测试------------- 
+TRACE | 2015-11-12T15:37:14.320     get method 
+TRACE | 2015-11-12T15:37:14.689     ============ httpRespone start ============== 
+TRACE | 2015-11-12T15:37:14.689     Server : Tengine 
+TRACE | 2015-11-12T15:37:14.689     Date : Thu, 12 Nov 2015 07:37:13 GMT 
+TRACE | 2015-11-12T15:37:14.690     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T15:37:14.690     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T15:37:14.690     Connection : keep-alive 
+TRACE | 2015-11-12T15:37:14.690     Vary : Accept-Encoding 
+TRACE | 2015-11-12T15:37:14.690     Content-Encoding : gzip 
+TRACE | 2015-11-12T15:37:14.690     0 
+TRACE | 2015-11-12T15:37:14.832     close http connect. 
+TRACE | 2015-11-12T15:37:14.832     ============ httpRespone end ============== 
+TRACE | 2015-11-12T15:50:23.370     get method 
+TRACE | 2015-11-12T15:50:23.726     ============ httpRespone start ============== 
+TRACE | 2015-11-12T15:50:23.726     Server : Tengine 
+TRACE | 2015-11-12T15:50:23.727     Date : Thu, 12 Nov 2015 07:50:22 GMT 
+TRACE | 2015-11-12T15:50:23.727     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T15:50:23.727     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T15:50:23.727     Connection : keep-alive 
+TRACE | 2015-11-12T15:50:23.727     Vary : Accept-Encoding 
+TRACE | 2015-11-12T15:50:23.728     Content-Encoding : gzip 
+TRACE | 2015-11-12T15:50:23.728     0 
+TRACE | 2015-11-12T15:50:23.805     close http connect. 
+TRACE | 2015-11-12T15:50:23.805     ============ httpRespone end ============== 
+TRACE | 2015-11-12T15:51:25.905     get method 
+TRACE | 2015-11-12T15:51:26.312     ============ httpRespone start ============== 
+TRACE | 2015-11-12T15:51:26.313     Server : Tengine 
+TRACE | 2015-11-12T15:51:26.313     Date : Thu, 12 Nov 2015 07:51:25 GMT 
+TRACE | 2015-11-12T15:51:26.313     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-12T15:51:26.313     Transfer-Encoding : chunked 
+TRACE | 2015-11-12T15:51:26.313     Connection : keep-alive 
+TRACE | 2015-11-12T15:51:26.313     Vary : Accept-Encoding 
+TRACE | 2015-11-12T15:51:26.314     Content-Encoding : gzip 
+TRACE | 2015-11-12T15:51:26.314     0 
+TRACE | 2015-11-12T15:51:26.369     close http connect. 
+TRACE | 2015-11-12T15:51:26.369     ============ httpRespone end ============== 
+TRACE | 2015-11-13T09:57:10.418     ------------地图使用------------- 
+TRACE | 2015-11-13T14:26:33.183     ------------HTTP访问测试------------- 
+TRACE | 2015-11-13T14:26:38.152     get method 
+TRACE | 2015-11-13T14:26:38.298     ============ httpRespone start ============== 
+TRACE | 2015-11-13T14:26:38.299     Server : Tengine 
+TRACE | 2015-11-13T14:26:38.299     Date : Fri, 13 Nov 2015 06:26:36 GMT 
+TRACE | 2015-11-13T14:26:38.299     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T14:26:38.300     Content-Length : 104 
+TRACE | 2015-11-13T14:26:38.300     Connection : keep-alive 
+TRACE | 2015-11-13T14:26:38.300     0 
+TRACE | 2015-11-13T14:26:38.308     close http connect. 
+TRACE | 2015-11-13T14:26:38.308     ============ httpRespone end ============== 
+TRACE | 2015-11-13T14:57:31.491     get method 
+TRACE | 2015-11-13T14:57:31.617     ============ httpRespone start ============== 
+TRACE | 2015-11-13T14:57:31.617     Server : Tengine 
+TRACE | 2015-11-13T14:57:31.617     Date : Fri, 13 Nov 2015 06:57:30 GMT 
+TRACE | 2015-11-13T14:57:31.617     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T14:57:31.617     Content-Length : 104 
+TRACE | 2015-11-13T14:57:31.618     Connection : keep-alive 
+TRACE | 2015-11-13T14:57:31.618     0 
+TRACE | 2015-11-13T14:57:31.619     close http connect. 
+TRACE | 2015-11-13T14:57:31.619     ============ httpRespone end ============== 
+TRACE | 2015-11-13T15:42:53.710     ------------HTTP访问测试------------- 
+TRACE | 2015-11-13T15:43:06.887     get method 
+TRACE | 2015-11-13T15:43:07.134     ============ httpRespone start ============== 
+TRACE | 2015-11-13T15:43:07.134     Server : Tengine 
+TRACE | 2015-11-13T15:43:07.135     Date : Fri, 13 Nov 2015 07:43:05 GMT 
+TRACE | 2015-11-13T15:43:07.135     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T15:43:07.135     Content-Length : 104 
+TRACE | 2015-11-13T15:43:07.135     Connection : keep-alive 
+TRACE | 2015-11-13T15:43:07.135     0 
+TRACE | 2015-11-13T15:43:07.138     close http connect. 
+TRACE | 2015-11-13T15:43:07.138     ============ httpRespone end ============== 
+TRACE | 2015-11-13T15:45:41.838     ------------地图使用------------- 
+TRACE | 2015-11-13T15:58:02.886     ------------HTTP访问测试------------- 
+TRACE | 2015-11-13T15:58:07.928     get method 
+TRACE | 2015-11-13T15:58:08.378     ============ httpRespone start ============== 
+TRACE | 2015-11-13T15:58:08.379     Server : Tengine 
+TRACE | 2015-11-13T15:58:08.379     Date : Fri, 13 Nov 2015 07:58:06 GMT 
+TRACE | 2015-11-13T15:58:08.379     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T15:58:08.379     Transfer-Encoding : chunked 
+TRACE | 2015-11-13T15:58:08.379     Connection : keep-alive 
+TRACE | 2015-11-13T15:58:08.380     Vary : Accept-Encoding 
+TRACE | 2015-11-13T15:58:08.380     Content-Encoding : gzip 
+TRACE | 2015-11-13T15:58:08.380     0 
+TRACE | 2015-11-13T15:58:08.443     close http connect. 
+TRACE | 2015-11-13T15:58:08.443     ============ httpRespone end ============== 
+TRACE | 2015-11-13T15:58:36.431     ------------地图使用------------- 
+TRACE | 2015-11-13T15:58:51.327     ------------HTTP访问测试------------- 
+TRACE | 2015-11-13T15:59:08.887     get method 
+TRACE | 2015-11-13T15:59:09.290     ============ httpRespone start ============== 
+TRACE | 2015-11-13T15:59:09.291     Server : Tengine 
+TRACE | 2015-11-13T15:59:09.291     Date : Fri, 13 Nov 2015 07:59:07 GMT 
+TRACE | 2015-11-13T15:59:09.291     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T15:59:09.291     Transfer-Encoding : chunked 
+TRACE | 2015-11-13T15:59:09.291     Connection : keep-alive 
+TRACE | 2015-11-13T15:59:09.291     Vary : Accept-Encoding 
+TRACE | 2015-11-13T15:59:09.291     Content-Encoding : gzip 
+TRACE | 2015-11-13T15:59:09.291     0 
+TRACE | 2015-11-13T15:59:09.337     close http connect. 
+TRACE | 2015-11-13T15:59:09.337     ============ httpRespone end ============== 
+TRACE | 2015-11-13T16:05:00.112     ------------地图使用------------- 
+TRACE | 2015-11-13T16:06:03.559     ------------HTTP访问测试------------- 
+TRACE | 2015-11-13T16:06:07.609     get method 
+TRACE | 2015-11-13T16:06:07.929     ============ httpRespone start ============== 
+TRACE | 2015-11-13T16:06:07.929     Server : Tengine 
+TRACE | 2015-11-13T16:06:07.929     Date : Fri, 13 Nov 2015 08:06:06 GMT 
+TRACE | 2015-11-13T16:06:07.930     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T16:06:07.930     Transfer-Encoding : chunked 
+TRACE | 2015-11-13T16:06:07.930     Connection : keep-alive 
+TRACE | 2015-11-13T16:06:07.930     Vary : Accept-Encoding 
+TRACE | 2015-11-13T16:06:07.930     Content-Encoding : gzip 
+TRACE | 2015-11-13T16:06:07.930     0 
+TRACE | 2015-11-13T16:06:07.992     close http connect. 
+TRACE | 2015-11-13T16:06:07.992     ============ httpRespone end ============== 
+TRACE | 2015-11-13T16:47:28.396     get method 
+TRACE | 2015-11-13T16:47:28.518     ============ httpRespone start ============== 
+TRACE | 2015-11-13T16:47:28.518     Server : Tengine 
+TRACE | 2015-11-13T16:47:28.518     Date : Fri, 13 Nov 2015 08:47:27 GMT 
+TRACE | 2015-11-13T16:47:28.518     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T16:47:28.519     Content-Length : 104 
+TRACE | 2015-11-13T16:47:28.519     Connection : keep-alive 
+TRACE | 2015-11-13T16:47:28.519     0 
+TRACE | 2015-11-13T16:47:28.520     close http connect. 
+TRACE | 2015-11-13T16:47:28.521     ============ httpRespone end ============== 
+TRACE | 2015-11-13T16:53:26.468     get method 
+TRACE | 2015-11-13T16:53:26.609     ============ httpRespone start ============== 
+TRACE | 2015-11-13T16:53:26.609     Server : Tengine 
+TRACE | 2015-11-13T16:53:26.609     Date : Fri, 13 Nov 2015 08:53:25 GMT 
+TRACE | 2015-11-13T16:53:26.610     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T16:53:26.610     Content-Length : 104 
+TRACE | 2015-11-13T16:53:26.610     Connection : keep-alive 
+TRACE | 2015-11-13T16:53:26.610     0 
+TRACE | 2015-11-13T16:53:26.611     close http connect. 
+TRACE | 2015-11-13T16:53:26.611     ============ httpRespone end ============== 
+TRACE | 2015-11-13T16:55:45.908     ------------地图使用------------- 
+TRACE | 2015-11-13T17:12:30.277     ------------HTTP访问测试------------- 
+TRACE | 2015-11-13T17:42:26.912     get method 
+TRACE | 2015-11-13T17:42:27.232     ============ httpRespone start ============== 
+TRACE | 2015-11-13T17:42:27.232     Server : Tengine 
+TRACE | 2015-11-13T17:42:27.232     Date : Fri, 13 Nov 2015 09:42:25 GMT 
+TRACE | 2015-11-13T17:42:27.233     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-13T17:42:27.233     Transfer-Encoding : chunked 
+TRACE | 2015-11-13T17:42:27.233     Connection : keep-alive 
+TRACE | 2015-11-13T17:42:27.233     Vary : Accept-Encoding 
+TRACE | 2015-11-13T17:42:27.233     Content-Encoding : gzip 
+TRACE | 2015-11-13T17:42:27.233     0 
+TRACE | 2015-11-13T17:42:27.296     close http connect. 
+TRACE | 2015-11-13T17:42:27.296     ============ httpRespone end ============== 
+TRACE | 2015-11-16T10:34:08.332     ------------HTTP访问测试------------- 
+TRACE | 2015-11-16T10:34:14.277     get method 
+TRACE | 2015-11-16T10:34:14.380     ============ httpRespone start ============== 
+TRACE | 2015-11-16T10:34:14.381     Server : Tengine 
+TRACE | 2015-11-16T10:34:14.381     Date : Mon, 16 Nov 2015 02:34:10 GMT 
+TRACE | 2015-11-16T10:34:14.381     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-16T10:34:14.381     Content-Length : 104 
+TRACE | 2015-11-16T10:34:14.381     Connection : keep-alive 
+TRACE | 2015-11-16T10:34:14.381     0 
+TRACE | 2015-11-16T10:34:14.386     close http connect. 
+TRACE | 2015-11-16T10:34:14.386     ============ httpRespone end ============== 
+TRACE | 2015-11-16T10:37:32.989     get method 
+TRACE | 2015-11-16T10:37:33.104     ============ httpRespone start ============== 
+TRACE | 2015-11-16T10:37:33.104     Server : Tengine 
+TRACE | 2015-11-16T10:37:33.105     Date : Mon, 16 Nov 2015 02:37:28 GMT 
+TRACE | 2015-11-16T10:37:33.105     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-16T10:37:33.105     Content-Length : 104 
+TRACE | 2015-11-16T10:37:33.105     Connection : keep-alive 
+TRACE | 2015-11-16T10:37:33.105     0 
+TRACE | 2015-11-16T10:37:33.106     close http connect. 
+TRACE | 2015-11-16T10:37:33.106     ============ httpRespone end ============== 
+TRACE | 2015-11-16T14:38:45.153     get method 
+TRACE | 2015-11-16T14:38:45.271     ============ httpRespone start ============== 
+TRACE | 2015-11-16T14:38:45.271     Server : Tengine 
+TRACE | 2015-11-16T14:38:45.271     Date : Mon, 16 Nov 2015 06:38:40 GMT 
+TRACE | 2015-11-16T14:38:45.272     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-16T14:38:45.272     Content-Length : 104 
+TRACE | 2015-11-16T14:38:45.272     Connection : keep-alive 
+TRACE | 2015-11-16T14:38:45.272     0 
+TRACE | 2015-11-16T14:38:45.273     close http connect. 
+TRACE | 2015-11-16T14:38:45.274     ============ httpRespone end ============== 
+TRACE | 2015-11-17T09:29:47.394     ------------HTTP访问测试------------- 
+TRACE | 2015-11-17T09:29:53.195     get method 
+TRACE | 2015-11-17T09:29:53.333     ============ httpRespone start ============== 
+TRACE | 2015-11-17T09:29:53.334     Server : Tengine 
+TRACE | 2015-11-17T09:29:53.334     Date : Tue, 17 Nov 2015 01:29:48 GMT 
+TRACE | 2015-11-17T09:29:53.334     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-17T09:29:53.334     Content-Length : 104 
+TRACE | 2015-11-17T09:29:53.335     Connection : keep-alive 
+TRACE | 2015-11-17T09:29:53.335     0 
+TRACE | 2015-11-17T09:29:53.337     close http connect. 
+TRACE | 2015-11-17T09:29:53.338     ============ httpRespone end ============== 
+TRACE | 2015-11-18T10:18:14.671     ------------HTTP访问测试------------- 
+TRACE | 2015-11-18T10:18:20.909     get method 
+TRACE | 2015-11-18T10:18:21.047     ============ httpRespone start ============== 
+TRACE | 2015-11-18T10:18:21.048     Server : Tengine 
+TRACE | 2015-11-18T10:18:21.048     Date : Wed, 18 Nov 2015 02:18:20 GMT 
+TRACE | 2015-11-18T10:18:21.049     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-18T10:18:21.049     Content-Length : 104 
+TRACE | 2015-11-18T10:18:21.049     Connection : keep-alive 
+TRACE | 2015-11-18T10:18:21.049     0 
+TRACE | 2015-11-18T10:18:21.060     close http connect. 
+TRACE | 2015-11-18T10:18:21.060     ============ httpRespone end ============== 
+TRACE | 2015-11-18T10:51:22.337     get method 
+TRACE | 2015-11-18T10:51:22.459     ============ httpRespone start ============== 
+TRACE | 2015-11-18T10:51:22.459     Server : Tengine 
+TRACE | 2015-11-18T10:51:22.459     Date : Wed, 18 Nov 2015 02:51:22 GMT 
+TRACE | 2015-11-18T10:51:22.459     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-18T10:51:22.459     Content-Length : 104 
+TRACE | 2015-11-18T10:51:22.459     Connection : keep-alive 
+TRACE | 2015-11-18T10:51:22.460     0 
+TRACE | 2015-11-18T10:51:22.461     close http connect. 
+TRACE | 2015-11-18T10:51:22.461     ============ httpRespone end ============== 
+TRACE | 2015-11-18T13:53:38.439     ------------UrlEncode编码------------- 
+TRACE | 2015-11-18T13:53:39.135     ------------HTTP访问测试------------- 
+TRACE | 2015-11-18T13:53:43.248     get method 
+TRACE | 2015-11-18T13:53:43.395     ============ httpRespone start ============== 
+TRACE | 2015-11-18T13:53:43.396     Server : Tengine 
+TRACE | 2015-11-18T13:53:43.396     Date : Wed, 18 Nov 2015 05:53:42 GMT 
+TRACE | 2015-11-18T13:53:43.396     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-18T13:53:43.396     Content-Length : 104 
+TRACE | 2015-11-18T13:53:43.396     Connection : keep-alive 
+TRACE | 2015-11-18T13:53:43.396     0 
+TRACE | 2015-11-18T13:53:43.397     close http connect. 
+TRACE | 2015-11-18T13:53:43.397     ============ httpRespone end ============== 
+TRACE | 2015-11-19T15:01:30.240     ------------HTTP访问测试------------- 
+TRACE | 2015-11-19T15:01:40.249     get method 
+TRACE | 2015-11-19T15:01:41.662     ============ httpRespone start ============== 
+TRACE | 2015-11-19T15:01:41.663     Server : nginx 
+TRACE | 2015-11-19T15:01:41.663     Date : Thu, 19 Nov 2015 06:42:55 GMT 
+TRACE | 2015-11-19T15:01:41.664     Content-Length : 0 
+TRACE | 2015-11-19T15:01:41.664     Connection : keep-alive 
+TRACE | 2015-11-19T15:01:41.664     Set-Cookie : KUAI365_SESSION=E6F013F0BD3FAF911B9DD6CB2EC76DDE; Domain=.kuai365.com; Path=/; HttpOnly 
+TRACE | 2015-11-19T15:01:41.664     -------------------------- 
+TRACE | 2015-11-19T15:01:41.664     "KUAI365_SESSION=E6F013F0BD3FAF911B9DD6CB2EC76DDE" 
+TRACE | 2015-11-19T15:01:41.668     name:  QVariant(QString, "KUAI365_SESSION")  value:  QVariant(QString, "E6F013F0BD3FAF911B9DD6CB2EC76DDE") 
+TRACE | 2015-11-19T15:01:41.669     1 
+TRACE | 2015-11-19T15:01:41.670     close http connect. 
+TRACE | 2015-11-19T15:01:41.670     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:24:05.824     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T10:24:12.072     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T10:24:14.488     ifnot include \u :  true 
+TRACE | 2015-11-20T10:26:40.504     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T10:26:44.319     get method 
+TRACE | 2015-11-20T10:26:44.585     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:26:44.586     Date : Fri, 20 Nov 2015 02:26:43 GMT 
+TRACE | 2015-11-20T10:26:44.586     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:26:44.586     Content-Length : 3256 
+TRACE | 2015-11-20T10:26:44.586     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:26:44.586     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:26:44.587     Set-Cookie : BAIDUID=53A3EAADBB8186D3287A9807033EDBF0:FG=1; expires=Sat, 19-Nov-16 02:26:43 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:26:44.587     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:26:44.587     Server : Apache 
+TRACE | 2015-11-20T10:26:44.587     -------------------------- 
+TRACE | 2015-11-20T10:26:44.587     "BAIDUID=53A3EAADBB8186D3287A9807033EDBF0:FG=1" 
+TRACE | 2015-11-20T10:26:44.590     name:  QVariant(QString, "BAIDUID")  value:  QVariant(QString, "53A3EAADBB8186D3287A9807033EDBF0:FG=1") 
+TRACE | 2015-11-20T10:26:44.590     1 
+TRACE | 2015-11-20T10:26:44.600     close http connect. 
+TRACE | 2015-11-20T10:26:44.601     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:26:52.120     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T10:26:54.328     ifnot include \u :  true 
+TRACE | 2015-11-20T10:28:27.745     ifnot include \u :  true 
+TRACE | 2015-11-20T10:30:10.905     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T10:32:40.568     ------------UrlEncode编码------------- 
+TRACE | 2015-11-20T10:32:41.512     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T10:32:52.521     get method 
+TRACE | 2015-11-20T10:32:52.782     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:32:52.782     Date : Fri, 20 Nov 2015 02:32:51 GMT 
+TRACE | 2015-11-20T10:32:52.783     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:32:52.783     Content-Length : 3163 
+TRACE | 2015-11-20T10:32:52.783     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:32:52.783     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:32:52.783     Set-Cookie : BAIDUID=37000C1E1F4D6077482E7502E89DA723:FG=1; expires=Sat, 19-Nov-16 02:32:51 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:32:52.783     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:32:52.784     Server : Apache 
+TRACE | 2015-11-20T10:32:52.784     -------------------------- 
+TRACE | 2015-11-20T10:32:52.784     "BAIDUID=37000C1E1F4D6077482E7502E89DA723:FG=1" 
+TRACE | 2015-11-20T10:32:52.784     name:  QVariant(QString, "BAIDUID")  value:  QVariant(QString, "37000C1E1F4D6077482E7502E89DA723:FG=1") 
+TRACE | 2015-11-20T10:32:52.784     1 
+TRACE | 2015-11-20T10:32:52.794     close http connect. 
+TRACE | 2015-11-20T10:32:52.794     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:32:57.321     get method 
+TRACE | 2015-11-20T10:32:57.894     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:32:57.894     Date : Fri, 20 Nov 2015 02:32:56 GMT 
+TRACE | 2015-11-20T10:32:57.894     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:32:57.894     Content-Length : 61115 
+TRACE | 2015-11-20T10:32:57.895     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:32:57.895     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:32:57.895     Set-Cookie : BAIDUID=B528A0B217F888883CF217A969AF2D98:FG=1; expires=Sat, 19-Nov-16 02:32:56 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:32:57.895     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:32:57.895     Server : Apache 
+TRACE | 2015-11-20T10:32:57.896     -------------------------- 
+TRACE | 2015-11-20T10:32:57.896     "BAIDUID=B528A0B217F888883CF217A969AF2D98:FG=1" 
+TRACE | 2015-11-20T10:32:57.896     1 
+TRACE | 2015-11-20T10:32:57.961     close http connect. 
+TRACE | 2015-11-20T10:32:57.961     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:33:08.144     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T10:33:11.145     ifnot include \u :  true 
+TRACE | 2015-11-20T10:33:54.640     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T10:34:26.112     get method 
+TRACE | 2015-11-20T10:34:26.400     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:34:26.400     Date : Fri, 20 Nov 2015 02:34:25 GMT 
+TRACE | 2015-11-20T10:34:26.400     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:34:26.401     Content-Length : 3163 
+TRACE | 2015-11-20T10:34:26.401     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:34:26.401     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:34:26.401     Set-Cookie : BAIDUID=4402E8CB8C89D889AD0D832C89EB8FA1:FG=1; expires=Sat, 19-Nov-16 02:34:25 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:34:26.401     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:34:26.401     Server : Apache 
+TRACE | 2015-11-20T10:34:26.402     -------------------------- 
+TRACE | 2015-11-20T10:34:26.402     "BAIDUID=4402E8CB8C89D889AD0D832C89EB8FA1:FG=1" 
+TRACE | 2015-11-20T10:34:26.402     name:  QVariant(QString, "BAIDUID")  value:  QVariant(QString, "4402E8CB8C89D889AD0D832C89EB8FA1:FG=1") 
+TRACE | 2015-11-20T10:34:26.402     1 
+TRACE | 2015-11-20T10:34:26.412     close http connect. 
+TRACE | 2015-11-20T10:34:26.412     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:34:29.633     get method 
+TRACE | 2015-11-20T10:34:30.583     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:34:30.583     Date : Fri, 20 Nov 2015 02:34:28 GMT 
+TRACE | 2015-11-20T10:34:30.583     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:34:30.583     Content-Length : 67849 
+TRACE | 2015-11-20T10:34:30.583     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:34:30.583     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:34:30.584     Set-Cookie : BAIDUID=C661CBEF9A5E3BDE9CEB3B51DA426508:FG=1; expires=Sat, 19-Nov-16 02:34:28 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:34:30.584     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:34:30.584     Server : Apache 
+TRACE | 2015-11-20T10:34:30.584     -------------------------- 
+TRACE | 2015-11-20T10:34:30.584     "BAIDUID=C661CBEF9A5E3BDE9CEB3B51DA426508:FG=1" 
+TRACE | 2015-11-20T10:34:30.584     1 
+TRACE | 2015-11-20T10:34:30.643     close http connect. 
+TRACE | 2015-11-20T10:34:30.643     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:34:36.240     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T10:34:38.217     ifnot include \u :  true 
+TRACE | 2015-11-20T10:54:54.441     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T10:55:07.538     ifnot include \u :  true 
+TRACE | 2015-11-20T10:58:16.425     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T10:58:41.946     get method 
+TRACE | 2015-11-20T10:58:42.187     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:58:42.187     Date : Fri, 20 Nov 2015 02:58:40 GMT 
+TRACE | 2015-11-20T10:58:42.188     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:58:42.188     Content-Length : 3163 
+TRACE | 2015-11-20T10:58:42.188     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:58:42.188     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:58:42.188     Set-Cookie : BAIDUID=1AC2E8FE5DC6B2E3179536B9033F7D07:FG=1; expires=Sat, 19-Nov-16 02:58:40 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:58:42.188     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:58:42.188     Server : Apache 
+TRACE | 2015-11-20T10:58:42.188     -------------------------- 
+TRACE | 2015-11-20T10:58:42.188     "BAIDUID=1AC2E8FE5DC6B2E3179536B9033F7D07:FG=1" 
+TRACE | 2015-11-20T10:58:42.188     name:  QVariant(QString, "BAIDUID")  value:  QVariant(QString, "1AC2E8FE5DC6B2E3179536B9033F7D07:FG=1") 
+TRACE | 2015-11-20T10:58:42.188     1 
+TRACE | 2015-11-20T10:58:42.194     close http connect. 
+TRACE | 2015-11-20T10:58:42.194     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:58:48.898     get method 
+TRACE | 2015-11-20T10:58:49.560     ============ httpRespone start ============== 
+TRACE | 2015-11-20T10:58:49.560     Date : Fri, 20 Nov 2015 02:58:47 GMT 
+TRACE | 2015-11-20T10:58:49.560     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T10:58:49.560     Content-Length : 71435 
+TRACE | 2015-11-20T10:58:49.560     Connection : Keep-Alive 
+TRACE | 2015-11-20T10:58:49.560     X-Powered-By : HPHP 
+TRACE | 2015-11-20T10:58:49.560     Set-Cookie : BAIDUID=3679240439E29F3900AAC5EBD7A4D8E1:FG=1; expires=Sat, 19-Nov-16 02:58:47 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T10:58:49.560     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T10:58:49.561     Server : Apache 
+TRACE | 2015-11-20T10:58:49.561     -------------------------- 
+TRACE | 2015-11-20T10:58:49.561     "BAIDUID=3679240439E29F3900AAC5EBD7A4D8E1:FG=1" 
+TRACE | 2015-11-20T10:58:49.561     1 
+TRACE | 2015-11-20T10:58:49.617     close http connect. 
+TRACE | 2015-11-20T10:58:49.618     ============ httpRespone end ============== 
+TRACE | 2015-11-20T10:58:55.385     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T10:58:59.025     ifnot include \u :  true 
+TRACE | 2015-11-20T10:59:51.784     ------------HTTP访问测试------------- 
+TRACE | 2015-11-20T11:00:09.170     get method 
+TRACE | 2015-11-20T11:00:09.417     ============ httpRespone start ============== 
+TRACE | 2015-11-20T11:00:09.417     Date : Fri, 20 Nov 2015 03:00:08 GMT 
+TRACE | 2015-11-20T11:00:09.417     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T11:00:09.417     Content-Length : 3163 
+TRACE | 2015-11-20T11:00:09.417     Connection : Keep-Alive 
+TRACE | 2015-11-20T11:00:09.418     X-Powered-By : HPHP 
+TRACE | 2015-11-20T11:00:09.418     Set-Cookie : BAIDUID=5224B6D62DA27CEFD11D9EE594179164:FG=1; expires=Sat, 19-Nov-16 03:00:08 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T11:00:09.418     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T11:00:09.418     Server : Apache 
+TRACE | 2015-11-20T11:00:09.418     -------------------------- 
+TRACE | 2015-11-20T11:00:09.418     "BAIDUID=5224B6D62DA27CEFD11D9EE594179164:FG=1" 
+TRACE | 2015-11-20T11:00:09.418     name:  QVariant(QString, "BAIDUID")  value:  QVariant(QString, "5224B6D62DA27CEFD11D9EE594179164:FG=1") 
+TRACE | 2015-11-20T11:00:09.418     1 
+TRACE | 2015-11-20T11:00:09.423     close http connect. 
+TRACE | 2015-11-20T11:00:09.424     ============ httpRespone end ============== 
+TRACE | 2015-11-20T11:00:10.786     get method 
+TRACE | 2015-11-20T11:00:11.252     ============ httpRespone start ============== 
+TRACE | 2015-11-20T11:00:11.252     Date : Fri, 20 Nov 2015 03:00:09 GMT 
+TRACE | 2015-11-20T11:00:11.252     Content-Type : application/json;charset=utf-8 
+TRACE | 2015-11-20T11:00:11.252     Content-Length : 61301 
+TRACE | 2015-11-20T11:00:11.252     Connection : Keep-Alive 
+TRACE | 2015-11-20T11:00:11.253     X-Powered-By : HPHP 
+TRACE | 2015-11-20T11:00:11.253     Set-Cookie : BAIDUID=7B856A351ECA4CC636575790258AB387:FG=1; expires=Sat, 19-Nov-16 03:00:09 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1 
+TRACE | 2015-11-20T11:00:11.253     P3P : CP=" OTI DSP COR IVA OUR IND COM " 
+TRACE | 2015-11-20T11:00:11.253     Server : Apache 
+TRACE | 2015-11-20T11:00:11.253     -------------------------- 
+TRACE | 2015-11-20T11:00:11.253     "BAIDUID=7B856A351ECA4CC636575790258AB387:FG=1" 
+TRACE | 2015-11-20T11:00:11.253     1 
+TRACE | 2015-11-20T11:00:11.363     close http connect. 
+TRACE | 2015-11-20T11:00:11.364     ============ httpRespone end ============== 
+TRACE | 2015-11-20T11:00:14.529     ------------Unicode转中文------------- 
+TRACE | 2015-11-20T11:00:17.306     ifnot include \u :  true 

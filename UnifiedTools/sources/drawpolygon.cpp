@@ -38,7 +38,7 @@ DrawPolygon::drawMutliPolygon()
 
         poly = ui->polygon->toPlainText();
         if( poly.isEmpty() ){
-            QMessageBox::warning(this,"注意","绘制轮廓点不能为空",NULL,NULL);
+            QMessageBox::warning(this,"注意","绘制轮廓点不能为空");
             return;
         }
         if( poly.contains(",0 ") ){
