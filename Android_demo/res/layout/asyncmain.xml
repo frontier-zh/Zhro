@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="10dp">
+ 
+    <TextView 
+        android:id="@+id/prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>	
+    <EditText 
+        android:id="@+id/keyword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入百度地图搜索关键词"
+        android:background="@drawable/qq_edit_login"/>
+	<ProgressBar 
+        android:id="@+id/progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/search"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:textColor="#003366"
+	        android:text="获取"
+	        android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:textColor="#003366"
+	        android:text="取消"
+	        android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ListView 
+        android:id="@+id/jsonlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollingCache="false"
+        android:padding="5dp"
+        android:dividerHeight="3dp"
+        />
+    <TextView android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No data"
+        android:textColor="#ff0000" />
+
+</LinearLayout>

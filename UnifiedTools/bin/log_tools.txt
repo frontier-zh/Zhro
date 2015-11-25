@@ -1730,3 +1730,53 @@ TRACE | 2015-11-20T11:00:11.363     close http connect.
 TRACE | 2015-11-20T11:00:11.364     ============ httpRespone end ============== 
 TRACE | 2015-11-20T11:00:14.529     ------------Unicode转中文------------- 
 TRACE | 2015-11-20T11:00:17.306     ifnot include \u :  true 
+TRACE | 2015-11-25T11:27:42.442     ------------HTTP访问测试------------- 
+TRACE | 2015-11-25T11:28:43.118     post method 
+TRACE | 2015-11-25T11:28:43.453     ============ httpRespone start ============== 
+TRACE | 2015-11-25T11:28:43.454     Server : EFE 
+TRACE | 2015-11-25T11:28:43.454     Date : Wed, 25 Nov 2015 03:28:42 GMT 
+TRACE | 2015-11-25T11:28:43.454     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-25T11:28:43.455     Transfer-Encoding : chunked 
+TRACE | 2015-11-25T11:28:43.455     Connection : keep-alive 
+TRACE | 2015-11-25T11:28:43.455     Vary : Accept-Encoding 
+TRACE | 2015-11-25T11:28:43.455     Pragma : no-cache 
+TRACE | 2015-11-25T11:28:43.455     Cache-Control : max-age=0 
+TRACE | 2015-11-25T11:28:43.455     Expires : Wed, 25 Nov 2015 03:28:42 GMT 
+TRACE | 2015-11-25T11:28:43.455     Content-Language : zh-CN 
+TRACE | 2015-11-25T11:28:43.456     Content-Encoding : gzip 
+TRACE | 2015-11-25T11:28:43.456     Set-Cookie : JSESSIONID=0542CEC48073190C0E8B4796D0943FC0; Path=/; HttpOnly
+CookieGuid=abfbe12e-4454-4dea-8f30-2cd12073bcb0; Domain=elong.com; Expires=Fri, 24-Nov-2017 03:28:42 GMT; Path=/
+SessionGuid=54021071-3347-4a0a-ba6b-21bec2ca6d2d; Domain=elong.com; Path=/; HttpOnly
+Esid=9804bf7e-db04-48e3-9177-0800459c5f03; Domain=elong.com; Path=/; HttpOnly
+newjava2=b9f7cef6d83cfcf88c775cfb2d2c3812;Path=/
+NSC_PXfcIum_80=ffffffff092b37d845525d5f4f58455e445a4a4229a0;expires=Wed, 25-Nov-2015 03:58:42 GMT;path=/;httponly 
+TRACE | 2015-11-25T11:28:43.456     -------------------------- 
+TRACE | 2015-11-25T11:28:43.456     "JSESSIONID=0542CEC48073190C0E8B4796D0943FC0" 
+TRACE | 2015-11-25T11:28:43.457     name:  QVariant(QString, "JSESSIONID")  value:  QVariant(QString, "0542CEC48073190C0E8B4796D0943FC0") 
+TRACE | 2015-11-25T11:28:43.457     -------------------------- 
+TRACE | 2015-11-25T11:28:43.457     "CookieGuid=abfbe12e-4454-4dea-8f30-2cd12073bcb0" 
+TRACE | 2015-11-25T11:28:43.457     name:  QVariant(QString, "CookieGuid")  value:  QVariant(QString, "abfbe12e-4454-4dea-8f30-2cd12073bcb0") 
+TRACE | 2015-11-25T11:28:43.457     -------------------------- 
+TRACE | 2015-11-25T11:28:43.457     "SessionGuid=54021071-3347-4a0a-ba6b-21bec2ca6d2d" 
+TRACE | 2015-11-25T11:28:43.457     name:  QVariant(QString, "SessionGuid")  value:  QVariant(QString, "54021071-3347-4a0a-ba6b-21bec2ca6d2d") 
+TRACE | 2015-11-25T11:28:43.458     -------------------------- 
+TRACE | 2015-11-25T11:28:43.458     "Esid=9804bf7e-db04-48e3-9177-0800459c5f03" 
+TRACE | 2015-11-25T11:28:43.458     name:  QVariant(QString, "Esid")  value:  QVariant(QString, "9804bf7e-db04-48e3-9177-0800459c5f03") 
+TRACE | 2015-11-25T11:28:43.458     -------------------------- 
+TRACE | 2015-11-25T11:28:43.459     "newjava2=b9f7cef6d83cfcf88c775cfb2d2c3812" 
+TRACE | 2015-11-25T11:28:43.459     name:  QVariant(QString, "newjava2")  value:  QVariant(QString, "b9f7cef6d83cfcf88c775cfb2d2c3812") 
+TRACE | 2015-11-25T11:28:43.459     -------------------------- 
+TRACE | 2015-11-25T11:28:43.459     "NSC_PXfcIum_80=ffffffff092b37d845525d5f4f58455e445a4a4229a0" 
+TRACE | 2015-11-25T11:28:43.459     name:  QVariant(QString, "NSC_PXfcIum_80")  value:  QVariant(QString, "ffffffff092b37d845525d5f4f58455e445a4a4229a0") 
+TRACE | 2015-11-25T11:28:43.459     6 
+TRACE | 2015-11-25T11:28:43.582     close http connect. 
+TRACE | 2015-11-25T11:28:43.582     ============ httpRespone end ============== 
+TRACE | 2015-11-25T11:28:48.682     ------------Unicode转中文------------- 
+TRACE | 2015-11-25T11:28:51.442     ifnot include \u :  true 
+TRACE | 2015-11-25T11:32:31.434     ------------HTTP访问测试------------- 
+TRACE | 2015-11-25T13:15:28.003     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-11-25T13:15:34.179     ------------经纬度范围细化------------- 
+TRACE | 2015-11-25T13:15:37.795     ------------轮廓绘制------------- 
+TRACE | 2015-11-25T13:15:39.883     ------------地图使用------------- 
+TRACE | 2015-11-25T13:15:41.259     ------------房源信息对比------------- 
+TRACE | 2015-11-25T13:15:42.443     ------------任务导入模块------------- 

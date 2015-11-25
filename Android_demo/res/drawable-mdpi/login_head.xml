@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/login_face_back"
+        android:drawable="@drawable/faceback">
+    </item>
+    <item
+        android:id="@+id/login_face"
+        android:bottom="35.0dip"
+        android:drawable="@drawable/pzh_ccb"
+        android:left="10.0dip"
+        android:right="25.0dip"
+        android:top="18.0dip">
+    </item>
+
+</layer-list>

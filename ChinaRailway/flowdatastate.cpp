@@ -76,11 +76,11 @@ FlowDataState::setData(const QMap<QString,QPointF> &citys, const QMap<QString, Q
 }
 
 void
-FlowDataState::loadThreadFinished()
+FlowDataState::onThreadFinished()
 {
     ShortestPathThread *thread = qobject_cast<ShortestPathThread*>(sender());
     shortPath = thread->getShortest();
-    qDebug() << __FUNCTION__ << "thread respone short path :" << shortPath.size();
+    qDebug() << __FUNCTION__ << "thread return:" << shortPath.size();
     if (!shortPath.size()) return;
 
     if( !_timer->isActive() ){
@@ -91,17 +91,17 @@ FlowDataState::loadThreadFinished()
 void
 FlowDataState::onResponeAddItem(QString name)
 {
-    qDebug() << "add city:" << name;
+    qDebug() << __FUNCTION__ << "add city:" << name;
     if( begin.isEmpty() ){
         begin = name.replace("1","");
     }else if( end.isEmpty() ){
         end = name.replace("1","");
     }
     if( !begin.isEmpty() && !end.isEmpty() ){
-        qDebug() << __FUNCTION__ << "call async thread short path ";
+        qDebug() << __FUNCTION__ << "thread called";
         ShortestPathThread *thread = new ShortestPathThread(this);
         thread->setCityname(begin, end);
-        connect(thread, SIGNAL(finished()), this, SLOT(loadThreadFinished()));
+        connect(thread, SIGNAL(finished()), this, SLOT(onThreadFinished()));
         thread->start();
     }
 }
@@ -109,7 +109,7 @@ FlowDataState::onResponeAddItem(QString name)
 void
 FlowDataState::onResponeDelItem(QString name)
 {
-    qDebug() << "del city:" << name;
+    qDebug() << __FUNCTION__ << "del city:" << name;
     if( name.contains(begin) ){
         begin = "";
     }

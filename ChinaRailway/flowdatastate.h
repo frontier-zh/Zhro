@@ -15,7 +15,7 @@ public:
 protected:
     void    initCustomItems();
 protected slots:
-    void    loadThreadFinished();
+    void    onThreadFinished();
     void    onResponeAddItem(QString name);
     void    onResponeDelItem(QString name);
     void    onTimerUpdatepage();

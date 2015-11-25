@@ -48,7 +48,7 @@ ShortestPathThread::run()
     QList<QPointF> lastaround;
     lastaround.append(begin);
     shorestPaths(lastaround,pointFindCity(begin));
-    qDebug() << "task execute finished";
+    //qDebug() << "thread task execute finished";
 }
 
 void

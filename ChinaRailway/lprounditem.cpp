@@ -50,20 +50,22 @@ void LPRoundItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *optio
         painter->setPen(QColor(0x00, 0x00, 0x00));
         painter->drawText(x, y, scity);
     }
+    painter->restore();
+    //运行程序过程中，出现了QPainter::end: Painter ended with 2 saved states，告警信息不断在console中刷心
+    //后检查为程序中有一处没有配对出现save()、restore()方法造成。
 }
 
 void
 LPRoundItem::hoverEnterEvent(QGraphicsSceneHoverEvent *event)
 {
-    qDebug() << __FUNCTION__;
-    //setFocus();
+    Q_UNUSED(event)
     setToolTip(name);
 }
 
 void
 LPRoundItem::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
-    qDebug() << __FUNCTION__;
+    Q_UNUSED(event)
     if( ishover ){
         ishover = false;
         emit    onReleaseRoundItem(name);

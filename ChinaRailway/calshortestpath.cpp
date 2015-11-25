@@ -2,7 +2,7 @@
 #include <QtMath>
 
 CalShortestPath::CalShortestPath(QObject *parent) :
-    QObject(parent), lenpath(0), shortPath("")
+    QObject(parent), shortPath(""), lenpath(0)
 {
     QFile f1("railway.txt");
     if( !f1.exists() ){
