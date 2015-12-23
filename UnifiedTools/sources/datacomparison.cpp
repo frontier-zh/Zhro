@@ -19,19 +19,16 @@ DataComparison::DataComparison(QWidget *parent) :
     ui->lineEdit_3->setEnabled(false);
     ui->ddbport->setPlaceholderText("1433");
     ui->sdbport->setPlaceholderText("1433");
-    ui->sdbhost->insertItems(0, DataHandle::instance().getHostList());
-    QStringList  dbname;
-    dbname.append("data_get");
-    dbname.append("data_gov");
-    ui->sdbname->insertItems(0, dbname);
-    ui->sdbuser->insertItem(0, "sa");
-    ui->sdbpwd->insertItem(0, "2205886lyx");
-    QStringList  dbhost;
-    dbhost.append("10.10.65.192");
-    ui->ddbhost->insertItems(0, dbhost);
-    ui->ddbname->insertItem(0, "data_get");
-    ui->ddbuser->insertItem(0, "sa");
-    ui->ddbpwd->insertItem(0, "caiji.2014");
+    ui->sdbhost->setPlaceholderText("10.10.65.194");
+    ui->sdbname->setPlaceholderText("data_get");
+    ui->sdbuser->setPlaceholderText("sa");
+    ui->sdbpwd->setPlaceholderText("2205886lyx");
+    ui->sdbtbl->setPlaceholderText("dataget_origin");
+    ui->ddbhost->setPlaceholderText("10.10.65.192");
+    ui->ddbname->setPlaceholderText("data_get");
+    ui->ddbuser->setPlaceholderText("sa");
+    ui->ddbpwd->setPlaceholderText("caiji.2014");
+    ui->ddbtbl->setPlaceholderText("dataget_origin");
 
     /////
     QStringList  titles;
@@ -74,13 +71,13 @@ void DataComparison::comparisonTowork()
     ui->pushButton->setVisible(false);
     QList<DBINFO> infos;
     DBINFO info;
-    info.host = ui->sdbhost->currentText();
+    info.host = ui->sdbhost->text().isEmpty() ? ui->sdbhost->placeholderText() : ui->sdbhost->text();
     info.port = ui->sdbport->text().isEmpty() ? ui->sdbport->placeholderText().toInt() : ui->sdbport->text().toInt();
-    info.dbname = ui->sdbname->currentText();
-    info.tasktablename = "dataget_origin";
+    info.dbname = ui->sdbname->text().isEmpty() ? ui->sdbname->placeholderText() : ui->sdbname->text();
+    info.tasktablename = ui->sdbtbl->text().isEmpty() ? ui->sdbtbl->placeholderText() : ui->sdbtbl->text();
     info.patterntablename = "";
-    info.uid = ui->sdbuser->currentText();
-    info.pwd = ui->sdbpwd->currentText();
+    info.uid = ui->sdbuser->text().isEmpty() ? ui->sdbuser->placeholderText() : ui->sdbuser->text();
+    info.pwd = ui->sdbpwd->text().isEmpty() ? ui->sdbpwd->placeholderText() : ui->sdbpwd->text();
     info.condstring = "";
     info.datasource = ui->lineEdit->text();
     if( info.datasource.isEmpty() ){
@@ -91,13 +88,13 @@ void DataComparison::comparisonTowork()
     QLOG_TRACE() << "datasource :   " << info.datasource;
     infos.append(info);
 
-    info.host = ui->ddbhost->currentText();
+    info.host = ui->ddbhost->text().isEmpty() ? ui->ddbhost->placeholderText() : ui->ddbhost->text();
     info.port = ui->ddbport->text().isEmpty() ? ui->ddbport->placeholderText().toInt() : ui->ddbport->text().toInt();
-    info.dbname = ui->ddbname->currentText();
-    info.tasktablename = "dataget_origin";
+    info.dbname = ui->ddbname->text().isEmpty() ? ui->ddbname->placeholderText() : ui->ddbname->text();
+    info.tasktablename = ui->ddbtbl->text().isEmpty() ? ui->ddbtbl->placeholderText() : ui->ddbtbl->text();
     info.patterntablename = "";
-    info.uid = ui->ddbuser->currentText();
-    info.pwd = ui->ddbpwd->currentText();
+    info.uid = ui->ddbuser->text().isEmpty() ? ui->ddbuser->placeholderText() : ui->ddbuser->text();
+    info.pwd = ui->ddbpwd->text().isEmpty() ? ui->ddbpwd->placeholderText() : ui->ddbpwd->text();
     info.condstring = "";
     info.datasource = ui->lineEdit->text();
     infos.append(info);

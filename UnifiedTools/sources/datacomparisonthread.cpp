@@ -26,7 +26,7 @@ void DataComparisonThread::run()
                             infos[0].condstring,
                             infos[0].datasource))
     {
-        QString result = QString("¾ÉÏµÍ³·¿Ô´¿âÁ´½ÓÊ§°Ü[ %1 : %2 : %3 : %4 : %5 ]")
+        QString result = QString("æ—§ç³»ç»Ÿæˆ¿æºåº“é“¾æ¥å¤±è´¥[ %1 : %2 : %3 : %4 : %5 ]")
                     .arg(infos[0].host).arg(infos[0].dbname).arg(infos[0].port).arg(infos[0].uid).arg(infos[0].pwd);
         QLOG_TRACE() << result;
         emit stopFeekback(result);
@@ -45,7 +45,7 @@ void DataComparisonThread::run()
                             infos[1].condstring,
                             infos[1].datasource))
     {
-        QString result = QString("ĞÂÏµÍ³·¿Ô´¿âÁ´½ÓÊ§°Ü[ %1 : %2 : %3 : %4 : %5 ]")
+        QString result = QString("æ–°ç³»ç»Ÿæˆ¿æºåº“é“¾æ¥å¤±è´¥[ %1 : %2 : %3 : %4 : %5 ]")
                     .arg(infos[1].host).arg(infos[1].dbname).arg(infos[1].port).arg(infos[1].uid).arg(infos[1].pwd);
         QLOG_TRACE() << result;
         emit stopFeekback(result);
@@ -53,7 +53,7 @@ void DataComparisonThread::run()
         return;
     }
     if (!db1.loadDatagetOrigin(smodel)){
-        QString result = QString("¾ÉÏµÍ³»ñµÃ·¿Ô´¼ÇÂ¼Ê§°Ü[ %1 : %2 ]").arg(infos[0].host).arg(infos[0].dbname);
+        QString result = QString("æ—§ç³»ç»Ÿè·å¾—æˆ¿æºè®°å½•å¤±è´¥[ %1 : %2 ]").arg(infos[0].host).arg(infos[0].dbname);
         QLOG_TRACE() << result;
         emit stopFeekback(result);
         db1.closeDB();
@@ -61,7 +61,7 @@ void DataComparisonThread::run()
         return;
     }
     if (!db2.loadDatagetOrigin(tmodel)){
-        QString result = QString("ĞÂÏµÍ³»ñµÃ·¿Ô´¼ÇÂ¼Ê§°Ü[ %1 : %2 ]").arg(infos[1].host).arg(infos[1].dbname);
+        QString result = QString("æ–°ç³»ç»Ÿè·å¾—æˆ¿æºè®°å½•å¤±è´¥[ %1 : %2 ]").arg(infos[1].host).arg(infos[1].dbname);
         QLOG_TRACE() << result;
         emit stopFeekback(result);
         db1.closeDB();
@@ -76,7 +76,7 @@ void DataComparisonThread::run()
     int tlen = tmodel.size();
     QLOG_TRACE() << "Source model size: " << slen << " Target model size: " << tlen;
     if( !(slen && tlen) ){
-        QString result = QString("ĞÂ[ %1 ]¡¢¾É[ %2 ]  ÎŞ·¨Íê³É±È¶Ô!").arg(tlen).arg(slen);
+        QString result = QString("æ–°[ %1 ]ã€æ—§[ %2 ]  æ— æ³•å®Œæˆæ¯”å¯¹!").arg(tlen).arg(slen);
         QLOG_TRACE() << result;
         emit stopFeekback(result);
         return;
@@ -103,7 +103,7 @@ void DataComparisonThread::run()
                     if( tmap.value(key).toString().compare(smap.value(key).toString()) ){
                         data.append(tmap["sourceurl"].toString());
                         data.append(key);
-                        data.append("·ñ");
+                        data.append("å¦");
                         data.append(tmap.value(key).toString());
                         data.append(smap.value(key).toString());
                         data.append(tmap["gettime"].toString());
@@ -126,7 +126,7 @@ void DataComparisonThread::run()
                     if( tmap.value(key).toString().compare(smap.value(key).toString()) ){
                         data.append(tmap["sourceurl"].toString());
                         data.append(key);
-                        data.append("ÊÇ");
+                        data.append("æ˜¯");
                         data.append(tmap.value(key).toString());
                         data.append(smap.value(key).toString());
                         data.append(tmap["gettime"].toString());
@@ -140,11 +140,11 @@ void DataComparisonThread::run()
         }
     }
     if( !match ){
-        QString feedback = QString("ĞÂ[ %1 ]¡¢¾É[ %2 ]  Î´ÕÒµ½ÏàÍ¬URLµÄÆ¥Åä¼ÇÂ¼!").arg(tlen).arg(slen);
+        QString feedback = QString("æ–°[ %1 ]ã€æ—§[ %2 ]  æœªæ‰¾åˆ°ç›¸åŒURLçš„åŒ¹é…è®°å½•!").arg(tlen).arg(slen);
         QLOG_TRACE() << feedback;
         emit stopFeekback(feedback);
     }else{
-        QString feedback = QString("ĞÂ[ %1 ]¡¢¾É[ %2 ]  ÕÒµ½ÏàÍ¬URL¼ÇÂ¼Êı[ %3 ]Ìõ. ²îÒì×Ö¶Î¹²[ %4 ]¸ö.").arg(tlen).arg(slen).arg(total).arg(result.size());
+        QString feedback = QString("æ–°[ %1 ]ã€æ—§[ %2 ]  æ‰¾åˆ°ç›¸åŒURLè®°å½•æ•°[ %3 ]æ¡. å·®å¼‚å­—æ®µå…±[ %4 ]ä¸ª.").arg(tlen).arg(slen).arg(total).arg(result.size());
         QLOG_TRACE() << feedback;
         emit stopFeekback(feedback);
     }

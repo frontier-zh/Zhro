@@ -9,8 +9,11 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QString str = "</strong>可分租<br />																																																<strong>开发商";
-    qDebug() <<  str.replace("\t","");
+//    QString str = "</strong>可分租<br />																																																<strong>开发商";
+//    qDebug() <<  str.replace("\t","");
+    QString str = "出租求租";
+    QByteArray bstr = QTextCodec::codecForName("GB2312")->fromUnicode(str);
+     qDebug() << bstr.size();
 
 //    QTime time = QTime::currentTime();
 //    qsrand(time.msec()+time.second()*1000);

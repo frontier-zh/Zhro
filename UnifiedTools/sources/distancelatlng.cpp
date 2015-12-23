@@ -1,4 +1,4 @@
-#include "distancelatlng.h"
+﻿#include "distancelatlng.h"
 #include "ui_distancelatlng.h"
 #include <qmath.h>
 #include <QDebug>
@@ -9,7 +9,6 @@ DistanceLatLng::DistanceLatLng(QWidget *parent) :
     ui(new Ui::DistanceLatLng), poly(""), PI(3.1415926), EARTH_RADIUS(6378137)
 {
     ui->setupUi(this);
-    //ui->polylines->
     ui->polylines->setToolTip("至少输入两点经纬度,也可以轮廓");
     ui->polylines->setStatusTip("至少输入两点经纬度,也可以轮廓");
     ui->result_2->setPlaceholderText("请输入地图指示坐标");

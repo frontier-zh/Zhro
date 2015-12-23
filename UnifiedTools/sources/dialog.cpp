@@ -1,4 +1,4 @@
-#include "dialog.h"
+﻿#include "dialog.h"
 #include "ui_dialog.h"
 #include <QTextCodec>
 #include <QRegExp>
@@ -38,6 +38,9 @@ void
 Dialog::on_pushButton_clicked()
 {
     //clist.clear();
+    reply   = NULL;
+    qDebug() << "Zhro print:" << request;
+    request = new QNetworkRequest();
     QString address = this->ui->httpreq->text();
     QString postinf = this->ui->poststr->toPlainText();
     QString scookie = this->ui->cookiestring->toPlainText();

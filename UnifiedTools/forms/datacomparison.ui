@@ -37,7 +37,7 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>780</x>
+     <x>840</x>
      <y>31</y>
      <width>51</width>
      <height>20</height>
@@ -50,13 +50,13 @@ QPushButton:pressed {
     </font>
    </property>
    <property name="text">
-    <string>新库端口</string>
+    <string>新端口</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>223</x>
      <y>72</y>
      <width>81</width>
      <height>20</height>
@@ -70,22 +70,6 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>旧采集库</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="sdbuser">
-   <property name="geometry">
-    <rect>
-     <x>480</x>
-     <y>70</y>
-     <width>71</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
@@ -110,7 +94,7 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>422</x>
+     <x>392</x>
      <y>31</y>
      <width>71</width>
      <height>20</height>
@@ -129,7 +113,7 @@ QPushButton:pressed {
   <widget class="QLineEdit" name="ddbport">
    <property name="geometry">
     <rect>
-     <x>840</x>
+     <x>884</x>
      <y>31</y>
      <width>51</width>
      <height>20</height>
@@ -145,7 +129,7 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>590</x>
+     <x>500</x>
      <y>32</y>
      <width>71</width>
      <height>20</height>
@@ -161,45 +145,13 @@ QPushButton:pressed {
     <string>新库密码</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="sdbhost">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>71</y>
-     <width>121</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="sdbport">
    <property name="geometry">
     <rect>
-     <x>840</x>
+     <x>884</x>
      <y>71</y>
      <width>51</width>
      <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="ddbhost">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>32</y>
-     <width>121</width>
-     <height>21</height>
     </rect>
    </property>
    <property name="font">
@@ -212,7 +164,7 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>780</x>
+     <x>840</x>
      <y>70</y>
      <width>51</width>
      <height>20</height>
@@ -225,23 +177,7 @@ QPushButton:pressed {
     </font>
    </property>
    <property name="text">
-    <string>旧库端口</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="sdbpwd">
-   <property name="geometry">
-    <rect>
-     <x>650</x>
-     <y>71</y>
-     <width>91</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
+    <string>旧端口</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -266,7 +202,7 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>590</x>
+     <x>500</x>
      <y>71</y>
      <width>71</width>
      <height>20</height>
@@ -285,7 +221,7 @@ QPushButton:pressed {
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>422</x>
+     <x>392</x>
      <y>70</y>
      <width>71</width>
      <height>20</height>
@@ -330,42 +266,10 @@ QPushButton:pressed {
     <string>点击对比</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="ddbpwd">
-   <property name="geometry">
-    <rect>
-     <x>650</x>
-     <y>32</y>
-     <width>91</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="ddbuser">
-   <property name="geometry">
-    <rect>
-     <x>480</x>
-     <y>31</y>
-     <width>71</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>223</x>
      <y>33</y>
      <width>71</width>
      <height>20</height>
@@ -381,44 +285,12 @@ QPushButton:pressed {
     <string>新采集库</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="ddbname">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>31</y>
-     <width>91</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="sdbname">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>70</y>
-     <width>91</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>微软雅黑</family>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>0</y>
-     <width>281</width>
+     <width>731</width>
      <height>31</height>
     </rect>
    </property>
@@ -429,7 +301,7 @@ QPushButton:pressed {
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;新旧采集系统 房源字段信息精确对比:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#ff0000;&quot;&gt;房源字段信息精确对比:【不同库或不同表结构一致，同一datasource同一SourceURl, 且表结构一致】&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
@@ -514,6 +386,204 @@ QPushButton:pressed {
    <property name="font">
     <font>
      <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ddbhost">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>34</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sdbhost">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>70</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ddbname">
+   <property name="geometry">
+    <rect>
+     <x>283</x>
+     <y>33</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sdbname">
+   <property name="geometry">
+    <rect>
+     <x>283</x>
+     <y>70</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ddbuser">
+   <property name="geometry">
+    <rect>
+     <x>447</x>
+     <y>33</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sdbuser">
+   <property name="geometry">
+    <rect>
+     <x>447</x>
+     <y>70</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sdbpwd">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>70</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>SimSun-ExtB</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>71</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>旧表名</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sdbtbl">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>70</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ddbtbl">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>33</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>32</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>新表名</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ddbpwd">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>33</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>SimSun-ExtB</family>
      <pointsize>10</pointsize>
     </font>
    </property>

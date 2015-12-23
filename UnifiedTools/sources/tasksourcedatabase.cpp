@@ -51,7 +51,7 @@ TaskSourceDatabase::connectToDB(const QString &host, int port,
         return false;
     }
 
-    _sourceDB = QSqlDatabase::addDatabase("QODBC", _host );
+    _sourceDB = QSqlDatabase::addDatabase("QODBC", _host + _dbname + _taskTableName);
     _sourceDB.setDatabaseName(QString("DRIVER={SQL SERVER};"
                                       "DATABASE=%1;SERVER=%2;UID=%3;PWD=%4;")
                               .arg(_dbname)
@@ -151,7 +151,7 @@ TaskSourceDatabase::loadPattern(const QString &patternname, RESULT &result)
 bool TaskSourceDatabase::loadDatagetOrigin(MODEL &model)
 {
     model.clear();
-    QString sql = QString("SELECT TOP 2000 * FROM %1 WHERE datasource = '%2' ORDER BY gettime DESC;").arg(_taskTableName).arg(_datasouce);
+    QString sql = QString("SELECT TOP 3000 * FROM %1 WHERE datasource = '%2' ORDER BY gettime DESC;").arg(_taskTableName).arg(_datasouce);
 
     QSqlQuery query(sql, _sourceDB);
     QSqlRecord rec = query.record();

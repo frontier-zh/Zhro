@@ -1,8 +1,9 @@
-#include "drawpolygon.h"
+﻿#include "drawpolygon.h"
 #include "ui_drawpolygon.h"
 #include <QMessageBox>
 #include <QDebug>
 #include <QPainter>
+#include <qmath.h>
 
 
 DrawPolygon::DrawPolygon(QWidget *parent) :
@@ -54,6 +55,14 @@ DrawPolygon::drawMutliPolygon()
         foreach( QString item, points){
             double lng = item.split(",").at(0).toDouble();
             double lat = item.split(",").at(1).toDouble();
+            int    lng_digit = QString::number(lng,'f',0).size();
+            int    lat_digit = QString::number(lat,'f',0).size();
+            //start 2015-12-23 绘制百度地图轮廓 坐标点(13386650.14, 4271008.37)
+            if( lng_digit > 3 && lat_digit > 2 ){
+                lng = lng * 1000.0 / qPow(10,lng_digit);
+                lat = lat * 100.0 / qPow(10,lat_digit);
+            }
+            //end 2015-12-23
             if( lng > maxlng ) maxlng = lng;
             if( lng < minlng ) minlng = lng;
             if( lat > maxlat ) maxlat = lat;

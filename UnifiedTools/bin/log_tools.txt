@@ -1780,3 +1780,1925 @@ TRACE | 2015-11-25T13:15:37.795     ------------轮廓绘制-------------
 TRACE | 2015-11-25T13:15:39.883     ------------地图使用------------- 
 TRACE | 2015-11-25T13:15:41.259     ------------房源信息对比------------- 
 TRACE | 2015-11-25T13:15:42.443     ------------任务导入模块------------- 
+TRACE | 2015-11-25T14:45:34.786     ------------HTTP访问测试------------- 
+TRACE | 2015-11-25T14:47:32.716     post method 
+TRACE | 2015-11-25T14:47:33.596     ============ httpRespone start ============== 
+TRACE | 2015-11-25T14:47:33.612     Server : EFE 
+TRACE | 2015-11-25T14:47:33.612     Date : Wed, 25 Nov 2015 06:47:32 GMT 
+TRACE | 2015-11-25T14:47:33.612     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-25T14:47:33.612     Transfer-Encoding : chunked 
+TRACE | 2015-11-25T14:47:33.612     Connection : keep-alive 
+TRACE | 2015-11-25T14:47:33.612     Vary : Accept-Encoding 
+TRACE | 2015-11-25T14:47:33.612     Pragma : no-cache 
+TRACE | 2015-11-25T14:47:33.612     Cache-Control : max-age=0 
+TRACE | 2015-11-25T14:47:33.613     Expires : Wed, 25 Nov 2015 06:47:32 GMT 
+TRACE | 2015-11-25T14:47:33.613     Content-Language : zh-CN 
+TRACE | 2015-11-25T14:47:33.613     Content-Encoding : gzip 
+TRACE | 2015-11-25T14:47:33.613     Set-Cookie : JSESSIONID=0B0B7B340CBFAD30856AA807DC524F25; Path=/; HttpOnly
+CookieGuid=5a3b0ae1-135b-4eaa-ad17-3d8776e816c2; Domain=elong.com; Expires=Fri, 24-Nov-2017 06:47:31 GMT; Path=/
+SessionGuid=bda94c8d-97ca-4cd0-bf61-257c35e97feb; Domain=elong.com; Path=/; HttpOnly
+Esid=a4ab2785-63fb-4e0e-9051-b1c824c07a1d; Domain=elong.com; Path=/; HttpOnly
+newjava2=2f4b8e5cacbeb31b6c5fed46a30ad700;Path=/
+NSC_PXfcIum_80=ffffffff092b39d845525d5f4f58455e445a4a4229a0;expires=Wed, 25-Nov-2015 07:17:32 GMT;path=/;httponly 
+TRACE | 2015-11-25T14:47:33.613     -------------------------- 
+TRACE | 2015-11-25T14:47:33.613     "JSESSIONID=0B0B7B340CBFAD30856AA807DC524F25" 
+TRACE | 2015-11-25T14:47:33.627     name:  QVariant(QString, "JSESSIONID")  value:  QVariant(QString, "0B0B7B340CBFAD30856AA807DC524F25") 
+TRACE | 2015-11-25T14:47:33.627     -------------------------- 
+TRACE | 2015-11-25T14:47:33.627     "CookieGuid=5a3b0ae1-135b-4eaa-ad17-3d8776e816c2" 
+TRACE | 2015-11-25T14:47:33.627     name:  QVariant(QString, "CookieGuid")  value:  QVariant(QString, "5a3b0ae1-135b-4eaa-ad17-3d8776e816c2") 
+TRACE | 2015-11-25T14:47:33.627     -------------------------- 
+TRACE | 2015-11-25T14:47:33.627     "SessionGuid=bda94c8d-97ca-4cd0-bf61-257c35e97feb" 
+TRACE | 2015-11-25T14:47:33.627     name:  QVariant(QString, "SessionGuid")  value:  QVariant(QString, "bda94c8d-97ca-4cd0-bf61-257c35e97feb") 
+TRACE | 2015-11-25T14:47:33.627     -------------------------- 
+TRACE | 2015-11-25T14:47:33.627     "Esid=a4ab2785-63fb-4e0e-9051-b1c824c07a1d" 
+TRACE | 2015-11-25T14:47:33.627     name:  QVariant(QString, "Esid")  value:  QVariant(QString, "a4ab2785-63fb-4e0e-9051-b1c824c07a1d") 
+TRACE | 2015-11-25T14:47:33.627     -------------------------- 
+TRACE | 2015-11-25T14:47:33.627     "newjava2=2f4b8e5cacbeb31b6c5fed46a30ad700" 
+TRACE | 2015-11-25T14:47:33.628     name:  QVariant(QString, "newjava2")  value:  QVariant(QString, "2f4b8e5cacbeb31b6c5fed46a30ad700") 
+TRACE | 2015-11-25T14:47:33.628     -------------------------- 
+TRACE | 2015-11-25T14:47:33.628     "NSC_PXfcIum_80=ffffffff092b39d845525d5f4f58455e445a4a4229a0" 
+TRACE | 2015-11-25T14:47:33.628     name:  QVariant(QString, "NSC_PXfcIum_80")  value:  QVariant(QString, "ffffffff092b39d845525d5f4f58455e445a4a4229a0") 
+TRACE | 2015-11-25T14:47:33.628     6 
+TRACE | 2015-11-25T14:47:33.743     close http connect. 
+TRACE | 2015-11-25T14:47:33.743     ============ httpRespone end ============== 
+TRACE | 2015-11-25T14:47:46.746     ------------Unicode转中文------------- 
+TRACE | 2015-11-25T14:47:48.907     ifnot include \u :  true 
+TRACE | 2015-11-25T15:17:43.925     ------------HTTP访问测试------------- 
+TRACE | 2015-11-25T15:18:14.485     post method 
+TRACE | 2015-11-25T15:18:16.113     ============ httpRespone start ============== 
+TRACE | 2015-11-25T15:18:16.114     Server : EFE 
+TRACE | 2015-11-25T15:18:16.114     Date : Wed, 25 Nov 2015 07:18:15 GMT 
+TRACE | 2015-11-25T15:18:16.114     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-11-25T15:18:16.114     Transfer-Encoding : chunked 
+TRACE | 2015-11-25T15:18:16.114     Connection : keep-alive 
+TRACE | 2015-11-25T15:18:16.114     Vary : Accept-Encoding 
+TRACE | 2015-11-25T15:18:16.114     Pragma : no-cache 
+TRACE | 2015-11-25T15:18:16.114     Cache-Control : max-age=0 
+TRACE | 2015-11-25T15:18:16.114     Expires : Wed, 25 Nov 2015 07:18:15 GMT 
+TRACE | 2015-11-25T15:18:16.114     Content-Language : zh-CN 
+TRACE | 2015-11-25T15:18:16.115     Content-Encoding : gzip 
+TRACE | 2015-11-25T15:18:16.115     Set-Cookie : JSESSIONID=F9705DEF0DE902743CF516AEB250D0F5; Path=/; HttpOnly
+CookieGuid=b8a2e4cf-5d49-4152-8b1f-e589e2b0af96; Domain=elong.com; Expires=Fri, 24-Nov-2017 07:18:13 GMT; Path=/
+SessionGuid=ca84534b-95d1-4b84-a193-ff0f78fda780; Domain=elong.com; Path=/; HttpOnly
+Esid=2bd8a9bc-af88-436a-be90-2bef017c0a79; Domain=elong.com; Path=/; HttpOnly
+newjava2=b1a507f6059389be30e900af8f925c57;Path=/
+NSC_PXfcIum_80=ffffffff092b39d845525d5f4f58455e445a4a4229a0;expires=Wed, 25-Nov-2015 07:48:15 GMT;path=/;httponly 
+TRACE | 2015-11-25T15:18:16.115     -------------------------- 
+TRACE | 2015-11-25T15:18:16.115     "JSESSIONID=F9705DEF0DE902743CF516AEB250D0F5" 
+TRACE | 2015-11-25T15:18:16.115     name:  QVariant(QString, "JSESSIONID")  value:  QVariant(QString, "F9705DEF0DE902743CF516AEB250D0F5") 
+TRACE | 2015-11-25T15:18:16.115     -------------------------- 
+TRACE | 2015-11-25T15:18:16.115     "CookieGuid=b8a2e4cf-5d49-4152-8b1f-e589e2b0af96" 
+TRACE | 2015-11-25T15:18:16.115     name:  QVariant(QString, "CookieGuid")  value:  QVariant(QString, "b8a2e4cf-5d49-4152-8b1f-e589e2b0af96") 
+TRACE | 2015-11-25T15:18:16.115     -------------------------- 
+TRACE | 2015-11-25T15:18:16.115     "SessionGuid=ca84534b-95d1-4b84-a193-ff0f78fda780" 
+TRACE | 2015-11-25T15:18:16.115     name:  QVariant(QString, "SessionGuid")  value:  QVariant(QString, "ca84534b-95d1-4b84-a193-ff0f78fda780") 
+TRACE | 2015-11-25T15:18:16.115     -------------------------- 
+TRACE | 2015-11-25T15:18:16.115     "Esid=2bd8a9bc-af88-436a-be90-2bef017c0a79" 
+TRACE | 2015-11-25T15:18:16.115     name:  QVariant(QString, "Esid")  value:  QVariant(QString, "2bd8a9bc-af88-436a-be90-2bef017c0a79") 
+TRACE | 2015-11-25T15:18:16.116     -------------------------- 
+TRACE | 2015-11-25T15:18:16.116     "newjava2=b1a507f6059389be30e900af8f925c57" 
+TRACE | 2015-11-25T15:18:16.116     name:  QVariant(QString, "newjava2")  value:  QVariant(QString, "b1a507f6059389be30e900af8f925c57") 
+TRACE | 2015-11-25T15:18:16.116     -------------------------- 
+TRACE | 2015-11-25T15:18:16.116     "NSC_PXfcIum_80=ffffffff092b39d845525d5f4f58455e445a4a4229a0" 
+TRACE | 2015-11-25T15:18:16.116     name:  QVariant(QString, "NSC_PXfcIum_80")  value:  QVariant(QString, "ffffffff092b39d845525d5f4f58455e445a4a4229a0") 
+TRACE | 2015-11-25T15:18:16.116     6 
+TRACE | 2015-11-25T15:18:16.300     close http connect. 
+TRACE | 2015-11-25T15:18:16.301     ============ httpRespone end ============== 
+TRACE | 2015-11-25T15:18:21.100     ------------Unicode转中文------------- 
+TRACE | 2015-11-25T15:18:23.333     ifnot include \u :  true 
+TRACE | 2015-11-26T17:26:53.825     ------------HTTP访问测试------------- 
+TRACE | 2015-11-26T17:26:55.425     ------------地图使用------------- 
+TRACE | 2015-11-27T11:10:56.987     ------------HTTP访问测试------------- 
+TRACE | 2015-11-27T11:11:26.088     get method 
+TRACE | 2015-11-27T11:11:26.298     ============ httpRespone start ============== 
+TRACE | 2015-11-27T11:11:26.312     Content-Length : 315 
+TRACE | 2015-11-27T11:11:26.312     Content-Type : text/html 
+TRACE | 2015-11-27T11:11:26.312     Location : http://www.hcw.so/post/fangwu/fw_cz_img.asp?strZone=0&strHuXing=0&strMoney=0&strClass=0&ab=0&abc=0&page=1 
+TRACE | 2015-11-27T11:11:26.314     0 
+TRACE | 2015-11-27T11:11:29.962     ============ httpRespone start ============== 
+TRACE | 2015-11-27T11:11:29.963     Cache-Control : private 
+TRACE | 2015-11-27T11:11:29.963     Content-Type : text/html 
+TRACE | 2015-11-27T11:11:29.963     Content-Encoding : gzip 
+TRACE | 2015-11-27T11:11:29.964     Vary : Accept-Encoding 
+TRACE | 2015-11-27T11:11:29.964     Server : Microsoft-IIS/7.5 
+TRACE | 2015-11-27T11:11:29.964     Set-Cookie : ASPSESSIONIDQCQQSBQA=MIINKAMDCFOGGFEAMAIDHECA; path=/ 
+TRACE | 2015-11-27T11:11:29.964     X-Powered-By : ASP.NET 
+TRACE | 2015-11-27T11:11:29.964     Date : Fri, 27 Nov 2015 03:11:45 GMT 
+TRACE | 2015-11-27T11:11:29.964     -------------------------- 
+TRACE | 2015-11-27T11:11:29.964     "ASPSESSIONIDQCQQSBQA=MIINKAMDCFOGGFEAMAIDHECA" 
+TRACE | 2015-11-27T11:11:29.981     name:  QVariant(QString, "ASPSESSIONIDQCQQSBQA")  value:  QVariant(QString, "MIINKAMDCFOGGFEAMAIDHECA") 
+TRACE | 2015-11-27T11:11:29.981     1 
+TRACE | 2015-11-27T11:11:30.003     close http connect. 
+TRACE | 2015-11-27T11:11:30.003     ============ httpRespone end ============== 
+TRACE | 2015-11-27T11:11:32.884     get method 
+TRACE | 2015-11-27T11:11:33.044     ============ httpRespone start ============== 
+TRACE | 2015-11-27T11:11:33.044     Content-Length : 315 
+TRACE | 2015-11-27T11:11:33.044     Content-Type : text/html 
+TRACE | 2015-11-27T11:11:33.044     Location : http://www.hcw.so/post/fangwu/fw_cz_img.asp?strZone=0&strHuXing=0&strMoney=0&strClass=0&ab=0&abc=0&page=1 
+TRACE | 2015-11-27T11:11:33.045     1 
+TRACE | 2015-11-27T11:11:34.658     ============ httpRespone start ============== 
+TRACE | 2015-11-27T11:11:34.659     Cache-Control : private 
+TRACE | 2015-11-27T11:11:34.659     Content-Type : text/html 
+TRACE | 2015-11-27T11:11:34.659     Content-Encoding : gzip 
+TRACE | 2015-11-27T11:11:34.659     Vary : Accept-Encoding 
+TRACE | 2015-11-27T11:11:34.659     Server : Microsoft-IIS/7.5 
+TRACE | 2015-11-27T11:11:34.660     X-Powered-By : ASP.NET 
+TRACE | 2015-11-27T11:11:34.660     Date : Fri, 27 Nov 2015 03:11:51 GMT 
+TRACE | 2015-11-27T11:11:34.660     1 
+TRACE | 2015-11-27T11:11:34.667     close http connect. 
+TRACE | 2015-11-27T11:11:34.667     ============ httpRespone end ============== 
+TRACE | 2015-12-01T16:32:51.700     ------------时间戳转换------------- 
+TRACE | 2015-12-01T16:32:53.604     ------------Unicode转中文------------- 
+TRACE | 2015-12-01T16:32:54.805     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-12-01T16:32:57.141     ------------经纬度范围细化------------- 
+TRACE | 2015-12-01T16:32:58.437     ------------UrlEncode编码------------- 
+TRACE | 2015-12-01T16:32:59.164     ------------Unicode转中文------------- 
+TRACE | 2015-12-01T16:33:01.605     ifnot include \u :  true 
+TRACE | 2015-12-01T17:49:03.475     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-12-01T17:49:09.786     ------------轮廓绘制------------- 
+TRACE | 2015-12-01T17:49:18.019     ------------经纬度范围细化------------- 
+TRACE | 2015-12-01T17:49:19.292     ------------地图使用------------- 
+TRACE | 2015-12-02T17:27:24.662     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-12-04T09:34:54.074     ------------轮廓绘制------------- 
+TRACE | 2015-12-04T09:34:57.633     ------------地图使用------------- 
+TRACE | 2015-12-04T09:35:12.370     ------------轮廓绘制------------- 
+TRACE | 2015-12-04T11:02:50.959     ------------时间戳转换------------- 
+TRACE | 2015-12-04T15:39:36.667     ------------任务导入模块------------- 
+TRACE | 2015-12-04T15:39:40.584     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:08:31.226     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:10:35.178     ------------任务导入模块------------- 
+TRACE | 2015-12-04T16:10:36.746     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:12:27.729     ------------任务导入模块------------- 
+TRACE | 2015-12-04T16:12:29.297     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:16:11.657     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:17:06.882     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:18:56.530     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:20:40.394     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:21:44.683     datasource :    "sh_58_rent" 
+TRACE | 2015-12-04T16:21:44.694     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T16:21:44.747     DataComparison Connecting to target "10.10.65.192" 
+TRACE | 2015-12-04T16:21:49.607     Source model size:  2000  Target model size:  0 
+TRACE | 2015-12-04T16:21:49.608     "��[ 0 ]����[ 2000 ]  �޷����ɱȶ�!" 
+TRACE | 2015-12-04T16:22:01.979     datasource :    "sh_58_rent" 
+TRACE | 2015-12-04T16:22:01.983     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T16:22:02.000     DataComparison Connecting to target "10.10.65.192" 
+TRACE | 2015-12-04T16:22:08.201     Source model size:  2000  Target model size:  0 
+TRACE | 2015-12-04T16:22:08.201     "��[ 0 ]����[ 2000 ]  �޷����ɱȶ�!" 
+TRACE | 2015-12-04T16:25:16.082     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:25:39.243     datasource :    "sh_58_rent" 
+TRACE | 2015-12-04T16:25:39.243     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T16:25:39.314     QSqlError(18456, "QODBC3: Unable to connect", "[Microsoft][ODBC SQL Server Driver][SQL Server]用户 'sa' 登录失败。") 
+TRACE | 2015-12-04T16:25:39.314     "��ϵͳ��Դ�����ʧ��[ 10.10.65.194 : data_get : 1433 : sa : 2205886lyx ]" 
+TRACE | 2015-12-04T16:29:29.931     ------------TCP/IP[Cli_Send]------------- 
+TRACE | 2015-12-04T16:29:33.154     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:29:50.475     datasource :    "sh_58_rent" 
+TRACE | 2015-12-04T16:29:50.479     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T16:29:50.559     QSqlError(18456, "QODBC3: Unable to connect", "[Microsoft][ODBC SQL Server Driver][SQL Server]用户 'sa' 登录失败。") 
+TRACE | 2015-12-04T16:29:50.559     "??????????[ 10.10.65.194 : data_get : 1433 : sa : 2205886lyx ]" 
+TRACE | 2015-12-04T16:35:07.730     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:35:19.147     datasource :    "sh_58_rent" 
+TRACE | 2015-12-04T16:35:19.148     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T16:35:19.193     QSqlError(18456, "QODBC3: Unable to connect", "[Microsoft][ODBC SQL Server Driver][SQL Server]用户 'sa' 登录失败。") 
+TRACE | 2015-12-04T16:35:19.193     "��ϵͳ��Դ�����ʧ��[ 10.10.65.194 : data_get : 1433 : sa : 2205886lyx ]" 
+TRACE | 2015-12-04T16:39:37.363     ------------房源信息对比------------- 
+TRACE | 2015-12-04T16:39:49.044     datasource :    "sh_58_rent" 
+TRACE | 2015-12-04T16:39:49.048     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T16:39:49.157     QSqlError(18456, "QODBC3: Unable to connect", "[Microsoft][ODBC SQL Server Driver][SQL Server]用户 'sa' 登录失败。") 
+TRACE | 2015-12-04T16:39:49.158     "旧系统房源库链接失败[ 10.10.65.194 : data_get : 1433 : sa : 2205886lyx ]" 
+TRACE | 2015-12-04T16:45:15.204     ------------房源信息对比------------- 
+TRACE | 2015-12-04T17:15:59.781     ------------房源信息对比------------- 
+TRACE | 2015-12-04T17:17:22.190     datasource :    "qd_qdfd_salecount" 
+TRACE | 2015-12-04T17:17:22.191     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T17:17:22.275     DataComparison Connecting to target "10.10.65.194" 
+TRACE | 2015-12-04T17:17:22.321     QSqlError(-1, "Driver not loaded", "Driver not loaded") 
+TRACE | 2015-12-04T17:17:22.321     "旧系统获得房源记录失败[ 10.10.65.194 : data_hasale ]" 
+TRACE | 2015-12-04T17:21:30.878     ------------房源信息对比------------- 
+TRACE | 2015-12-04T17:22:09.815     datasource :    "qd_qdfd_salecount" 
+TRACE | 2015-12-04T17:22:09.815     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T17:22:09.850     DataComparison Connecting to target "10.10.65.194" 
+TRACE | 2015-12-04T17:22:12.668     Source model size:  2000  Target model size:  750 
+TRACE | 2015-12-04T17:22:24.247     "新[ 750 ]、旧[ 2000 ]  未找到相同URL的匹配记录!" 
+TRACE | 2015-12-04T17:26:51.518     ------------房源信息对比------------- 
+TRACE | 2015-12-04T17:27:26.663     datasource :    "qd_qdfd_salecount" 
+TRACE | 2015-12-04T17:27:26.663     DataComparison Connecting to source "10.10.65.194" 
+TRACE | 2015-12-04T17:27:26.700     DataComparison Connecting to target "10.10.65.194" 
+TRACE | 2015-12-04T17:27:30.781     Source model size:  2849  Target model size:  778 
+TRACE | 2015-12-04T17:27:45.880     "新[ 778 ]、旧[ 2849 ]  找到相同URL记录数[ 778 ]条. 差异字段共[ 5275 ]个." 
+TRACE | 2015-12-07T09:52:26.735     ------------地图使用------------- 
+TRACE | 2015-12-07T11:45:40.526     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T11:46:52.491     post method 
+TRACE | 2015-12-07T11:46:53.910     ============ httpRespone start ============== 
+TRACE | 2015-12-07T11:46:53.910     Date : Mon, 07 Dec 2015 03:46:49 GMT 
+TRACE | 2015-12-07T11:46:53.911     Server : Microsoft-IIS/6.0 
+TRACE | 2015-12-07T11:46:53.911     X-Powered-By : ASP.NET 
+TRACE | 2015-12-07T11:46:53.911     X-AspNet-Version : 4.0.30319 
+TRACE | 2015-12-07T11:46:53.911     Cache-Control : private 
+TRACE | 2015-12-07T11:46:53.911     Content-Type : text/html; charset=utf-8 
+TRACE | 2015-12-07T11:46:53.912     Content-Length : 33957 
+TRACE | 2015-12-07T11:46:53.912     1 
+TRACE | 2015-12-07T11:46:53.922     close http connect. 
+TRACE | 2015-12-07T11:46:53.922     ============ httpRespone end ============== 
+TRACE | 2015-12-07T11:50:02.070     ------------UrlEncode编码------------- 
+TRACE | 2015-12-07T11:50:03.078     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:08:48.183     ------------UrlEncode编码------------- 
+TRACE | 2015-12-07T12:08:48.823     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:09:08.927     get method 
+TRACE | 2015-12-07T12:09:09.141     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:09:09.142     Date : Mon, 07 Dec 2015 04:09:04 GMT 
+TRACE | 2015-12-07T12:09:09.142     Content-Type : text/html 
+TRACE | 2015-12-07T12:09:09.142     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:09:09.142     Connection : keep-alive 
+TRACE | 2015-12-07T12:09:09.143     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:09:09.143     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:09:09.143     Server : YUNDUN 
+TRACE | 2015-12-07T12:09:09.143     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:09:09.143     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:09:09.143     0 
+TRACE | 2015-12-07T12:09:09.147     close http connect. 
+TRACE | 2015-12-07T12:09:09.147     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:12:35.551     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:12:36.656     ------------UrlEncode编码------------- 
+TRACE | 2015-12-07T12:12:37.304     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:12:57.359     ------------Unicode转中文------------- 
+TRACE | 2015-12-07T12:12:58.207     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:13:12.872     ------------UrlEncode编码------------- 
+TRACE | 2015-12-07T12:13:13.672     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:13:22.279     get method 
+TRACE | 2015-12-07T12:13:22.487     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:13:22.488     Date : Mon, 07 Dec 2015 04:13:18 GMT 
+TRACE | 2015-12-07T12:13:22.488     Content-Type : text/html 
+TRACE | 2015-12-07T12:13:22.488     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:13:22.488     Connection : keep-alive 
+TRACE | 2015-12-07T12:13:22.488     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:13:22.488     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:13:22.488     Server : YUNDUN 
+TRACE | 2015-12-07T12:13:22.488     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:13:22.489     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:13:22.489     0 
+TRACE | 2015-12-07T12:13:22.491     close http connect. 
+TRACE | 2015-12-07T12:13:22.491     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:13:33.872     get method 
+TRACE | 2015-12-07T12:13:33.925     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:13:33.925     Date : Mon, 07 Dec 2015 04:13:29 GMT 
+TRACE | 2015-12-07T12:13:33.925     Content-Type : text/html 
+TRACE | 2015-12-07T12:13:33.926     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:13:33.926     Connection : keep-alive 
+TRACE | 2015-12-07T12:13:33.926     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:13:33.926     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:13:33.926     Server : YUNDUN 
+TRACE | 2015-12-07T12:13:33.926     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:13:33.926     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:13:33.926     0 
+TRACE | 2015-12-07T12:13:33.929     close http connect. 
+TRACE | 2015-12-07T12:13:33.929     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:13:35.096     get method 
+TRACE | 2015-12-07T12:13:35.146     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:13:35.146     Date : Mon, 07 Dec 2015 04:13:30 GMT 
+TRACE | 2015-12-07T12:13:35.146     Content-Type : text/html 
+TRACE | 2015-12-07T12:13:35.146     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:13:35.147     Connection : keep-alive 
+TRACE | 2015-12-07T12:13:35.147     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:13:35.147     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:13:35.147     Server : YUNDUN 
+TRACE | 2015-12-07T12:13:35.147     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:13:35.147     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:13:35.147     0 
+TRACE | 2015-12-07T12:13:35.149     close http connect. 
+TRACE | 2015-12-07T12:13:35.150     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:14:12.545     get method 
+TRACE | 2015-12-07T12:14:12.599     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:14:12.599     Date : Mon, 07 Dec 2015 04:14:08 GMT 
+TRACE | 2015-12-07T12:14:12.599     Content-Type : text/html 
+TRACE | 2015-12-07T12:14:12.599     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:14:12.599     Connection : keep-alive 
+TRACE | 2015-12-07T12:14:12.599     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:14:12.599     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:14:12.599     Server : YUNDUN 
+TRACE | 2015-12-07T12:14:12.599     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:14:12.599     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:14:12.600     19 
+TRACE | 2015-12-07T12:14:12.602     close http connect. 
+TRACE | 2015-12-07T12:14:12.602     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:14:13.824     get method 
+TRACE | 2015-12-07T12:14:13.876     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:14:13.876     Date : Mon, 07 Dec 2015 04:14:09 GMT 
+TRACE | 2015-12-07T12:14:13.876     Content-Type : text/html 
+TRACE | 2015-12-07T12:14:13.877     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:14:13.877     Connection : keep-alive 
+TRACE | 2015-12-07T12:14:13.877     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:14:13.877     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:14:13.877     Server : YUNDUN 
+TRACE | 2015-12-07T12:14:13.877     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:14:13.877     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:14:13.877     19 
+TRACE | 2015-12-07T12:14:13.879     close http connect. 
+TRACE | 2015-12-07T12:14:13.880     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:16:15.200     ------------UrlEncode编码------------- 
+TRACE | 2015-12-07T12:16:15.767     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:16:18.952     get method 
+TRACE | 2015-12-07T12:16:19.165     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:16:19.165     Date : Mon, 07 Dec 2015 04:16:14 GMT 
+TRACE | 2015-12-07T12:16:19.165     Content-Type : text/html 
+TRACE | 2015-12-07T12:16:19.166     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:16:19.166     Connection : keep-alive 
+TRACE | 2015-12-07T12:16:19.166     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:16:19.166     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:16:19.166     Server : YUNDUN 
+TRACE | 2015-12-07T12:16:19.166     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:16:19.167     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:16:19.167     0 
+TRACE | 2015-12-07T12:16:19.171     close http connect. 
+TRACE | 2015-12-07T12:16:19.171     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:17:36.232     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:17:45.680     get method 
+TRACE | 2015-12-07T12:17:45.884     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:17:45.884     Date : Mon, 07 Dec 2015 04:17:41 GMT 
+TRACE | 2015-12-07T12:17:45.884     Content-Type : text/html 
+TRACE | 2015-12-07T12:17:45.884     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:17:45.885     Connection : keep-alive 
+TRACE | 2015-12-07T12:17:45.885     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:17:45.885     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:17:45.885     Server : YUNDUN 
+TRACE | 2015-12-07T12:17:45.885     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:17:45.885     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:17:45.886     19 
+TRACE | 2015-12-07T12:17:45.890     close http connect. 
+TRACE | 2015-12-07T12:17:45.891     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:21:41.896     ------------HTTP访问测试------------- 
+TRACE | 2015-12-07T12:21:57.060     get method 
+TRACE | 2015-12-07T12:21:57.060     http request error:  301 QNetworkReplyImpl(0x5009df8) 
+TRACE | 2015-12-07T12:21:57.060     reply->error() 
+TRACE | 2015-12-07T12:21:57.061     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:21:57.061     0 
+TRACE | 2015-12-07T12:21:57.062     close http connect. 
+TRACE | 2015-12-07T12:21:57.062     ============ httpRespone end ============== 
+TRACE | 2015-12-07T12:22:20.208     get method 
+TRACE | 2015-12-07T12:22:20.332     ============ httpRespone start ============== 
+TRACE | 2015-12-07T12:22:20.332     Date : Mon, 07 Dec 2015 04:22:16 GMT 
+TRACE | 2015-12-07T12:22:20.333     Content-Type : text/html 
+TRACE | 2015-12-07T12:22:20.333     Transfer-Encoding : chunked 
+TRACE | 2015-12-07T12:22:20.333     Connection : keep-alive 
+TRACE | 2015-12-07T12:22:20.333     Vary : Accept-Encoding 
+TRACE | 2015-12-07T12:22:20.333     Cache-Control : no-cache, no-store 
+TRACE | 2015-12-07T12:22:20.333     Server : YUNDUN 
+TRACE | 2015-12-07T12:22:20.334     X-Cache : from YUNDUN 
+TRACE | 2015-12-07T12:22:20.334     Content-Encoding : gzip 
+TRACE | 2015-12-07T12:22:20.334     0 
+TRACE | 2015-12-07T12:22:20.342     close http connect. 
+TRACE | 2015-12-07T12:22:20.342     ============ httpRespone end ============== 
+TRACE | 2015-12-10T11:51:39.101     ------------地图使用------------- 
+TRACE | 2015-12-18T14:38:54.180     ------------HTTP访问测试------------- 
+TRACE | 2015-12-18T14:39:02.521     get method 
+TRACE | 2015-12-18T14:39:02.753     ============ httpRespone start ============== 
+TRACE | 2015-12-18T14:39:02.754     Server : nginx/1.6.2 
+TRACE | 2015-12-18T14:39:02.755     Date : Fri, 18 Dec 2015 06:31:35 GMT 
+TRACE | 2015-12-18T14:39:02.755     Content-Type : text/html; charset=UTF-8 
+TRACE | 2015-12-18T14:39:02.755     Content-Length : 279 
+TRACE | 2015-12-18T14:39:02.755     Connection : keep-alive 
+TRACE | 2015-12-18T14:39:02.755     X-Powered-By : PHP/5.3.3 
+TRACE | 2015-12-18T14:39:02.755     Cache-Control : no-cache 
+TRACE | 2015-12-18T14:39:02.756     Pragma : no-cache 
+TRACE | 2015-12-18T14:39:02.756     Set-Cookie : hitparking=1; expires=Sat, 19-Dec-2015 06:31:35 GMT 
+TRACE | 2015-12-18T14:39:02.757     -------------------------- 
+TRACE | 2015-12-18T14:39:02.757     "hitparking=1" 
+TRACE | 2015-12-18T14:39:02.757     name:  QVariant(QString, "hitparking")  value:  QVariant(QString, "1") 
+TRACE | 2015-12-18T14:39:02.757     1 
+TRACE | 2015-12-18T14:39:02.770     close http connect. 
+TRACE | 2015-12-18T14:39:02.770     ============ httpRespone end ============== 
+TRACE | 2015-12-18T17:27:04.298     ------------轮廓绘制------------- 
+TRACE | 2015-12-18T17:56:40.764     ------------HTTP访问测试------------- 
+TRACE | 2015-12-18T17:56:46.131     get method 
+TRACE | 2015-12-18T17:56:46.482     ============ httpRespone start ============== 
+TRACE | 2015-12-18T17:56:46.483     Date : Fri, 18 Dec 2015 09:56:43 GMT 
+TRACE | 2015-12-18T17:56:46.484     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-18T17:56:46.484     Transfer-Encoding : chunked 
+TRACE | 2015-12-18T17:56:46.484     Connection : keep-alive 
+TRACE | 2015-12-18T17:56:46.484     X-Powered-By : Express 
+TRACE | 2015-12-18T17:56:46.484     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-18T17:56:46.484     Vary : Accept-Encoding 
+TRACE | 2015-12-18T17:56:46.485     Content-Encoding : gzip 
+TRACE | 2015-12-18T17:56:46.485     0 
+TRACE | 2015-12-18T17:56:46.521     close http connect. 
+TRACE | 2015-12-18T17:56:46.521     ============ httpRespone end ============== 
+TRACE | 2015-12-18T18:00:01.309     ------------HTTP访问测试------------- 
+TRACE | 2015-12-18T18:00:05.772     ------------轮廓绘制------------- 
+TRACE | 2015-12-21T09:30:57.396     ------------轮廓绘制------------- 
+TRACE | 2015-12-21T09:42:45.932     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T09:42:50.958     get method 
+TRACE | 2015-12-21T09:42:51.259     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:42:51.260     Date : Mon, 21 Dec 2015 01:42:45 GMT 
+TRACE | 2015-12-21T09:42:51.260     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:42:51.260     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:42:51.261     Connection : keep-alive 
+TRACE | 2015-12-21T09:42:51.261     X-Powered-By : Express 
+TRACE | 2015-12-21T09:42:51.261     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T09:42:51.261     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:42:51.261     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:42:51.261     0 
+TRACE | 2015-12-21T09:42:51.285     close http connect. 
+TRACE | 2015-12-21T09:42:51.285     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:44:18.742     get method 
+TRACE | 2015-12-21T09:44:19.019     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:44:19.019     Date : Mon, 21 Dec 2015 01:44:13 GMT 
+TRACE | 2015-12-21T09:44:19.019     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:44:19.019     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:44:19.019     Connection : keep-alive 
+TRACE | 2015-12-21T09:44:19.020     X-Powered-By : Express 
+TRACE | 2015-12-21T09:44:19.020     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T09:44:19.020     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:44:19.020     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:44:19.020     0 
+TRACE | 2015-12-21T09:44:19.029     close http connect. 
+TRACE | 2015-12-21T09:44:19.029     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:44:32.734     get method 
+TRACE | 2015-12-21T09:44:32.972     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:44:32.972     Date : Mon, 21 Dec 2015 01:44:27 GMT 
+TRACE | 2015-12-21T09:44:32.973     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:44:32.973     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:44:32.973     Connection : keep-alive 
+TRACE | 2015-12-21T09:44:32.973     X-Powered-By : Express 
+TRACE | 2015-12-21T09:44:32.973     ETag : W/"1705-ICqQ+wYDOIx72qmpbUQ0IQ" 
+TRACE | 2015-12-21T09:44:32.973     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:44:32.974     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:44:32.974     0 
+TRACE | 2015-12-21T09:44:32.991     close http connect. 
+TRACE | 2015-12-21T09:44:32.991     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:45:03.613     get method 
+TRACE | 2015-12-21T09:45:03.886     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:45:03.887     Date : Mon, 21 Dec 2015 01:44:58 GMT 
+TRACE | 2015-12-21T09:45:03.887     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:45:03.887     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:45:03.887     Connection : keep-alive 
+TRACE | 2015-12-21T09:45:03.887     X-Powered-By : Express 
+TRACE | 2015-12-21T09:45:03.888     ETag : W/"1705-ICqQ+wYDOIx72qmpbUQ0IQ" 
+TRACE | 2015-12-21T09:45:03.888     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:45:03.888     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:45:03.888     0 
+TRACE | 2015-12-21T09:45:03.898     close http connect. 
+TRACE | 2015-12-21T09:45:03.898     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:45:20.797     get method 
+TRACE | 2015-12-21T09:45:21.196     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:45:21.196     Date : Mon, 21 Dec 2015 01:45:15 GMT 
+TRACE | 2015-12-21T09:45:21.197     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:45:21.197     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:45:21.197     Connection : keep-alive 
+TRACE | 2015-12-21T09:45:21.197     X-Powered-By : Express 
+TRACE | 2015-12-21T09:45:21.197     ETag : W/"1601-eEiDljY7v+FRG4e88lVdZg" 
+TRACE | 2015-12-21T09:45:21.197     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:45:21.198     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:45:21.198     0 
+TRACE | 2015-12-21T09:45:21.213     close http connect. 
+TRACE | 2015-12-21T09:45:21.213     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:45:49.262     get method 
+TRACE | 2015-12-21T09:45:49.527     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:45:49.527     Date : Mon, 21 Dec 2015 01:45:43 GMT 
+TRACE | 2015-12-21T09:45:49.527     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:45:49.527     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:45:49.527     Connection : keep-alive 
+TRACE | 2015-12-21T09:45:49.528     X-Powered-By : Express 
+TRACE | 2015-12-21T09:45:49.528     ETag : W/"15f5-2+lBbpNf86doRlyicUIHYQ" 
+TRACE | 2015-12-21T09:45:49.528     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:45:49.528     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:45:49.528     0 
+TRACE | 2015-12-21T09:45:49.539     close http connect. 
+TRACE | 2015-12-21T09:45:49.539     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:46:09.589     get method 
+TRACE | 2015-12-21T09:46:10.095     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:46:10.095     Date : Mon, 21 Dec 2015 01:46:04 GMT 
+TRACE | 2015-12-21T09:46:10.096     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:46:10.096     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:46:10.096     Connection : keep-alive 
+TRACE | 2015-12-21T09:46:10.096     X-Powered-By : Express 
+TRACE | 2015-12-21T09:46:10.096     ETag : W/"149b-W5En479rc5XtQWMhJxe35w" 
+TRACE | 2015-12-21T09:46:10.096     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:46:10.097     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:46:10.097     0 
+TRACE | 2015-12-21T09:46:10.106     close http connect. 
+TRACE | 2015-12-21T09:46:10.106     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:56:53.775     get method 
+TRACE | 2015-12-21T09:56:54.124     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:56:54.124     Date : Mon, 21 Dec 2015 01:56:48 GMT 
+TRACE | 2015-12-21T09:56:54.125     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:56:54.125     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:56:54.125     Connection : keep-alive 
+TRACE | 2015-12-21T09:56:54.125     X-Powered-By : Express 
+TRACE | 2015-12-21T09:56:54.125     ETag : W/"1705-ICqQ+wYDOIx72qmpbUQ0IQ" 
+TRACE | 2015-12-21T09:56:54.126     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:56:54.126     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:56:54.126     0 
+TRACE | 2015-12-21T09:56:54.137     close http connect. 
+TRACE | 2015-12-21T09:56:54.137     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:57:10.343     get method 
+TRACE | 2015-12-21T09:57:10.642     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:57:10.642     Date : Mon, 21 Dec 2015 01:57:05 GMT 
+TRACE | 2015-12-21T09:57:10.642     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:57:10.642     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:57:10.643     Connection : keep-alive 
+TRACE | 2015-12-21T09:57:10.643     X-Powered-By : Express 
+TRACE | 2015-12-21T09:57:10.643     ETag : W/"149b-W5En479rc5XtQWMhJxe35w" 
+TRACE | 2015-12-21T09:57:10.643     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:57:10.643     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:57:10.643     0 
+TRACE | 2015-12-21T09:57:10.659     close http connect. 
+TRACE | 2015-12-21T09:57:10.659     ============ httpRespone end ============== 
+TRACE | 2015-12-21T09:57:11.703     get method 
+TRACE | 2015-12-21T09:57:12.237     ============ httpRespone start ============== 
+TRACE | 2015-12-21T09:57:12.237     Date : Mon, 21 Dec 2015 01:57:06 GMT 
+TRACE | 2015-12-21T09:57:12.237     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T09:57:12.237     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T09:57:12.237     Connection : keep-alive 
+TRACE | 2015-12-21T09:57:12.237     X-Powered-By : Express 
+TRACE | 2015-12-21T09:57:12.238     ETag : W/"149b-W5En479rc5XtQWMhJxe35w" 
+TRACE | 2015-12-21T09:57:12.238     Vary : Accept-Encoding 
+TRACE | 2015-12-21T09:57:12.238     Content-Encoding : gzip 
+TRACE | 2015-12-21T09:57:12.238     0 
+TRACE | 2015-12-21T09:57:12.252     close http connect. 
+TRACE | 2015-12-21T09:57:12.253     ============ httpRespone end ============== 
+TRACE | 2015-12-21T10:32:05.977     get method 
+TRACE | 2015-12-21T10:32:06.202     ============ httpRespone start ============== 
+TRACE | 2015-12-21T10:32:06.202     Date : Mon, 21 Dec 2015 02:32:00 GMT 
+TRACE | 2015-12-21T10:32:06.202     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T10:32:06.202     Content-Length : 271 
+TRACE | 2015-12-21T10:32:06.202     Connection : keep-alive 
+TRACE | 2015-12-21T10:32:06.202     X-Powered-By : Express 
+TRACE | 2015-12-21T10:32:06.203     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T10:32:06.203     ETag : W/"10f-KXn+D9gvXMLBuurwIJt5uA" 
+TRACE | 2015-12-21T10:32:06.203     Vary : Accept-Encoding 
+TRACE | 2015-12-21T10:32:06.203     0 
+TRACE | 2015-12-21T10:32:06.205     close http connect. 
+TRACE | 2015-12-21T10:32:06.205     ============ httpRespone end ============== 
+TRACE | 2015-12-21T10:32:12.898     get method 
+TRACE | 2015-12-21T10:32:12.938     ============ httpRespone start ============== 
+TRACE | 2015-12-21T10:32:12.939     Date : Mon, 21 Dec 2015 02:32:07 GMT 
+TRACE | 2015-12-21T10:32:12.939     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T10:32:12.939     Content-Length : 288 
+TRACE | 2015-12-21T10:32:12.939     Connection : keep-alive 
+TRACE | 2015-12-21T10:32:12.939     X-Powered-By : Express 
+TRACE | 2015-12-21T10:32:12.939     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T10:32:12.940     ETag : W/"120-jhAykMLdJU/+eEZeNZi+RQ" 
+TRACE | 2015-12-21T10:32:12.940     Vary : Accept-Encoding 
+TRACE | 2015-12-21T10:32:12.940     0 
+TRACE | 2015-12-21T10:32:12.941     close http connect. 
+TRACE | 2015-12-21T10:32:12.942     ============ httpRespone end ============== 
+TRACE | 2015-12-21T10:32:30.137     ------------UrlEncode编码------------- 
+TRACE | 2015-12-21T10:32:30.745     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T10:32:33.561     get method 
+TRACE | 2015-12-21T10:32:33.650     ============ httpRespone start ============== 
+TRACE | 2015-12-21T10:32:33.650     Date : Mon, 21 Dec 2015 02:32:28 GMT 
+TRACE | 2015-12-21T10:32:33.650     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T10:32:33.651     Content-Length : 288 
+TRACE | 2015-12-21T10:32:33.651     Connection : keep-alive 
+TRACE | 2015-12-21T10:32:33.651     X-Powered-By : Express 
+TRACE | 2015-12-21T10:32:33.651     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T10:32:33.651     ETag : W/"120-jhAykMLdJU/+eEZeNZi+RQ" 
+TRACE | 2015-12-21T10:32:33.651     Vary : Accept-Encoding 
+TRACE | 2015-12-21T10:32:33.652     0 
+TRACE | 2015-12-21T10:32:33.653     close http connect. 
+TRACE | 2015-12-21T10:32:33.653     ============ httpRespone end ============== 
+TRACE | 2015-12-21T10:33:31.033     get method 
+TRACE | 2015-12-21T10:33:31.187     ============ httpRespone start ============== 
+TRACE | 2015-12-21T10:33:31.188     Date : Mon, 21 Dec 2015 02:33:25 GMT 
+TRACE | 2015-12-21T10:33:31.188     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T10:33:31.188     Content-Length : 220 
+TRACE | 2015-12-21T10:33:31.188     Connection : keep-alive 
+TRACE | 2015-12-21T10:33:31.188     X-Powered-By : Express 
+TRACE | 2015-12-21T10:33:31.189     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T10:33:31.189     ETag : W/"dc-Z4Epk53ZiiJCTkxtRp3URw" 
+TRACE | 2015-12-21T10:33:31.189     Vary : Accept-Encoding 
+TRACE | 2015-12-21T10:33:31.189     0 
+TRACE | 2015-12-21T10:33:31.190     close http connect. 
+TRACE | 2015-12-21T10:33:31.191     ============ httpRespone end ============== 
+TRACE | 2015-12-21T10:38:48.882     get method 
+TRACE | 2015-12-21T10:38:49.042     ============ httpRespone start ============== 
+TRACE | 2015-12-21T10:38:49.042     Date : Mon, 21 Dec 2015 02:38:43 GMT 
+TRACE | 2015-12-21T10:38:49.043     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T10:38:49.043     Content-Length : 220 
+TRACE | 2015-12-21T10:38:49.043     Connection : keep-alive 
+TRACE | 2015-12-21T10:38:49.043     X-Powered-By : Express 
+TRACE | 2015-12-21T10:38:49.043     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T10:38:49.043     ETag : W/"dc-Z4Epk53ZiiJCTkxtRp3URw" 
+TRACE | 2015-12-21T10:38:49.044     Vary : Accept-Encoding 
+TRACE | 2015-12-21T10:38:49.044     0 
+TRACE | 2015-12-21T10:38:49.045     close http connect. 
+TRACE | 2015-12-21T10:38:49.046     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:07:47.197     get method 
+TRACE | 2015-12-21T11:07:47.507     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:07:47.507     Date : Mon, 21 Dec 2015 03:07:41 GMT 
+TRACE | 2015-12-21T11:07:47.507     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:07:47.507     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:07:47.507     Connection : keep-alive 
+TRACE | 2015-12-21T11:07:47.508     X-Powered-By : Express 
+TRACE | 2015-12-21T11:07:47.508     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:07:47.508     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:07:47.508     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:07:47.508     0 
+TRACE | 2015-12-21T11:07:47.531     close http connect. 
+TRACE | 2015-12-21T11:07:47.531     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:08:53.837     get method 
+TRACE | 2015-12-21T11:08:54.016     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:08:54.016     Server : Tengine 
+TRACE | 2015-12-21T11:08:54.016     Date : Mon, 21 Dec 2015 03:08:48 GMT 
+TRACE | 2015-12-21T11:08:54.016     Content-Type : application/json;charset=UTF-8 
+TRACE | 2015-12-21T11:08:54.017     Content-Length : 95 
+TRACE | 2015-12-21T11:08:54.017     Connection : keep-alive 
+TRACE | 2015-12-21T11:08:54.017     0 
+TRACE | 2015-12-21T11:08:54.019     close http connect. 
+TRACE | 2015-12-21T11:08:54.019     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:25.413     get method 
+TRACE | 2015-12-21T11:10:25.747     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:25.747     Date : Mon, 21 Dec 2015 03:10:20 GMT 
+TRACE | 2015-12-21T11:10:25.747     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:25.747     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:25.748     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:25.748     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:25.748     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:25.748     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:25.748     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:25.748     0 
+TRACE | 2015-12-21T11:10:25.764     close http connect. 
+TRACE | 2015-12-21T11:10:25.764     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:38.413     get method 
+TRACE | 2015-12-21T11:10:38.669     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:38.669     Date : Mon, 21 Dec 2015 03:10:33 GMT 
+TRACE | 2015-12-21T11:10:38.670     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:38.670     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:38.670     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:38.670     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:38.670     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:38.671     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:38.671     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:38.671     0 
+TRACE | 2015-12-21T11:10:38.686     close http connect. 
+TRACE | 2015-12-21T11:10:38.686     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:40.021     get method 
+TRACE | 2015-12-21T11:10:40.251     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:40.251     Date : Mon, 21 Dec 2015 03:10:34 GMT 
+TRACE | 2015-12-21T11:10:40.251     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:40.251     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:40.251     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:40.251     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:40.252     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:40.252     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:40.252     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:40.252     0 
+TRACE | 2015-12-21T11:10:40.267     close http connect. 
+TRACE | 2015-12-21T11:10:40.268     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:41.765     get method 
+TRACE | 2015-12-21T11:10:42.054     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:42.054     Date : Mon, 21 Dec 2015 03:10:36 GMT 
+TRACE | 2015-12-21T11:10:42.055     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:42.055     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:42.055     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:42.055     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:42.055     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:42.055     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:42.055     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:42.056     0 
+TRACE | 2015-12-21T11:10:42.068     close http connect. 
+TRACE | 2015-12-21T11:10:42.068     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:43.037     get method 
+TRACE | 2015-12-21T11:10:43.273     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:43.274     Date : Mon, 21 Dec 2015 03:10:37 GMT 
+TRACE | 2015-12-21T11:10:43.274     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:43.274     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:43.274     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:43.274     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:43.274     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:43.274     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:43.274     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:43.274     0 
+TRACE | 2015-12-21T11:10:43.284     close http connect. 
+TRACE | 2015-12-21T11:10:43.284     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:44.085     get method 
+TRACE | 2015-12-21T11:10:44.326     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:44.326     Date : Mon, 21 Dec 2015 03:10:38 GMT 
+TRACE | 2015-12-21T11:10:44.326     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:44.326     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:44.326     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:44.326     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:44.331     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:44.340     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:44.344     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:44.346     0 
+TRACE | 2015-12-21T11:10:44.357     close http connect. 
+TRACE | 2015-12-21T11:10:44.357     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:45.028     get method 
+TRACE | 2015-12-21T11:10:45.274     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:45.274     Date : Mon, 21 Dec 2015 03:10:39 GMT 
+TRACE | 2015-12-21T11:10:45.274     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:45.274     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:45.274     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:45.274     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:45.274     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:45.274     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:45.274     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:45.275     0 
+TRACE | 2015-12-21T11:10:45.284     close http connect. 
+TRACE | 2015-12-21T11:10:45.284     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:46.180     get method 
+TRACE | 2015-12-21T11:10:46.424     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:46.424     Date : Mon, 21 Dec 2015 03:10:40 GMT 
+TRACE | 2015-12-21T11:10:46.425     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:46.425     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:46.425     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:46.425     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:46.425     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:46.425     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:46.425     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:46.425     0 
+TRACE | 2015-12-21T11:10:46.434     close http connect. 
+TRACE | 2015-12-21T11:10:46.434     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:47.508     get method 
+TRACE | 2015-12-21T11:10:47.751     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:47.752     Date : Mon, 21 Dec 2015 03:10:42 GMT 
+TRACE | 2015-12-21T11:10:47.752     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:47.752     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:47.752     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:47.752     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:47.753     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:47.753     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:47.753     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:47.753     0 
+TRACE | 2015-12-21T11:10:47.766     close http connect. 
+TRACE | 2015-12-21T11:10:47.766     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:48.436     get method 
+TRACE | 2015-12-21T11:10:48.656     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:48.656     Date : Mon, 21 Dec 2015 03:10:43 GMT 
+TRACE | 2015-12-21T11:10:48.656     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:48.656     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:48.657     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:48.657     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:48.657     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:48.657     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:48.657     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:48.657     0 
+TRACE | 2015-12-21T11:10:48.673     close http connect. 
+TRACE | 2015-12-21T11:10:48.673     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:49.900     get method 
+TRACE | 2015-12-21T11:10:50.151     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:50.151     Date : Mon, 21 Dec 2015 03:10:44 GMT 
+TRACE | 2015-12-21T11:10:50.152     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:50.152     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:50.152     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:50.152     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:50.152     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:50.152     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:50.153     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:50.153     0 
+TRACE | 2015-12-21T11:10:50.168     close http connect. 
+TRACE | 2015-12-21T11:10:50.168     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:51.012     get method 
+TRACE | 2015-12-21T11:10:51.261     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:51.261     Date : Mon, 21 Dec 2015 03:10:45 GMT 
+TRACE | 2015-12-21T11:10:51.261     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:51.261     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:51.261     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:51.262     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:51.262     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:51.262     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:51.262     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:51.262     0 
+TRACE | 2015-12-21T11:10:51.276     close http connect. 
+TRACE | 2015-12-21T11:10:51.276     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:53.205     get method 
+TRACE | 2015-12-21T11:10:53.430     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:53.430     Date : Mon, 21 Dec 2015 03:10:47 GMT 
+TRACE | 2015-12-21T11:10:53.430     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:53.430     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:53.430     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:53.430     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:53.431     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:53.431     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:53.431     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:53.431     0 
+TRACE | 2015-12-21T11:10:53.439     close http connect. 
+TRACE | 2015-12-21T11:10:53.439     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:54.229     get method 
+TRACE | 2015-12-21T11:10:54.471     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:54.471     Date : Mon, 21 Dec 2015 03:10:48 GMT 
+TRACE | 2015-12-21T11:10:54.471     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:54.471     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:54.471     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:54.471     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:54.471     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:54.472     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:54.472     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:54.472     0 
+TRACE | 2015-12-21T11:10:54.481     close http connect. 
+TRACE | 2015-12-21T11:10:54.481     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:55.125     get method 
+TRACE | 2015-12-21T11:10:55.364     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:55.365     Date : Mon, 21 Dec 2015 03:10:49 GMT 
+TRACE | 2015-12-21T11:10:55.365     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:55.365     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:55.365     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:55.365     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:55.365     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:55.366     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:55.366     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:55.366     0 
+TRACE | 2015-12-21T11:10:55.381     close http connect. 
+TRACE | 2015-12-21T11:10:55.381     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:56.141     get method 
+TRACE | 2015-12-21T11:10:56.422     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:56.422     Date : Mon, 21 Dec 2015 03:10:50 GMT 
+TRACE | 2015-12-21T11:10:56.422     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:56.423     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:56.423     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:56.423     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:56.423     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:56.423     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:56.423     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:56.423     0 
+TRACE | 2015-12-21T11:10:56.439     close http connect. 
+TRACE | 2015-12-21T11:10:56.439     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:57.197     get method 
+TRACE | 2015-12-21T11:10:57.444     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:57.445     Date : Mon, 21 Dec 2015 03:10:51 GMT 
+TRACE | 2015-12-21T11:10:57.445     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:57.445     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:57.445     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:57.445     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:57.446     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:57.446     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:57.446     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:57.446     0 
+TRACE | 2015-12-21T11:10:57.461     close http connect. 
+TRACE | 2015-12-21T11:10:57.461     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:58.517     get method 
+TRACE | 2015-12-21T11:10:58.750     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:58.750     Date : Mon, 21 Dec 2015 03:10:53 GMT 
+TRACE | 2015-12-21T11:10:58.750     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:58.750     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:58.750     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:58.751     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:58.751     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:58.751     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:58.751     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:58.751     0 
+TRACE | 2015-12-21T11:10:58.766     close http connect. 
+TRACE | 2015-12-21T11:10:58.767     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:10:59.669     get method 
+TRACE | 2015-12-21T11:10:59.898     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:10:59.898     Date : Mon, 21 Dec 2015 03:10:54 GMT 
+TRACE | 2015-12-21T11:10:59.898     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:10:59.898     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:10:59.898     Connection : keep-alive 
+TRACE | 2015-12-21T11:10:59.898     X-Powered-By : Express 
+TRACE | 2015-12-21T11:10:59.899     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:10:59.900     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:10:59.900     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:10:59.900     0 
+TRACE | 2015-12-21T11:10:59.914     close http connect. 
+TRACE | 2015-12-21T11:10:59.915     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:11:00.717     get method 
+TRACE | 2015-12-21T11:11:00.958     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:11:00.958     Date : Mon, 21 Dec 2015 03:10:55 GMT 
+TRACE | 2015-12-21T11:11:00.958     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:11:00.958     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:11:00.958     Connection : keep-alive 
+TRACE | 2015-12-21T11:11:00.959     X-Powered-By : Express 
+TRACE | 2015-12-21T11:11:00.959     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:11:00.959     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:11:00.959     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:11:00.959     0 
+TRACE | 2015-12-21T11:11:00.975     close http connect. 
+TRACE | 2015-12-21T11:11:00.976     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:11:03.020     get method 
+TRACE | 2015-12-21T11:11:03.273     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:11:03.274     Date : Mon, 21 Dec 2015 03:10:57 GMT 
+TRACE | 2015-12-21T11:11:03.274     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:11:03.274     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:11:03.274     Connection : keep-alive 
+TRACE | 2015-12-21T11:11:03.274     X-Powered-By : Express 
+TRACE | 2015-12-21T11:11:03.274     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:11:03.275     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:11:03.275     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:11:03.275     0 
+TRACE | 2015-12-21T11:11:03.290     close http connect. 
+TRACE | 2015-12-21T11:11:03.291     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:11:04.412     get method 
+TRACE | 2015-12-21T11:11:04.633     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:11:04.633     Date : Mon, 21 Dec 2015 03:10:59 GMT 
+TRACE | 2015-12-21T11:11:04.633     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:11:04.633     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:11:04.633     Connection : keep-alive 
+TRACE | 2015-12-21T11:11:04.634     X-Powered-By : Express 
+TRACE | 2015-12-21T11:11:04.634     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:11:04.634     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:11:04.634     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:11:04.634     0 
+TRACE | 2015-12-21T11:11:04.649     close http connect. 
+TRACE | 2015-12-21T11:11:04.650     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:11:41.412     get method 
+TRACE | 2015-12-21T11:11:41.808     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:11:41.808     Date : Mon, 21 Dec 2015 03:11:36 GMT 
+TRACE | 2015-12-21T11:11:41.808     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:11:41.808     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:11:41.808     Connection : keep-alive 
+TRACE | 2015-12-21T11:11:41.809     X-Powered-By : Express 
+TRACE | 2015-12-21T11:11:41.809     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:11:41.809     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:11:41.809     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:11:41.809     0 
+TRACE | 2015-12-21T11:11:41.824     close http connect. 
+TRACE | 2015-12-21T11:11:41.824     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:11:42.396     get method 
+TRACE | 2015-12-21T11:11:42.622     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:11:42.622     Date : Mon, 21 Dec 2015 03:11:37 GMT 
+TRACE | 2015-12-21T11:11:42.622     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:11:42.622     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:11:42.622     Connection : keep-alive 
+TRACE | 2015-12-21T11:11:42.622     X-Powered-By : Express 
+TRACE | 2015-12-21T11:11:42.623     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:11:42.623     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:11:42.623     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:11:42.623     0 
+TRACE | 2015-12-21T11:11:42.639     close http connect. 
+TRACE | 2015-12-21T11:11:42.639     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:12:45.156     get method 
+TRACE | 2015-12-21T11:12:45.458     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:12:45.458     Date : Mon, 21 Dec 2015 03:12:39 GMT 
+TRACE | 2015-12-21T11:12:45.458     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:12:45.458     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:12:45.458     Connection : keep-alive 
+TRACE | 2015-12-21T11:12:45.458     X-Powered-By : Express 
+TRACE | 2015-12-21T11:12:45.458     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:12:45.458     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:12:45.458     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:12:45.459     0 
+TRACE | 2015-12-21T11:12:45.469     close http connect. 
+TRACE | 2015-12-21T11:12:45.469     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:12:46.413     get method 
+TRACE | 2015-12-21T11:12:46.661     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:12:46.661     Date : Mon, 21 Dec 2015 03:12:41 GMT 
+TRACE | 2015-12-21T11:12:46.661     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:12:46.661     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:12:46.662     Connection : keep-alive 
+TRACE | 2015-12-21T11:12:46.662     X-Powered-By : Express 
+TRACE | 2015-12-21T11:12:46.662     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:12:46.662     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:12:46.662     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:12:46.662     0 
+TRACE | 2015-12-21T11:12:46.679     close http connect. 
+TRACE | 2015-12-21T11:12:46.679     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:13:44.557     get method 
+TRACE | 2015-12-21T11:13:44.933     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:13:44.933     Date : Mon, 21 Dec 2015 03:13:39 GMT 
+TRACE | 2015-12-21T11:13:44.934     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:13:44.934     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:13:44.934     Connection : keep-alive 
+TRACE | 2015-12-21T11:13:44.934     X-Powered-By : Express 
+TRACE | 2015-12-21T11:13:44.934     ETag : W/"1601-eEiDljY7v+FRG4e88lVdZg" 
+TRACE | 2015-12-21T11:13:44.934     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:13:44.935     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:13:44.935     0 
+TRACE | 2015-12-21T11:13:44.950     close http connect. 
+TRACE | 2015-12-21T11:13:44.950     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:14:22.141     get method 
+TRACE | 2015-12-21T11:14:22.409     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:14:22.409     Date : Mon, 21 Dec 2015 03:14:16 GMT 
+TRACE | 2015-12-21T11:14:22.409     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:14:22.409     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:14:22.409     Connection : keep-alive 
+TRACE | 2015-12-21T11:14:22.409     X-Powered-By : Express 
+TRACE | 2015-12-21T11:14:22.409     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:14:22.409     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:14:22.409     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:14:22.410     0 
+TRACE | 2015-12-21T11:14:22.418     close http connect. 
+TRACE | 2015-12-21T11:14:22.418     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:15:59.757     get method 
+TRACE | 2015-12-21T11:16:00.128     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:16:00.128     Date : Mon, 21 Dec 2015 03:15:54 GMT 
+TRACE | 2015-12-21T11:16:00.128     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:16:00.128     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:16:00.129     Connection : keep-alive 
+TRACE | 2015-12-21T11:16:00.129     X-Powered-By : Express 
+TRACE | 2015-12-21T11:16:00.129     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:16:00.129     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:16:00.129     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:16:00.129     0 
+TRACE | 2015-12-21T11:16:00.139     close http connect. 
+TRACE | 2015-12-21T11:16:00.140     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:16:45.429     get method 
+TRACE | 2015-12-21T11:16:45.693     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:16:45.693     Date : Mon, 21 Dec 2015 03:16:40 GMT 
+TRACE | 2015-12-21T11:16:45.693     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:16:45.694     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:16:45.694     Connection : keep-alive 
+TRACE | 2015-12-21T11:16:45.694     X-Powered-By : Express 
+TRACE | 2015-12-21T11:16:45.694     ETag : W/"1442-75xjK3yStQmyOnfRXZJvow" 
+TRACE | 2015-12-21T11:16:45.694     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:16:45.695     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:16:45.695     0 
+TRACE | 2015-12-21T11:16:45.710     close http connect. 
+TRACE | 2015-12-21T11:16:45.710     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:52:48.232     ------------Unicode转中文------------- 
+TRACE | 2015-12-21T11:52:48.928     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T11:52:51.632     get method 
+TRACE | 2015-12-21T11:52:51.901     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:52:51.901     Date : Mon, 21 Dec 2015 03:52:46 GMT 
+TRACE | 2015-12-21T11:52:51.901     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:52:51.901     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:52:51.901     Connection : keep-alive 
+TRACE | 2015-12-21T11:52:51.901     X-Powered-By : Express 
+TRACE | 2015-12-21T11:52:51.901     ETag : W/"743-0uf8cAx+DQdqTpqEq0G09g" 
+TRACE | 2015-12-21T11:52:51.901     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:52:51.902     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:52:51.902     0 
+TRACE | 2015-12-21T11:52:52.176     close http connect. 
+TRACE | 2015-12-21T11:52:52.176     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:52:55.368     get method 
+TRACE | 2015-12-21T11:52:55.648     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:52:55.648     Date : Mon, 21 Dec 2015 03:52:50 GMT 
+TRACE | 2015-12-21T11:52:55.648     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:52:55.648     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:52:55.648     Connection : keep-alive 
+TRACE | 2015-12-21T11:52:55.649     X-Powered-By : Express 
+TRACE | 2015-12-21T11:52:55.649     ETag : W/"3486-s8C0g1I+Wj3wAgjgRUoSPg" 
+TRACE | 2015-12-21T11:52:55.649     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:52:55.649     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:52:55.649     0 
+TRACE | 2015-12-21T11:52:55.700     close http connect. 
+TRACE | 2015-12-21T11:52:55.700     ============ httpRespone end ============== 
+TRACE | 2015-12-21T11:57:58.457     get method 
+TRACE | 2015-12-21T11:57:58.793     ============ httpRespone start ============== 
+TRACE | 2015-12-21T11:57:58.793     Date : Mon, 21 Dec 2015 03:57:53 GMT 
+TRACE | 2015-12-21T11:57:58.793     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T11:57:58.793     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T11:57:58.794     Connection : keep-alive 
+TRACE | 2015-12-21T11:57:58.794     X-Powered-By : Express 
+TRACE | 2015-12-21T11:57:58.794     ETag : W/"135e-AcsCvEpvSjANCJoBh2SbOw" 
+TRACE | 2015-12-21T11:57:58.794     Vary : Accept-Encoding 
+TRACE | 2015-12-21T11:57:58.794     Content-Encoding : gzip 
+TRACE | 2015-12-21T11:57:58.794     0 
+TRACE | 2015-12-21T11:57:58.800     close http connect. 
+TRACE | 2015-12-21T11:57:58.800     ============ httpRespone end ============== 
+TRACE | 2015-12-21T12:27:44.491     get method 
+TRACE | 2015-12-21T12:27:44.679     ============ httpRespone start ============== 
+TRACE | 2015-12-21T12:27:44.679     Date : Mon, 21 Dec 2015 04:27:39 GMT 
+TRACE | 2015-12-21T12:27:44.680     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T12:27:44.680     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T12:27:44.680     Connection : keep-alive 
+TRACE | 2015-12-21T12:27:44.680     X-Powered-By : Express 
+TRACE | 2015-12-21T12:27:44.680     ETag : W/"89c-SpUVELLSY9ZaGd0qXULMTw" 
+TRACE | 2015-12-21T12:27:44.680     Vary : Accept-Encoding 
+TRACE | 2015-12-21T12:27:44.680     Content-Encoding : gzip 
+TRACE | 2015-12-21T12:27:44.680     0 
+TRACE | 2015-12-21T12:27:44.684     close http connect. 
+TRACE | 2015-12-21T12:27:44.685     ============ httpRespone end ============== 
+TRACE | 2015-12-21T12:55:09.469     get method 
+TRACE | 2015-12-21T12:55:09.634     ============ httpRespone start ============== 
+TRACE | 2015-12-21T12:55:09.634     Date : Mon, 21 Dec 2015 04:55:04 GMT 
+TRACE | 2015-12-21T12:55:09.635     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T12:55:09.635     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T12:55:09.635     Connection : keep-alive 
+TRACE | 2015-12-21T12:55:09.635     X-Powered-By : Express 
+TRACE | 2015-12-21T12:55:09.635     ETag : W/"89c-WC6iLM1+sPUYWJq2vX+Mxg" 
+TRACE | 2015-12-21T12:55:09.635     Vary : Accept-Encoding 
+TRACE | 2015-12-21T12:55:09.635     Content-Encoding : gzip 
+TRACE | 2015-12-21T12:55:09.635     0 
+TRACE | 2015-12-21T12:55:09.639     close http connect. 
+TRACE | 2015-12-21T12:55:09.639     ============ httpRespone end ============== 
+TRACE | 2015-12-21T12:57:58.518     get method 
+TRACE | 2015-12-21T12:57:59.046     ============ httpRespone start ============== 
+TRACE | 2015-12-21T12:57:59.046     Date : Mon, 21 Dec 2015 04:57:53 GMT 
+TRACE | 2015-12-21T12:57:59.046     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T12:57:59.046     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T12:57:59.046     Connection : keep-alive 
+TRACE | 2015-12-21T12:57:59.047     X-Powered-By : Express 
+TRACE | 2015-12-21T12:57:59.047     ETag : W/"3f01-Ct3pQgCh5EpuzlvGcklO3g" 
+TRACE | 2015-12-21T12:57:59.047     Vary : Accept-Encoding 
+TRACE | 2015-12-21T12:57:59.047     Content-Encoding : gzip 
+TRACE | 2015-12-21T12:57:59.047     0 
+TRACE | 2015-12-21T12:57:59.104     close http connect. 
+TRACE | 2015-12-21T12:57:59.104     ============ httpRespone end ============== 
+TRACE | 2015-12-21T13:17:49.310     ------------UrlEncode编码------------- 
+TRACE | 2015-12-21T13:17:49.990     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T13:17:53.639     get method 
+TRACE | 2015-12-21T13:17:53.755     ============ httpRespone start ============== 
+TRACE | 2015-12-21T13:17:53.755     Date : Mon, 21 Dec 2015 05:17:48 GMT 
+TRACE | 2015-12-21T13:17:53.755     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T13:17:53.756     Content-Length : 222 
+TRACE | 2015-12-21T13:17:53.756     Connection : keep-alive 
+TRACE | 2015-12-21T13:17:53.756     X-Powered-By : Express 
+TRACE | 2015-12-21T13:17:53.756     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T13:17:53.756     ETag : W/"de-t9vbG8HMNFkbUXq+NWxiSQ" 
+TRACE | 2015-12-21T13:17:53.756     Vary : Accept-Encoding 
+TRACE | 2015-12-21T13:17:53.756     0 
+TRACE | 2015-12-21T13:17:53.757     close http connect. 
+TRACE | 2015-12-21T13:17:53.757     ============ httpRespone end ============== 
+TRACE | 2015-12-21T13:22:13.559     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T13:22:17.032     get method 
+TRACE | 2015-12-21T13:22:17.253     ============ httpRespone start ============== 
+TRACE | 2015-12-21T13:22:17.254     Date : Mon, 21 Dec 2015 05:22:11 GMT 
+TRACE | 2015-12-21T13:22:17.254     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T13:22:17.254     Content-Length : 177 
+TRACE | 2015-12-21T13:22:17.254     Connection : keep-alive 
+TRACE | 2015-12-21T13:22:17.254     X-Powered-By : Express 
+TRACE | 2015-12-21T13:22:17.255     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T13:22:17.255     ETag : W/"b1-FrgyWu05JrgsS3nvmaEfrg" 
+TRACE | 2015-12-21T13:22:17.255     Vary : Accept-Encoding 
+TRACE | 2015-12-21T13:22:17.255     0 
+TRACE | 2015-12-21T13:22:17.261     close http connect. 
+TRACE | 2015-12-21T13:22:17.261     ============ httpRespone end ============== 
+TRACE | 2015-12-21T13:22:20.151     get method 
+TRACE | 2015-12-21T13:22:20.202     ============ httpRespone start ============== 
+TRACE | 2015-12-21T13:22:20.202     Date : Mon, 21 Dec 2015 05:22:14 GMT 
+TRACE | 2015-12-21T13:22:20.202     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T13:22:20.202     Content-Length : 186 
+TRACE | 2015-12-21T13:22:20.202     Connection : keep-alive 
+TRACE | 2015-12-21T13:22:20.203     X-Powered-By : Express 
+TRACE | 2015-12-21T13:22:20.203     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T13:22:20.203     ETag : W/"ba-6/MIq5C0Seb0b6B6tjEaPg" 
+TRACE | 2015-12-21T13:22:20.203     Vary : Accept-Encoding 
+TRACE | 2015-12-21T13:22:20.203     0 
+TRACE | 2015-12-21T13:22:20.204     close http connect. 
+TRACE | 2015-12-21T13:22:20.204     ============ httpRespone end ============== 
+TRACE | 2015-12-21T13:28:55.071     ------------地图使用------------- 
+TRACE | 2015-12-21T13:29:40.672     ------------轮廓绘制------------- 
+TRACE | 2015-12-21T13:32:57.575     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T13:33:01.064     get method 
+TRACE | 2015-12-21T13:33:01.473     ============ httpRespone start ============== 
+TRACE | 2015-12-21T13:33:01.473     Date : Mon, 21 Dec 2015 05:32:55 GMT 
+TRACE | 2015-12-21T13:33:01.473     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T13:33:01.473     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T13:33:01.474     Connection : keep-alive 
+TRACE | 2015-12-21T13:33:01.474     X-Powered-By : Express 
+TRACE | 2015-12-21T13:33:01.474     ETag : W/"66ed-QK7CHBZ8Y1RMMQyGllKtXQ" 
+TRACE | 2015-12-21T13:33:01.474     Vary : Accept-Encoding 
+TRACE | 2015-12-21T13:33:01.474     Content-Encoding : gzip 
+TRACE | 2015-12-21T13:33:01.474     0 
+TRACE | 2015-12-21T13:33:01.539     close http connect. 
+TRACE | 2015-12-21T13:33:01.539     ============ httpRespone end ============== 
+TRACE | 2015-12-21T13:45:44.585     get method 
+TRACE | 2015-12-21T13:45:44.733     ============ httpRespone start ============== 
+TRACE | 2015-12-21T13:45:44.733     Date : Mon, 21 Dec 2015 05:45:39 GMT 
+TRACE | 2015-12-21T13:45:44.733     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T13:45:44.733     Content-Length : 204 
+TRACE | 2015-12-21T13:45:44.733     Connection : keep-alive 
+TRACE | 2015-12-21T13:45:44.733     X-Powered-By : Express 
+TRACE | 2015-12-21T13:45:44.733     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T13:45:44.733     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T13:45:44.733     Vary : Accept-Encoding 
+TRACE | 2015-12-21T13:45:44.733     0 
+TRACE | 2015-12-21T13:45:44.735     close http connect. 
+TRACE | 2015-12-21T13:45:44.735     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:06:34.219     get method 
+TRACE | 2015-12-21T14:06:34.553     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:06:34.553     Date : Mon, 21 Dec 2015 06:06:28 GMT 
+TRACE | 2015-12-21T14:06:34.554     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:06:34.554     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T14:06:34.554     Connection : keep-alive 
+TRACE | 2015-12-21T14:06:34.554     X-Powered-By : Express 
+TRACE | 2015-12-21T14:06:34.554     ETag : W/"20e3-8dDaiFR6qGiP+7s2pJlEcQ" 
+TRACE | 2015-12-21T14:06:34.554     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:06:34.554     Content-Encoding : gzip 
+TRACE | 2015-12-21T14:06:34.554     0 
+TRACE | 2015-12-21T14:06:34.568     close http connect. 
+TRACE | 2015-12-21T14:06:34.568     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:07:30.075     get method 
+TRACE | 2015-12-21T14:07:30.371     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:07:30.371     Date : Mon, 21 Dec 2015 06:07:24 GMT 
+TRACE | 2015-12-21T14:07:30.371     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:07:30.371     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T14:07:30.371     Connection : keep-alive 
+TRACE | 2015-12-21T14:07:30.371     X-Powered-By : Express 
+TRACE | 2015-12-21T14:07:30.371     ETag : W/"20e3-8dDaiFR6qGiP+7s2pJlEcQ" 
+TRACE | 2015-12-21T14:07:30.371     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:07:30.371     Content-Encoding : gzip 
+TRACE | 2015-12-21T14:07:30.371     0 
+TRACE | 2015-12-21T14:07:30.385     close http connect. 
+TRACE | 2015-12-21T14:07:30.385     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:24:17.164     get method 
+TRACE | 2015-12-21T14:24:17.287     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:24:17.288     Date : Mon, 21 Dec 2015 06:24:11 GMT 
+TRACE | 2015-12-21T14:24:17.288     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:24:17.288     Content-Length : 204 
+TRACE | 2015-12-21T14:24:17.288     Connection : keep-alive 
+TRACE | 2015-12-21T14:24:17.288     X-Powered-By : Express 
+TRACE | 2015-12-21T14:24:17.288     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T14:24:17.288     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T14:24:17.288     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:24:17.288     0 
+TRACE | 2015-12-21T14:24:17.290     close http connect. 
+TRACE | 2015-12-21T14:24:17.290     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:25:11.004     get method 
+TRACE | 2015-12-21T14:25:11.092     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:25:11.092     Date : Mon, 21 Dec 2015 06:25:05 GMT 
+TRACE | 2015-12-21T14:25:11.092     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:25:11.092     Content-Length : 204 
+TRACE | 2015-12-21T14:25:11.092     Connection : keep-alive 
+TRACE | 2015-12-21T14:25:11.092     X-Powered-By : Express 
+TRACE | 2015-12-21T14:25:11.092     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T14:25:11.092     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T14:25:11.093     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:25:11.093     0 
+TRACE | 2015-12-21T14:25:11.094     close http connect. 
+TRACE | 2015-12-21T14:25:11.094     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:31:51.141     get method 
+TRACE | 2015-12-21T14:31:51.328     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:31:51.328     Date : Mon, 21 Dec 2015 06:31:45 GMT 
+TRACE | 2015-12-21T14:31:51.329     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:31:51.329     Content-Length : 204 
+TRACE | 2015-12-21T14:31:51.329     Connection : keep-alive 
+TRACE | 2015-12-21T14:31:51.329     X-Powered-By : Express 
+TRACE | 2015-12-21T14:31:51.329     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T14:31:51.329     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T14:31:51.330     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:31:51.330     0 
+TRACE | 2015-12-21T14:31:51.331     close http connect. 
+TRACE | 2015-12-21T14:31:51.332     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:45:05.118     get method 
+TRACE | 2015-12-21T14:45:05.249     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:45:05.249     Date : Mon, 21 Dec 2015 06:44:59 GMT 
+TRACE | 2015-12-21T14:45:05.249     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:45:05.249     Content-Length : 204 
+TRACE | 2015-12-21T14:45:05.249     Connection : keep-alive 
+TRACE | 2015-12-21T14:45:05.250     X-Powered-By : Express 
+TRACE | 2015-12-21T14:45:05.250     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T14:45:05.250     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T14:45:05.250     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:45:05.250     0 
+TRACE | 2015-12-21T14:45:05.252     close http connect. 
+TRACE | 2015-12-21T14:45:05.252     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:45:06.990     get method 
+TRACE | 2015-12-21T14:45:07.045     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:45:07.045     Date : Mon, 21 Dec 2015 06:45:01 GMT 
+TRACE | 2015-12-21T14:45:07.045     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:45:07.045     Content-Length : 204 
+TRACE | 2015-12-21T14:45:07.045     Connection : keep-alive 
+TRACE | 2015-12-21T14:45:07.046     X-Powered-By : Express 
+TRACE | 2015-12-21T14:45:07.046     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T14:45:07.046     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T14:45:07.046     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:45:07.046     0 
+TRACE | 2015-12-21T14:45:07.048     close http connect. 
+TRACE | 2015-12-21T14:45:07.048     ============ httpRespone end ============== 
+TRACE | 2015-12-21T14:45:21.542     get method 
+TRACE | 2015-12-21T14:45:22.046     ============ httpRespone start ============== 
+TRACE | 2015-12-21T14:45:22.046     Date : Mon, 21 Dec 2015 06:45:16 GMT 
+TRACE | 2015-12-21T14:45:22.046     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T14:45:22.046     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T14:45:22.047     Connection : keep-alive 
+TRACE | 2015-12-21T14:45:22.047     X-Powered-By : Express 
+TRACE | 2015-12-21T14:45:22.047     ETag : W/"20e3-8dDaiFR6qGiP+7s2pJlEcQ" 
+TRACE | 2015-12-21T14:45:22.047     Vary : Accept-Encoding 
+TRACE | 2015-12-21T14:45:22.047     Content-Encoding : gzip 
+TRACE | 2015-12-21T14:45:22.047     0 
+TRACE | 2015-12-21T14:45:22.062     close http connect. 
+TRACE | 2015-12-21T14:45:22.062     ============ httpRespone end ============== 
+TRACE | 2015-12-21T15:16:29.080     get method 
+TRACE | 2015-12-21T15:16:29.406     ============ httpRespone start ============== 
+TRACE | 2015-12-21T15:16:29.406     Date : Mon, 21 Dec 2015 07:16:23 GMT 
+TRACE | 2015-12-21T15:16:29.407     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T15:16:29.407     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T15:16:29.407     Connection : keep-alive 
+TRACE | 2015-12-21T15:16:29.407     X-Powered-By : Express 
+TRACE | 2015-12-21T15:16:29.407     ETag : W/"20e3-8dDaiFR6qGiP+7s2pJlEcQ" 
+TRACE | 2015-12-21T15:16:29.407     Vary : Accept-Encoding 
+TRACE | 2015-12-21T15:16:29.408     Content-Encoding : gzip 
+TRACE | 2015-12-21T15:16:29.408     0 
+TRACE | 2015-12-21T15:16:29.432     close http connect. 
+TRACE | 2015-12-21T15:16:29.432     ============ httpRespone end ============== 
+TRACE | 2015-12-21T15:47:31.067     get method 
+TRACE | 2015-12-21T15:47:31.191     ============ httpRespone start ============== 
+TRACE | 2015-12-21T15:47:31.191     Date : Mon, 21 Dec 2015 07:47:25 GMT 
+TRACE | 2015-12-21T15:47:31.191     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T15:47:31.191     Content-Length : 204 
+TRACE | 2015-12-21T15:47:31.191     Connection : keep-alive 
+TRACE | 2015-12-21T15:47:31.191     X-Powered-By : Express 
+TRACE | 2015-12-21T15:47:31.191     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T15:47:31.191     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T15:47:31.192     Vary : Accept-Encoding 
+TRACE | 2015-12-21T15:47:31.192     0 
+TRACE | 2015-12-21T15:47:31.193     close http connect. 
+TRACE | 2015-12-21T15:47:31.193     ============ httpRespone end ============== 
+TRACE | 2015-12-21T15:58:13.708     get method 
+TRACE | 2015-12-21T15:58:13.829     ============ httpRespone start ============== 
+TRACE | 2015-12-21T15:58:13.829     Date : Mon, 21 Dec 2015 07:58:08 GMT 
+TRACE | 2015-12-21T15:58:13.829     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T15:58:13.829     Content-Length : 204 
+TRACE | 2015-12-21T15:58:13.829     Connection : keep-alive 
+TRACE | 2015-12-21T15:58:13.830     X-Powered-By : Express 
+TRACE | 2015-12-21T15:58:13.830     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T15:58:13.830     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T15:58:13.830     Vary : Accept-Encoding 
+TRACE | 2015-12-21T15:58:13.830     0 
+TRACE | 2015-12-21T15:58:13.831     close http connect. 
+TRACE | 2015-12-21T15:58:13.831     ============ httpRespone end ============== 
+TRACE | 2015-12-21T16:09:41.949     get method 
+TRACE | 2015-12-21T16:09:42.158     ============ httpRespone start ============== 
+TRACE | 2015-12-21T16:09:42.158     Date : Mon, 21 Dec 2015 08:09:36 GMT 
+TRACE | 2015-12-21T16:09:42.158     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T16:09:42.158     Content-Length : 204 
+TRACE | 2015-12-21T16:09:42.159     Connection : keep-alive 
+TRACE | 2015-12-21T16:09:42.159     X-Powered-By : Express 
+TRACE | 2015-12-21T16:09:42.159     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T16:09:42.159     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T16:09:42.159     Vary : Accept-Encoding 
+TRACE | 2015-12-21T16:09:42.159     0 
+TRACE | 2015-12-21T16:09:42.161     close http connect. 
+TRACE | 2015-12-21T16:09:42.161     ============ httpRespone end ============== 
+TRACE | 2015-12-21T16:25:21.206     get method 
+TRACE | 2015-12-21T16:25:21.314     ============ httpRespone start ============== 
+TRACE | 2015-12-21T16:25:21.315     Date : Mon, 21 Dec 2015 08:25:15 GMT 
+TRACE | 2015-12-21T16:25:21.315     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T16:25:21.315     Content-Length : 204 
+TRACE | 2015-12-21T16:25:21.315     Connection : keep-alive 
+TRACE | 2015-12-21T16:25:21.315     X-Powered-By : Express 
+TRACE | 2015-12-21T16:25:21.316     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T16:25:21.316     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T16:25:21.316     Vary : Accept-Encoding 
+TRACE | 2015-12-21T16:25:21.316     0 
+TRACE | 2015-12-21T16:25:21.318     close http connect. 
+TRACE | 2015-12-21T16:25:21.318     ============ httpRespone end ============== 
+TRACE | 2015-12-21T16:56:57.497     get method 
+TRACE | 2015-12-21T16:56:57.597     ============ httpRespone start ============== 
+TRACE | 2015-12-21T16:56:57.597     Date : Mon, 21 Dec 2015 08:56:51 GMT 
+TRACE | 2015-12-21T16:56:57.597     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T16:56:57.597     Content-Length : 204 
+TRACE | 2015-12-21T16:56:57.597     Connection : keep-alive 
+TRACE | 2015-12-21T16:56:57.597     X-Powered-By : Express 
+TRACE | 2015-12-21T16:56:57.597     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T16:56:57.598     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T16:56:57.598     Vary : Accept-Encoding 
+TRACE | 2015-12-21T16:56:57.598     0 
+TRACE | 2015-12-21T16:56:57.599     close http connect. 
+TRACE | 2015-12-21T16:56:57.599     ============ httpRespone end ============== 
+TRACE | 2015-12-21T16:56:59.625     get method 
+TRACE | 2015-12-21T16:56:59.676     ============ httpRespone start ============== 
+TRACE | 2015-12-21T16:56:59.676     Date : Mon, 21 Dec 2015 08:56:53 GMT 
+TRACE | 2015-12-21T16:56:59.676     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T16:56:59.676     Content-Length : 204 
+TRACE | 2015-12-21T16:56:59.677     Connection : keep-alive 
+TRACE | 2015-12-21T16:56:59.677     X-Powered-By : Express 
+TRACE | 2015-12-21T16:56:59.677     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T16:56:59.677     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T16:56:59.677     Vary : Accept-Encoding 
+TRACE | 2015-12-21T16:56:59.677     0 
+TRACE | 2015-12-21T16:56:59.678     close http connect. 
+TRACE | 2015-12-21T16:56:59.678     ============ httpRespone end ============== 
+TRACE | 2015-12-21T16:57:46.769     get method 
+TRACE | 2015-12-21T16:57:46.854     ============ httpRespone start ============== 
+TRACE | 2015-12-21T16:57:46.854     Date : Mon, 21 Dec 2015 08:57:41 GMT 
+TRACE | 2015-12-21T16:57:46.854     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T16:57:46.855     Content-Length : 204 
+TRACE | 2015-12-21T16:57:46.855     Connection : keep-alive 
+TRACE | 2015-12-21T16:57:46.855     X-Powered-By : Express 
+TRACE | 2015-12-21T16:57:46.855     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T16:57:46.855     ETag : W/"cc-b9QNGsXys2r6KgDKzSg2Lg" 
+TRACE | 2015-12-21T16:57:46.855     Vary : Accept-Encoding 
+TRACE | 2015-12-21T16:57:46.855     0 
+TRACE | 2015-12-21T16:57:46.856     close http connect. 
+TRACE | 2015-12-21T16:57:46.856     ============ httpRespone end ============== 
+TRACE | 2015-12-21T16:57:52.145     get method 
+TRACE | 2015-12-21T16:57:52.199     ============ httpRespone start ============== 
+TRACE | 2015-12-21T16:57:52.199     Date : Mon, 21 Dec 2015 08:57:46 GMT 
+TRACE | 2015-12-21T16:57:52.199     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T16:57:52.199     Content-Length : 195 
+TRACE | 2015-12-21T16:57:52.200     Connection : keep-alive 
+TRACE | 2015-12-21T16:57:52.200     X-Powered-By : Express 
+TRACE | 2015-12-21T16:57:52.200     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T16:57:52.200     ETag : W/"c3-fwxvuoAYIGjA8jDSpTxZ6Q" 
+TRACE | 2015-12-21T16:57:52.200     Vary : Accept-Encoding 
+TRACE | 2015-12-21T16:57:52.200     0 
+TRACE | 2015-12-21T16:57:52.201     close http connect. 
+TRACE | 2015-12-21T16:57:52.201     ============ httpRespone end ============== 
+TRACE | 2015-12-21T17:04:18.185     get method 
+TRACE | 2015-12-21T17:04:18.295     ============ httpRespone start ============== 
+TRACE | 2015-12-21T17:04:18.295     Date : Mon, 21 Dec 2015 09:04:12 GMT 
+TRACE | 2015-12-21T17:04:18.296     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T17:04:18.296     Content-Length : 195 
+TRACE | 2015-12-21T17:04:18.296     Connection : keep-alive 
+TRACE | 2015-12-21T17:04:18.296     X-Powered-By : Express 
+TRACE | 2015-12-21T17:04:18.296     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T17:04:18.296     ETag : W/"c3-fwxvuoAYIGjA8jDSpTxZ6Q" 
+TRACE | 2015-12-21T17:04:18.296     Vary : Accept-Encoding 
+TRACE | 2015-12-21T17:04:18.296     0 
+TRACE | 2015-12-21T17:04:18.297     close http connect. 
+TRACE | 2015-12-21T17:04:18.297     ============ httpRespone end ============== 
+TRACE | 2015-12-21T17:04:20.145     get method 
+TRACE | 2015-12-21T17:04:20.193     ============ httpRespone start ============== 
+TRACE | 2015-12-21T17:04:20.193     Date : Mon, 21 Dec 2015 09:04:14 GMT 
+TRACE | 2015-12-21T17:04:20.193     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T17:04:20.193     Content-Length : 195 
+TRACE | 2015-12-21T17:04:20.193     Connection : keep-alive 
+TRACE | 2015-12-21T17:04:20.193     X-Powered-By : Express 
+TRACE | 2015-12-21T17:04:20.193     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T17:04:20.193     ETag : W/"c3-fwxvuoAYIGjA8jDSpTxZ6Q" 
+TRACE | 2015-12-21T17:04:20.193     Vary : Accept-Encoding 
+TRACE | 2015-12-21T17:04:20.193     0 
+TRACE | 2015-12-21T17:04:20.194     close http connect. 
+TRACE | 2015-12-21T17:04:20.194     ============ httpRespone end ============== 
+TRACE | 2015-12-21T17:04:24.280     ------------UrlEncode编码------------- 
+TRACE | 2015-12-21T17:04:24.888     ------------HTTP访问测试------------- 
+TRACE | 2015-12-21T17:04:29.545     get method 
+TRACE | 2015-12-21T17:04:29.638     ============ httpRespone start ============== 
+TRACE | 2015-12-21T17:04:29.639     Date : Mon, 21 Dec 2015 09:04:23 GMT 
+TRACE | 2015-12-21T17:04:29.639     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T17:04:29.639     Content-Length : 195 
+TRACE | 2015-12-21T17:04:29.639     Connection : keep-alive 
+TRACE | 2015-12-21T17:04:29.639     X-Powered-By : Express 
+TRACE | 2015-12-21T17:04:29.639     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T17:04:29.639     ETag : W/"c3-fwxvuoAYIGjA8jDSpTxZ6Q" 
+TRACE | 2015-12-21T17:04:29.639     Vary : Accept-Encoding 
+TRACE | 2015-12-21T17:04:29.639     0 
+TRACE | 2015-12-21T17:04:29.640     close http connect. 
+TRACE | 2015-12-21T17:04:29.640     ============ httpRespone end ============== 
+TRACE | 2015-12-21T17:21:27.667     get method 
+TRACE | 2015-12-21T17:21:27.871     ============ httpRespone start ============== 
+TRACE | 2015-12-21T17:21:27.871     Date : Mon, 21 Dec 2015 09:21:22 GMT 
+TRACE | 2015-12-21T17:21:27.872     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T17:21:27.872     Content-Length : 195 
+TRACE | 2015-12-21T17:21:27.872     Connection : keep-alive 
+TRACE | 2015-12-21T17:21:27.872     X-Powered-By : Express 
+TRACE | 2015-12-21T17:21:27.872     X-Traffitor-Status : 30000 
+TRACE | 2015-12-21T17:21:27.872     ETag : W/"c3-fwxvuoAYIGjA8jDSpTxZ6Q" 
+TRACE | 2015-12-21T17:21:27.872     Vary : Accept-Encoding 
+TRACE | 2015-12-21T17:21:27.872     0 
+TRACE | 2015-12-21T17:21:27.873     close http connect. 
+TRACE | 2015-12-21T17:21:27.874     ============ httpRespone end ============== 
+TRACE | 2015-12-21T17:21:57.787     get method 
+TRACE | 2015-12-21T17:21:58.033     ============ httpRespone start ============== 
+TRACE | 2015-12-21T17:21:58.033     Date : Mon, 21 Dec 2015 09:21:52 GMT 
+TRACE | 2015-12-21T17:21:58.033     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-21T17:21:58.033     Transfer-Encoding : chunked 
+TRACE | 2015-12-21T17:21:58.033     Connection : keep-alive 
+TRACE | 2015-12-21T17:21:58.033     X-Powered-By : Express 
+TRACE | 2015-12-21T17:21:58.034     ETag : W/"a76e-6wHpaBYRyJVXQGLZK6Cy1g" 
+TRACE | 2015-12-21T17:21:58.034     Vary : Accept-Encoding 
+TRACE | 2015-12-21T17:21:58.034     Content-Encoding : gzip 
+TRACE | 2015-12-21T17:21:58.034     0 
+TRACE | 2015-12-21T17:21:58.104     close http connect. 
+TRACE | 2015-12-21T17:21:58.104     ============ httpRespone end ============== 
+TRACE | 2015-12-22T11:11:00.067     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T11:11:04.651     get method 
+TRACE | 2015-12-22T11:11:04.973     ============ httpRespone start ============== 
+TRACE | 2015-12-22T11:11:04.974     Date : Tue, 22 Dec 2015 03:10:58 GMT 
+TRACE | 2015-12-22T11:11:04.974     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T11:11:04.974     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T11:11:04.974     Connection : keep-alive 
+TRACE | 2015-12-22T11:11:04.974     X-Powered-By : Express 
+TRACE | 2015-12-22T11:11:04.974     ETag : W/"1338-sIHs2h901Oz+Hz/ROJgrRA" 
+TRACE | 2015-12-22T11:11:04.974     Vary : Accept-Encoding 
+TRACE | 2015-12-22T11:11:04.974     Content-Encoding : gzip 
+TRACE | 2015-12-22T11:11:04.974     0 
+TRACE | 2015-12-22T11:11:04.987     close http connect. 
+TRACE | 2015-12-22T11:11:04.988     ============ httpRespone end ============== 
+TRACE | 2015-12-22T12:01:38.704     get method 
+TRACE | 2015-12-22T12:01:39.413     ============ httpRespone start ============== 
+TRACE | 2015-12-22T12:01:39.413     Server : Tengine 
+TRACE | 2015-12-22T12:01:39.413     Date : Tue, 22 Dec 2015 04:01:39 GMT 
+TRACE | 2015-12-22T12:01:39.414     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T12:01:39.414     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T12:01:39.414     Connection : keep-alive 
+TRACE | 2015-12-22T12:01:39.414     X-Powered-By : Express 
+TRACE | 2015-12-22T12:01:39.414     ETag : W/"1338-sIHs2h901Oz+Hz/ROJgrRA" 
+TRACE | 2015-12-22T12:01:39.414     Vary : Accept-Encoding 
+TRACE | 2015-12-22T12:01:39.415     Content-Encoding : gzip 
+TRACE | 2015-12-22T12:01:39.415     0 
+TRACE | 2015-12-22T12:01:39.428     close http connect. 
+TRACE | 2015-12-22T12:01:39.428     ============ httpRespone end ============== 
+TRACE | 2015-12-22T12:28:31.321     ------------Unicode转中文------------- 
+TRACE | 2015-12-22T12:28:32.376     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T12:28:36.338     get method 
+TRACE | 2015-12-22T12:28:37.095     ============ httpRespone start ============== 
+TRACE | 2015-12-22T12:28:37.096     Server : Tengine 
+TRACE | 2015-12-22T12:28:37.096     Date : Tue, 22 Dec 2015 04:28:36 GMT 
+TRACE | 2015-12-22T12:28:37.096     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T12:28:37.096     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T12:28:37.096     Connection : keep-alive 
+TRACE | 2015-12-22T12:28:37.096     X-Powered-By : Express 
+TRACE | 2015-12-22T12:28:37.096     X-Traffitor-Status : 30000 
+TRACE | 2015-12-22T12:28:37.097     Vary : Accept-Encoding 
+TRACE | 2015-12-22T12:28:37.097     Content-Encoding : gzip 
+TRACE | 2015-12-22T12:28:37.097     0 
+TRACE | 2015-12-22T12:28:37.098     close http connect. 
+TRACE | 2015-12-22T12:28:37.098     ============ httpRespone end ============== 
+TRACE | 2015-12-22T12:29:58.657     get method 
+TRACE | 2015-12-22T12:29:59.513     ============ httpRespone start ============== 
+TRACE | 2015-12-22T12:29:59.513     Server : Tengine 
+TRACE | 2015-12-22T12:29:59.513     Date : Tue, 22 Dec 2015 04:29:59 GMT 
+TRACE | 2015-12-22T12:29:59.513     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T12:29:59.514     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T12:29:59.514     Connection : keep-alive 
+TRACE | 2015-12-22T12:29:59.514     X-Powered-By : Express 
+TRACE | 2015-12-22T12:29:59.514     ETag : W/"13d3-2/2RalaB0KK6hUeyRxFpOQ" 
+TRACE | 2015-12-22T12:29:59.514     Vary : Accept-Encoding 
+TRACE | 2015-12-22T12:29:59.514     Content-Encoding : gzip 
+TRACE | 2015-12-22T12:29:59.514     0 
+TRACE | 2015-12-22T12:29:59.537     close http connect. 
+TRACE | 2015-12-22T12:29:59.537     ============ httpRespone end ============== 
+TRACE | 2015-12-22T15:39:36.471     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T15:42:05.524     post method 
+TRACE | 2015-12-22T15:42:05.778     ============ httpRespone start ============== 
+TRACE | 2015-12-22T15:42:05.779     Date : Tue, 22 Dec 2015 07:42:05 GMT 
+TRACE | 2015-12-22T15:42:05.779     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T15:42:05.780     Connection : keep-alive 
+TRACE | 2015-12-22T15:42:05.780     X-Powered-By : Express 
+TRACE | 2015-12-22T15:42:05.780     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T15:42:05.780     0 
+TRACE | 2015-12-22T15:42:05.788     close http connect. 
+TRACE | 2015-12-22T15:42:05.788     ============ httpRespone end ============== 
+TRACE | 2015-12-22T15:42:27.520     get method 
+TRACE | 2015-12-22T15:42:55.576     ------------UrlEncode编码------------- 
+TRACE | 2015-12-22T15:42:56.256     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T15:43:16.896     post method 
+TRACE | 2015-12-22T15:43:17.252     ============ httpRespone start ============== 
+TRACE | 2015-12-22T15:43:17.253     Date : Tue, 22 Dec 2015 07:43:17 GMT 
+TRACE | 2015-12-22T15:43:17.253     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T15:43:17.253     Connection : keep-alive 
+TRACE | 2015-12-22T15:43:17.253     X-Powered-By : Express 
+TRACE | 2015-12-22T15:43:17.253     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T15:43:17.254     0 
+TRACE | 2015-12-22T15:43:17.255     close http connect. 
+TRACE | 2015-12-22T15:43:17.255     ============ httpRespone end ============== 
+TRACE | 2015-12-22T15:43:37.560     get method 
+TRACE | 2015-12-22T15:44:07.554     request timeout:  "http://ditu.amap.com/maps?v=1.3&key=bfe31f4e0fb231d29e1d3ce951e2c780&callback=initTheMap" true 
+TRACE | 2015-12-22T15:44:07.554     respone data:  "" 
+TRACE | 2015-12-22T15:44:07.554     http request error:  5 QNetworkReplyHttpImpl(0x4e4d970) 
+TRACE | 2015-12-22T15:44:07.554     reply->error() 
+TRACE | 2015-12-22T15:44:07.554     ============ httpRespone start ============== 
+TRACE | 2015-12-22T15:44:07.554     0 
+TRACE | 2015-12-22T15:44:07.555     ============ httpRespone end ============== 
+TRACE | 2015-12-22T15:44:12.456     get method 
+TRACE | 2015-12-22T15:44:42.446     request timeout:  "http://ditu.amap.com/service/poiInfo?query_type=TQUERY&city=370300&keywords=世纪康城&pagesize=20" true 
+TRACE | 2015-12-22T15:44:42.446     respone data:  "" 
+TRACE | 2015-12-22T15:44:42.446     http request error:  5 QNetworkReplyHttpImpl(0x4e4d9f0) 
+TRACE | 2015-12-22T15:44:42.446     reply->error() 
+TRACE | 2015-12-22T15:44:42.447     ============ httpRespone start ============== 
+TRACE | 2015-12-22T15:44:42.447     0 
+TRACE | 2015-12-22T15:44:42.447     ============ httpRespone end ============== 
+TRACE | 2015-12-22T15:45:08.880     ------------UrlEncode编码------------- 
+TRACE | 2015-12-22T15:45:09.544     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T15:45:11.809     get method 
+TRACE | 2015-12-22T15:45:11.888     ============ httpRespone start ============== 
+TRACE | 2015-12-22T15:45:11.888     Date : Tue, 22 Dec 2015 07:45:11 GMT 
+TRACE | 2015-12-22T15:45:11.888     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T15:45:11.889     Content-Length : 183 
+TRACE | 2015-12-22T15:45:11.889     Connection : keep-alive 
+TRACE | 2015-12-22T15:45:11.889     X-Powered-By : Express 
+TRACE | 2015-12-22T15:45:11.889     X-Traffitor-Status : 30000 
+TRACE | 2015-12-22T15:45:11.889     ETag : W/"b7-T3vAYgsj6sqW1SIRYTBr5w" 
+TRACE | 2015-12-22T15:45:11.889     Vary : Accept-Encoding 
+TRACE | 2015-12-22T15:45:11.889     0 
+TRACE | 2015-12-22T15:45:11.890     close http connect. 
+TRACE | 2015-12-22T15:45:11.891     ============ httpRespone end ============== 
+TRACE | 2015-12-22T15:54:11.633     get method 
+TRACE | 2015-12-22T15:54:11.779     ============ httpRespone start ============== 
+TRACE | 2015-12-22T15:54:11.779     Date : Tue, 22 Dec 2015 07:54:11 GMT 
+TRACE | 2015-12-22T15:54:11.779     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T15:54:11.780     Content-Length : 183 
+TRACE | 2015-12-22T15:54:11.780     Connection : keep-alive 
+TRACE | 2015-12-22T15:54:11.780     X-Powered-By : Express 
+TRACE | 2015-12-22T15:54:11.780     X-Traffitor-Status : 30000 
+TRACE | 2015-12-22T15:54:11.780     ETag : W/"b7-T3vAYgsj6sqW1SIRYTBr5w" 
+TRACE | 2015-12-22T15:54:11.780     Vary : Accept-Encoding 
+TRACE | 2015-12-22T15:54:11.781     0 
+TRACE | 2015-12-22T15:54:11.782     close http connect. 
+TRACE | 2015-12-22T15:54:11.782     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:01:23.122     get method 
+TRACE | 2015-12-22T16:01:23.317     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:01:23.317     Date : Tue, 22 Dec 2015 08:01:23 GMT 
+TRACE | 2015-12-22T16:01:23.317     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T16:01:23.317     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:01:23.318     Connection : keep-alive 
+TRACE | 2015-12-22T16:01:23.318     X-Powered-By : Express 
+TRACE | 2015-12-22T16:01:23.318     ETag : W/"749-Ui3okR7/ybulo7YGg5Vm+w" 
+TRACE | 2015-12-22T16:01:23.318     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:01:23.318     Content-Encoding : gzip 
+TRACE | 2015-12-22T16:01:23.318     0 
+TRACE | 2015-12-22T16:01:23.474     close http connect. 
+TRACE | 2015-12-22T16:01:23.474     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:01:29.137     get method 
+TRACE | 2015-12-22T16:01:29.423     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:01:29.423     Date : Tue, 22 Dec 2015 08:01:29 GMT 
+TRACE | 2015-12-22T16:01:29.424     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T16:01:29.424     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:01:29.425     Connection : keep-alive 
+TRACE | 2015-12-22T16:01:29.425     X-Powered-By : Express 
+TRACE | 2015-12-22T16:01:29.426     ETag : W/"3971-cAFc1bNEAOymbfFAlrQSxg" 
+TRACE | 2015-12-22T16:01:29.426     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:01:29.426     Content-Encoding : gzip 
+TRACE | 2015-12-22T16:01:29.426     0 
+TRACE | 2015-12-22T16:01:29.458     close http connect. 
+TRACE | 2015-12-22T16:01:29.458     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:02:39.490     post method 
+TRACE | 2015-12-22T16:02:39.698     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:02:39.699     Date : Tue, 22 Dec 2015 08:02:39 GMT 
+TRACE | 2015-12-22T16:02:39.699     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:02:39.699     Connection : keep-alive 
+TRACE | 2015-12-22T16:02:39.699     X-Powered-By : Express 
+TRACE | 2015-12-22T16:02:39.699     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:02:39.699     0 
+TRACE | 2015-12-22T16:02:39.701     close http connect. 
+TRACE | 2015-12-22T16:02:39.701     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:02:55.777     post method 
+TRACE | 2015-12-22T16:02:55.991     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:02:55.991     Date : Tue, 22 Dec 2015 08:02:55 GMT 
+TRACE | 2015-12-22T16:02:55.991     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:02:55.991     Connection : keep-alive 
+TRACE | 2015-12-22T16:02:55.991     X-Powered-By : Express 
+TRACE | 2015-12-22T16:02:55.992     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:02:55.992     0 
+TRACE | 2015-12-22T16:02:55.993     close http connect. 
+TRACE | 2015-12-22T16:02:55.993     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:02:57.458     post method 
+TRACE | 2015-12-22T16:02:57.621     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:02:57.622     Date : Tue, 22 Dec 2015 08:02:57 GMT 
+TRACE | 2015-12-22T16:02:57.622     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:02:57.622     Connection : keep-alive 
+TRACE | 2015-12-22T16:02:57.622     X-Powered-By : Express 
+TRACE | 2015-12-22T16:02:57.622     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:02:57.623     0 
+TRACE | 2015-12-22T16:02:57.624     close http connect. 
+TRACE | 2015-12-22T16:02:57.624     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:03:05.186     post method 
+TRACE | 2015-12-22T16:03:05.369     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:03:05.369     Date : Tue, 22 Dec 2015 08:03:05 GMT 
+TRACE | 2015-12-22T16:03:05.369     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:03:05.369     Connection : keep-alive 
+TRACE | 2015-12-22T16:03:05.370     X-Powered-By : Express 
+TRACE | 2015-12-22T16:03:05.370     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:03:05.370     0 
+TRACE | 2015-12-22T16:03:05.371     close http connect. 
+TRACE | 2015-12-22T16:03:05.371     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:03:56.930     get method 
+TRACE | 2015-12-22T16:04:26.937     request timeout:  "http://ditu.amap.com/maps?v=1.3&key=bfe31f4e0fb231d29e1d3ce951e2c780&callback=initTheMap" true 
+TRACE | 2015-12-22T16:04:26.938     respone data:  "" 
+TRACE | 2015-12-22T16:04:26.938     http request error:  5 QNetworkReplyHttpImpl(0x4e4de40) 
+TRACE | 2015-12-22T16:04:26.938     reply->error() 
+TRACE | 2015-12-22T16:04:26.938     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:04:26.938     0 
+TRACE | 2015-12-22T16:04:26.939     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:04:32.090     get method 
+TRACE | 2015-12-22T16:05:02.086     request timeout:  "http://ditu.amap.com/maps?v=1.3&key=bfe31f4e0fb231d29e1d3ce951e2c780&callback=initTheMap" true 
+TRACE | 2015-12-22T16:05:02.086     respone data:  "" 
+TRACE | 2015-12-22T16:05:02.086     http request error:  5 QNetworkReplyHttpImpl(0x4e4dcf0) 
+TRACE | 2015-12-22T16:05:02.086     reply->error() 
+TRACE | 2015-12-22T16:05:02.086     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:05:02.086     0 
+TRACE | 2015-12-22T16:05:02.087     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:06:49.865     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T16:07:25.362     post method 
+TRACE | 2015-12-22T16:07:25.537     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:07:25.538     Date : Tue, 22 Dec 2015 08:07:25 GMT 
+TRACE | 2015-12-22T16:07:25.538     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:07:25.538     Connection : keep-alive 
+TRACE | 2015-12-22T16:07:25.539     X-Powered-By : Express 
+TRACE | 2015-12-22T16:07:25.539     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:07:25.539     0 
+TRACE | 2015-12-22T16:07:25.544     close http connect. 
+TRACE | 2015-12-22T16:07:25.544     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:07:41.322     get method 
+TRACE | 2015-12-22T16:08:11.327     request timeout:  "http://ditu.amap.com/maps?v=1.3&key=bfe31f4e0fb231d29e1d3ce951e2c780&callback=initTheMap" true 
+TRACE | 2015-12-22T16:08:11.327     respone data:  "" 
+TRACE | 2015-12-22T16:08:11.327     http request error:  5 QNetworkReplyHttpImpl(0x4f0e6b8) 
+TRACE | 2015-12-22T16:08:11.327     reply->error() 
+TRACE | 2015-12-22T16:08:11.327     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:08:11.327     0 
+TRACE | 2015-12-22T16:08:11.329     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:08:17.682     get method 
+TRACE | 2015-12-22T16:08:47.687     request timeout:  "http://ditu.amap.com/maps?v=1.3&key=bfe31f4e0fb231d29e1d3ce951e2c780&callback=initTheMap" true 
+TRACE | 2015-12-22T16:08:47.687     respone data:  "" 
+TRACE | 2015-12-22T16:08:47.687     http request error:  5 QNetworkReplyHttpImpl(0x4f0e7a8) 
+TRACE | 2015-12-22T16:08:47.687     reply->error() 
+TRACE | 2015-12-22T16:08:47.687     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:08:47.687     0 
+TRACE | 2015-12-22T16:08:47.688     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:10:34.394     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T16:10:45.555     post method 
+TRACE | 2015-12-22T16:10:45.781     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:10:45.782     Date : Tue, 22 Dec 2015 08:10:45 GMT 
+TRACE | 2015-12-22T16:10:45.783     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:10:45.783     Connection : keep-alive 
+TRACE | 2015-12-22T16:10:45.783     X-Powered-By : Express 
+TRACE | 2015-12-22T16:10:45.783     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:10:45.783     0 
+TRACE | 2015-12-22T16:10:45.788     close http connect. 
+TRACE | 2015-12-22T16:10:45.788     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:11:19.827     get method 
+TRACE | 2015-12-22T16:11:19.901     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:11:19.901     Date : Tue, 22 Dec 2015 08:11:19 GMT 
+TRACE | 2015-12-22T16:11:19.902     Content-Type : text/html 
+TRACE | 2015-12-22T16:11:19.902     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:11:19.902     Connection : keep-alive 
+TRACE | 2015-12-22T16:11:19.902     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:11:19.902     Last-Modified : Mon, 21 Dec 2015 03:59:18 GMT 
+TRACE | 2015-12-22T16:11:19.902     Cache-Control : max-age=0 
+TRACE | 2015-12-22T16:11:19.903     Content-Encoding : gzip 
+TRACE | 2015-12-22T16:11:19.903     0 
+TRACE | 2015-12-22T16:11:19.907     close http connect. 
+TRACE | 2015-12-22T16:11:19.907     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:12:11.667     get method 
+TRACE | 2015-12-22T16:12:11.878     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:12:11.878     Date : Tue, 22 Dec 2015 08:12:11 GMT 
+TRACE | 2015-12-22T16:12:11.879     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T16:12:11.879     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:12:11.879     Connection : keep-alive 
+TRACE | 2015-12-22T16:12:11.879     X-Powered-By : Express 
+TRACE | 2015-12-22T16:12:11.879     ETag : W/"1403-gm0v3JLV/AC9yy94OXRXUw" 
+TRACE | 2015-12-22T16:12:11.880     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:12:11.880     Content-Encoding : gzip 
+TRACE | 2015-12-22T16:12:11.880     0 
+TRACE | 2015-12-22T16:12:11.894     close http connect. 
+TRACE | 2015-12-22T16:12:11.894     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:27:05.492     get method 
+TRACE | 2015-12-22T16:27:05.718     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:27:05.718     Date : Tue, 22 Dec 2015 08:27:05 GMT 
+TRACE | 2015-12-22T16:27:05.718     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T16:27:05.718     Content-Length : 204 
+TRACE | 2015-12-22T16:27:05.718     Connection : keep-alive 
+TRACE | 2015-12-22T16:27:05.719     X-Powered-By : Express 
+TRACE | 2015-12-22T16:27:05.719     X-Traffitor-Status : 30000 
+TRACE | 2015-12-22T16:27:05.719     ETag : W/"cc-XwMDNxvhXViBk76qO1ywFA" 
+TRACE | 2015-12-22T16:27:05.719     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:27:05.719     0 
+TRACE | 2015-12-22T16:27:05.721     close http connect. 
+TRACE | 2015-12-22T16:27:05.721     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:27:07.227     ------------UrlEncode编码------------- 
+TRACE | 2015-12-22T16:27:07.803     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T16:27:29.604     post method 
+TRACE | 2015-12-22T16:27:29.798     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:27:29.799     Date : Tue, 22 Dec 2015 08:27:29 GMT 
+TRACE | 2015-12-22T16:27:29.799     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:27:29.799     Connection : keep-alive 
+TRACE | 2015-12-22T16:27:29.799     X-Powered-By : Express 
+TRACE | 2015-12-22T16:27:29.799     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:27:29.799     0 
+TRACE | 2015-12-22T16:27:29.801     close http connect. 
+TRACE | 2015-12-22T16:27:29.801     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:28:02.804     get method 
+TRACE | 2015-12-22T16:28:02.863     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:28:02.863     Date : Tue, 22 Dec 2015 08:28:02 GMT 
+TRACE | 2015-12-22T16:28:02.863     Content-Type : text/html 
+TRACE | 2015-12-22T16:28:02.863     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:28:02.863     Connection : keep-alive 
+TRACE | 2015-12-22T16:28:02.863     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:28:02.863     Last-Modified : Mon, 21 Dec 2015 03:59:18 GMT 
+TRACE | 2015-12-22T16:28:02.863     Cache-Control : max-age=0 
+TRACE | 2015-12-22T16:28:02.863     Content-Encoding : gzip 
+TRACE | 2015-12-22T16:28:02.864     0 
+TRACE | 2015-12-22T16:28:02.865     close http connect. 
+TRACE | 2015-12-22T16:28:02.865     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:28:21.356     get method 
+TRACE | 2015-12-22T16:28:21.457     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:28:21.457     Date : Tue, 22 Dec 2015 08:28:21 GMT 
+TRACE | 2015-12-22T16:28:21.457     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T16:28:21.457     Content-Length : 204 
+TRACE | 2015-12-22T16:28:21.458     Connection : keep-alive 
+TRACE | 2015-12-22T16:28:21.458     X-Powered-By : Express 
+TRACE | 2015-12-22T16:28:21.458     X-Traffitor-Status : 30000 
+TRACE | 2015-12-22T16:28:21.458     ETag : W/"cc-XwMDNxvhXViBk76qO1ywFA" 
+TRACE | 2015-12-22T16:28:21.458     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:28:21.458     0 
+TRACE | 2015-12-22T16:28:21.460     close http connect. 
+TRACE | 2015-12-22T16:28:21.460     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:31:13.197     get method 
+TRACE | 2015-12-22T16:31:13.305     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:31:13.305     Server : nginx 
+TRACE | 2015-12-22T16:31:13.305     Date : Tue, 22 Dec 2015 08:31:13 GMT 
+TRACE | 2015-12-22T16:31:13.305     Content-Type : text/javascript;charset=UTF-8 
+TRACE | 2015-12-22T16:31:13.305     Content-Length : 1975 
+TRACE | 2015-12-22T16:31:13.305     Connection : close 
+TRACE | 2015-12-22T16:31:13.306     Set-Cookie : GeeTestUser=b1e86f8ef3821661f551e28e0c9714ec; expires=Thu, 21 Jan 2016 08:31:13 GMT; Path=/ 
+TRACE | 2015-12-22T16:31:13.306     Expires : 0 
+TRACE | 2015-12-22T16:31:13.306     Etag : "82ab87fa911aa0d6a05e1aa46512eb9c47e6f5d4" 
+TRACE | 2015-12-22T16:31:13.306     Pragma : no-cache 
+TRACE | 2015-12-22T16:31:13.306     Cache-Control : no-cache, no-store, must-revalidate 
+TRACE | 2015-12-22T16:31:13.306     -------------------------- 
+TRACE | 2015-12-22T16:31:13.306     "GeeTestUser=b1e86f8ef3821661f551e28e0c9714ec" 
+TRACE | 2015-12-22T16:31:13.306     name:  QVariant(QString, "GeeTestUser")  value:  QVariant(QString, "b1e86f8ef3821661f551e28e0c9714ec") 
+TRACE | 2015-12-22T16:31:13.306     1 
+TRACE | 2015-12-22T16:31:13.310     close http connect. 
+TRACE | 2015-12-22T16:31:13.310     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:36:58.405     get method 
+TRACE | 2015-12-22T16:36:58.571     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:36:58.571     Date : Tue, 22 Dec 2015 08:36:58 GMT 
+TRACE | 2015-12-22T16:36:58.571     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-22T16:36:58.571     Content-Length : 195 
+TRACE | 2015-12-22T16:36:58.572     Connection : keep-alive 
+TRACE | 2015-12-22T16:36:58.572     X-Powered-By : Express 
+TRACE | 2015-12-22T16:36:58.572     X-Traffitor-Status : 30000 
+TRACE | 2015-12-22T16:36:58.572     ETag : W/"c3-PJNqTH/s/a7wHAOs/UdtEQ" 
+TRACE | 2015-12-22T16:36:58.572     Vary : Accept-Encoding 
+TRACE | 2015-12-22T16:36:58.572     1 
+TRACE | 2015-12-22T16:36:58.574     close http connect. 
+TRACE | 2015-12-22T16:36:58.574     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:44:29.476     ------------Unicode转中文------------- 
+TRACE | 2015-12-22T16:44:30.220     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T16:45:32.878     post method 
+TRACE | 2015-12-22T16:45:33.107     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:45:33.107     Date : Tue, 22 Dec 2015 08:45:33 GMT 
+TRACE | 2015-12-22T16:45:33.107     Transfer-Encoding : chunked 
+TRACE | 2015-12-22T16:45:33.107     Connection : keep-alive 
+TRACE | 2015-12-22T16:45:33.107     X-Powered-By : Express 
+TRACE | 2015-12-22T16:45:33.108     Access-Control-Allow-Origin : * 
+TRACE | 2015-12-22T16:45:33.108     0 
+TRACE | 2015-12-22T16:45:33.109     close http connect. 
+TRACE | 2015-12-22T16:45:33.109     ============ httpRespone end ============== 
+TRACE | 2015-12-22T16:57:47.398     ------------HTTP访问测试------------- 
+TRACE | 2015-12-22T16:57:52.654     get method 
+TRACE | 2015-12-22T16:57:52.801     ============ httpRespone start ============== 
+TRACE | 2015-12-22T16:57:52.802     Server : nginx 
+TRACE | 2015-12-22T16:57:52.803     Date : Tue, 22 Dec 2015 08:57:52 GMT 
+TRACE | 2015-12-22T16:57:52.803     Content-Type : text/javascript;charset=UTF-8 
+TRACE | 2015-12-22T16:57:52.803     Content-Length : 1975 
+TRACE | 2015-12-22T16:57:52.803     Connection : close 
+TRACE | 2015-12-22T16:57:52.803     Set-Cookie : GeeTestUser=4b94ac30ebd2fa038f2300742b2de8e1; expires=Thu, 21 Jan 2016 08:57:52 GMT; Path=/ 
+TRACE | 2015-12-22T16:57:52.804     Expires : 0 
+TRACE | 2015-12-22T16:57:52.804     Etag : "a5c47e544ac8be9537c4487259fbc68e312df2d2" 
+TRACE | 2015-12-22T16:57:52.804     Pragma : no-cache 
+TRACE | 2015-12-22T16:57:52.804     Cache-Control : no-cache, no-store, must-revalidate 
+TRACE | 2015-12-22T16:57:52.804     -------------------------- 
+TRACE | 2015-12-22T16:57:52.804     "GeeTestUser=4b94ac30ebd2fa038f2300742b2de8e1" 
+TRACE | 2015-12-22T16:57:52.804     name:  QVariant(QString, "GeeTestUser")  value:  QVariant(QString, "4b94ac30ebd2fa038f2300742b2de8e1") 
+TRACE | 2015-12-22T16:57:52.804     1 
+TRACE | 2015-12-22T16:57:52.809     close http connect. 
+TRACE | 2015-12-22T16:57:52.809     ============ httpRespone end ============== 
+TRACE | 2015-12-22T17:10:47.416     get method 
+TRACE | 2015-12-22T17:10:47.509     http request error:  202 QNetworkReplyHttpImpl(0x4f72500) 
+TRACE | 2015-12-22T17:10:47.509     reply->error() 
+TRACE | 2015-12-22T17:10:47.509     ============ httpRespone start ============== 
+TRACE | 2015-12-22T17:10:47.510     Server : openresty 
+TRACE | 2015-12-22T17:10:47.510     Date : Tue, 22 Dec 2015 09:10:47 GMT 
+TRACE | 2015-12-22T17:10:47.510     Content-Type : text/html 
+TRACE | 2015-12-22T17:10:47.510     Content-Length : 568 
+TRACE | 2015-12-22T17:10:47.510     Connection : close 
+TRACE | 2015-12-22T17:10:47.511     1 
+TRACE | 2015-12-22T17:10:47.514     close http connect. 
+TRACE | 2015-12-22T17:10:47.514     ============ httpRespone end ============== 
+TRACE | 2015-12-22T17:10:55.303     get method 
+TRACE | 2015-12-22T17:10:55.365     http request error:  202 QNetworkReplyHttpImpl(0x4f72720) 
+TRACE | 2015-12-22T17:10:55.365     reply->error() 
+TRACE | 2015-12-22T17:10:55.365     ============ httpRespone start ============== 
+TRACE | 2015-12-22T17:10:55.365     Server : nginx 
+TRACE | 2015-12-22T17:10:55.365     Date : Tue, 22 Dec 2015 09:10:55 GMT 
+TRACE | 2015-12-22T17:10:55.365     Content-Type : text/html 
+TRACE | 2015-12-22T17:10:55.365     Content-Length : 568 
+TRACE | 2015-12-22T17:10:55.365     Connection : close 
+TRACE | 2015-12-22T17:10:55.366     1 
+TRACE | 2015-12-22T17:10:55.367     close http connect. 
+TRACE | 2015-12-22T17:10:55.367     ============ httpRespone end ============== 
+TRACE | 2015-12-22T17:11:17.383     get method 
+TRACE | 2015-12-22T17:11:17.446     http request error:  202 QNetworkReplyHttpImpl(0x4f73230) 
+TRACE | 2015-12-22T17:11:17.446     reply->error() 
+TRACE | 2015-12-22T17:11:17.446     ============ httpRespone start ============== 
+TRACE | 2015-12-22T17:11:17.447     Server : nginx 
+TRACE | 2015-12-22T17:11:17.447     Date : Tue, 22 Dec 2015 09:11:17 GMT 
+TRACE | 2015-12-22T17:11:17.447     Content-Type : text/html 
+TRACE | 2015-12-22T17:11:17.447     Content-Length : 568 
+TRACE | 2015-12-22T17:11:17.447     Connection : close 
+TRACE | 2015-12-22T17:11:17.447     1 
+TRACE | 2015-12-22T17:11:17.448     close http connect. 
+TRACE | 2015-12-22T17:11:17.448     ============ httpRespone end ============== 
+TRACE | 2015-12-22T17:11:22.144     get method 
+TRACE | 2015-12-22T17:11:22.209     http request error:  202 QNetworkReplyHttpImpl(0x4f741d0) 
+TRACE | 2015-12-22T17:11:22.209     reply->error() 
+TRACE | 2015-12-22T17:11:22.209     ============ httpRespone start ============== 
+TRACE | 2015-12-22T17:11:22.209     Server : nginx 
+TRACE | 2015-12-22T17:11:22.210     Date : Tue, 22 Dec 2015 09:11:22 GMT 
+TRACE | 2015-12-22T17:11:22.210     Content-Type : text/html 
+TRACE | 2015-12-22T17:11:22.210     Content-Length : 568 
+TRACE | 2015-12-22T17:11:22.210     Connection : close 
+TRACE | 2015-12-22T17:11:22.210     1 
+TRACE | 2015-12-22T17:11:22.211     close http connect. 
+TRACE | 2015-12-22T17:11:22.211     ============ httpRespone end ============== 
+TRACE | 2015-12-23T14:14:48.424     ------------HTTP访问测试------------- 
+TRACE | 2015-12-23T14:15:04.486     ------------HTTP访问测试------------- 
+TRACE | 2015-12-23T14:15:11.343     ------------轮廓绘制------------- 
+TRACE | 2015-12-23T14:51:36.994     ------------HTTP访问测试------------- 
+TRACE | 2015-12-23T14:51:49.785     ------------轮廓绘制------------- 
+TRACE | 2015-12-23T14:52:22.738     ------------轮廓绘制------------- 
+TRACE | 2015-12-23T14:53:14.866     ------------HTTP访问测试------------- 
+TRACE | 2015-12-23T14:53:19.320     get method 
+TRACE | 2015-12-23T14:53:19.462     ============ httpRespone start ============== 
+TRACE | 2015-12-23T14:53:19.463     Date : Wed, 23 Dec 2015 06:53:19 GMT 
+TRACE | 2015-12-23T14:53:19.464     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-23T14:53:19.464     Content-Length : 355 
+TRACE | 2015-12-23T14:53:19.464     Connection : keep-alive 
+TRACE | 2015-12-23T14:53:19.464     X-Powered-By : Express 
+TRACE | 2015-12-23T14:53:19.464     X-Traffitor-Status : 30000 
+TRACE | 2015-12-23T14:53:19.464     ETag : W/"163-FZ5hAU+4PiT6y31KSku3lQ" 
+TRACE | 2015-12-23T14:53:19.464     Vary : Accept-Encoding 
+TRACE | 2015-12-23T14:53:19.464     0 
+TRACE | 2015-12-23T14:53:19.466     close http connect. 
+TRACE | 2015-12-23T14:53:19.466     ============ httpRespone end ============== 
+TRACE | 2015-12-23T14:53:40.027     get method 
+TRACE | 2015-12-23T14:53:40.313     ============ httpRespone start ============== 
+TRACE | 2015-12-23T14:53:40.314     Date : Wed, 23 Dec 2015 06:53:40 GMT 
+TRACE | 2015-12-23T14:53:40.314     Content-Type : application/json; charset=utf-8 
+TRACE | 2015-12-23T14:53:40.314     Transfer-Encoding : chunked 
+TRACE | 2015-12-23T14:53:40.314     Connection : keep-alive 
+TRACE | 2015-12-23T14:53:40.314     X-Powered-By : Express 
+TRACE | 2015-12-23T14:53:40.314     ETag : W/"1705-twiOg6VRGMum9SIB/Gn9Yg" 
+TRACE | 2015-12-23T14:53:40.314     Vary : Accept-Encoding 
+TRACE | 2015-12-23T14:53:40.314     Content-Encoding : gzip 
+TRACE | 2015-12-23T14:53:40.314     0 
+TRACE | 2015-12-23T14:53:40.329     close http connect. 
+TRACE | 2015-12-23T14:53:40.329     ============ httpRespone end ============== 
+TRACE | 2015-12-23T14:54:20.554     ------------轮廓绘制------------- 
+TRACE | 2015-12-23T15:00:51.650     ------------轮廓绘制------------- 
+TRACE | 2015-12-23T15:04:03.258     ------------轮廓绘制------------- 
