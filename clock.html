@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type='text/css' >
+	ol,ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	h1{
+		text-align:center;
+		color:#666666;
+		margin-top:40px;
+		font-family:"微软雅黑"
+	}
+	.clock{
+		position:relative;
+		width:200px;
+		height:200px;
+		background-color:#292a38;
+		border-radius:100%;
+		margin:50px auto;
+	}
+	.pointer li.circle{
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		transform-origin: left center;
+		background-color: #fff;
+		width:10px;
+		height:10px;
+		border-radius:100%;
+		margin-top:-5px;
+		margin-left:-5px;
+	}
+	.line-hour li,
+	.line-min li{
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		transform-origin: left center;
+		background-color: #fff;
+	}
+	.line-min li{
+		width:5px;
+		height:2px;
+		}
+	.line-hour li{
+		width:10px;
+		height:2px;
+		}
+	.number{
+		position:absolute;
+		height:150px;
+		width:150px;
+		left:50%;
+		top:50%;
+		transform: translate(-50%,-50%);
+		font-family:"Times New Roman", Times, serif;
+		font-size:15px;
+		color:#fff;
+	}
+	.number li{
+		position:absolute;
+		transform: translate(-50%,-50%);
+	}
+	.pointer li{
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform-origin: left center;
+		background-color:#fff;
+	}
+	.pointer li.hour{
+		width:45px;
+		height:3px;
+		margin-top:-1px;
+	}
+	.pointer li.min{
+		width:60px;
+		height:2px;
+		margin-top:-1px;
+	}
+	.pointer li.sec{
+		width:80px;
+		height:1px;
+		margin-top:-1px;
+	}
+
+</style>
+</head>
+	<h1>CSS效果</h1>
+	<div class="clock" >
+		<ul class="line-min" ></ul>
+		<ul class="line-hour" ></ul>
+		<ol class="number" ></ol>
+		<ul class="pointer" >
+			<li class="hour" ></li>
+			<li class="min" ></li>
+			<li class="sec" ></li>
+			<li class="circle" ></li>
+		</ul>
+	</div>
+<body>
+</body>
+<script type="text/javascript" src="https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/js/lib/jquery-1.10.2_d88366fd.js"></script>
+
+<script >
+	$(function(){
+		function init(){
+			drawLines($('.line-min'),60,85);
+			drawLines($('.line-hour'),12,85);
+			drawNumber($('.number'));
+			move();
+		
+		}
+		init();
+		
+		function  drawLines(wrap,total,translateX){
+			var gap = 360 / total;
+			var strHtml = '';
+			for( var i = 0; i < total; i++ ){
+				strHtml += '<li style="transform:rotate(' + (i*gap) + 'deg) translate('+ translateX + 'px, -50%)" ></li>';
+			}
+			wrap.html(strHtml);
+		}
+		
+		function  drawNumber(wrap){
+			var radius = wrap.width() / 2;
+			var strHtml = '';
+			for( var i = 1; i<=12; i++ ){
+				var angle = (i-3)/6 * Math.PI;
+				var x = radius + radius * Math.cos(angle),
+					y = radius + radius * Math.sin(angle);
+				console.log(x + ',' + y);
+				strHtml += '<li style="left:' + x + 'px; top:' + y + 'px" >' + i + '</li>';
+				
+			}
+			wrap.html(strHtml);
+		}
+		
+		function	move(){
+			var  domH = $(".hour");
+			var  domM = $(".min");
+			var  domS = $(".sec");
+			if( !domH || !domM || !domS ){
+				alert('object null');
+			}
+			setInterval(function(){
+				var now = new Date();
+				var hour = now.getHours();
+				var min = now.getMinutes();
+				var sec = now.getSeconds();
+				
+				var secAngle = sec * 6 - 90;
+				var minAngle = min * 6 + sec * 0.1 - 90;
+				var hourAngle = hour * 30 + min * 0.5 - 90;
+				domS.css('transform','rotate(' + secAngle + 'deg)');
+				domM.css('transform','rotate(' + minAngle + 'deg)');
+				domH.css('transform','rotate(' + hourAngle + 'deg)');
+				document.title = hour + ':' +_min + ':' + sec;
+			},500);
+		}
+		
+	});
+</script>
+</html>

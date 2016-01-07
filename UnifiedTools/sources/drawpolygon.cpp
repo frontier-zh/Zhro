@@ -53,6 +53,9 @@ DrawPolygon::drawMutliPolygon()
         double minlng = 180.0;
         double maxlng = 0.0;
         foreach( QString item, points){
+            if( item.trimmed().isEmpty() ){
+                continue;
+            }
             double lng = item.split(",").at(0).toDouble();
             double lat = item.split(",").at(1).toDouble();
             int    lng_digit = QString::number(lng,'f',0).size();

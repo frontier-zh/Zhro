@@ -38,6 +38,12 @@ void
 Dialog::on_pushButton_clicked()
 {
     //clist.clear();
+    qDebug() << " ";
+    qDebug() << " ";
+    qDebug() << " ";
+    QLOG_TRACE() << " ";
+    QLOG_TRACE() << " ";
+    QLOG_TRACE() << " ";
     reply   = NULL;
     qDebug() << "Zhro print:" << request;
     request = new QNetworkRequest();
@@ -97,14 +103,16 @@ Dialog::on_pushButton_clicked()
         request->setRawHeader("Content-Type","text/html, application/xhtml+xml, */*");
         request->setRawHeader("Accept","text/html, application/xhtml+xml, */*");
     }
+    qDebug() <<     "============[ httpRequest ]==============";
+    QLOG_TRACE() << "============[ httpRequest ]==============";
     if( method.contains("get",Qt::CaseInsensitive) ){
         reply = manager->get(*request);
-        qDebug() << "get method";
-        QLOG_TRACE() << "get method";
+        qDebug() << "Get  Method";
+        QLOG_TRACE() << "Get  Method";
     }else{
         reply = manager->post(*request, post_data);
-        qDebug() << "post method";
-        QLOG_TRACE() << "post method";
+        qDebug() << "Post Method";
+        QLOG_TRACE() << "Post Method";
     }
     if( !_timer->isActive()){
         _timer->start(30000);
@@ -121,16 +129,18 @@ Dialog::httpRespone()
     if( _timer->isActive()){
         _timer->stop();
     }
-
+    qDebug() <<     "============[ httpRespone start ]=============";
+    QLOG_TRACE() << "============[ httpRespone start ]=============";
     if( (reply->error() != QNetworkReply::NoError) &&
         (reply->error() != QNetworkReply::ContentNotFoundError) &&
         (reply->error() != QNetworkReply::UnknownContentError) ){
-        qDebug() << "reply->error()";
-        QLOG_TRACE() << "reply->error()";
+        QString  errTyp ="";
+        confirmErrortype(reply->error(),errTyp);
+        QLOG_TRACE() << "Http 错误码. " << errTyp << "Errmsg:" << reply->errorString();
+        qDebug() << "Http 错误码. " << errTyp << "Errmsg:" << reply->errorString();
+
     }
 
-    qDebug() << "============ httpRespone start ==============";
-    QLOG_TRACE() << "============ httpRespone start ==============";
     QString  errtype = "";
     QString  address = "";
     QString  requrl = reply->url().toString();
@@ -172,13 +182,13 @@ Dialog::httpRespone()
         }
     }
     if( !cookies.isEmpty() ){
+        qDebug() <<     "------- Cookie Parse --------";
+        QLOG_TRACE() << "------- Cookie Parse --------";
         foreach(QString part, cookies.split("\n")){
             bool    exist = true;
             QStringList subp = part.split(";");
             if( subp.size() ){
-                qDebug() << "--------------------------";
                 qDebug() << subp.at(0);
-                QLOG_TRACE() << "--------------------------";
                 QLOG_TRACE() << subp.at(0);
                 QString     subc = subp.at(0);
                 QStringList text = subc.split("=");
@@ -193,17 +203,22 @@ Dialog::httpRespone()
                     if( exist ){
                         QVariant key = text.at(0);
                         QVariant value = subc.mid(subc.indexOf("=")+1);
-                        QLOG_TRACE() << "name: " << key << " value: " << value;
-                        qDebug() << "name: " << key << " value: " << value;
+                        //QLOG_TRACE() << "name: " << key << " value: " << value;
+                        //qDebug() << "name: " << key << " value: " << value;
                         clist.append(QNetworkCookie(key.toByteArray(),value.toByteArray()));
                     }
                 }
             }
         }
+        qDebug() <<     "-----------------------------";
+        QLOG_TRACE() << "-----------------------------";
     }
-    QLOG_TRACE() << clist.size();
-    qDebug() << clist.size();
+
+    //QLOG_TRACE() << clist.size();
+    //qDebug() << clist.size();
     if( !address.isEmpty() ){
+        qDebug() <<     "============[ httpRequest Goto  ]=============";
+        QLOG_TRACE() << "============[ httpRequest Goto  ]=============";
         SAFE_DELETE(reply);
         SAFE_DELETE(request);
         request = new QNetworkRequest();
@@ -224,7 +239,9 @@ Dialog::httpRespone()
 
     this->ui->pushButton->show();
     confirmErrortype(reply->error(),errtype);
-    this->ui->httperrcode->setText(errtype);
+    this->ui->httperrcode->setText(errtype);  
+    qDebug() <<     "Http 错误码. " << errtype;
+    QLOG_TRACE() << "Http 错误码. " << errtype;
     this->ui->httperrmsg->setPlainText(reply->errorString());
 
     QByteArray web = reply->readAll();
@@ -232,14 +249,16 @@ Dialog::httpRespone()
     QString webcontext = QTextCodec::codecForName(encode.toUtf8())->toUnicode(web);
     this->ui->httpcontent->setPlainText(webcontext);
     if( reply->isOpen() ){
-        QLOG_TRACE() << "close http connect.";
-        qDebug() << "close http connect.";
+        qDebug() <<     "Http Finish Close Connect!";
+        QLOG_TRACE() << "Http Finish Close Connect!";
+
         reply->close();
     }
     reply->deleteLater();
     reply = NULL;
-    QLOG_TRACE() << "============ httpRespone end ==============";
-    qDebug() << "============ httpRespone end ==============";
+    qDebug() <<     "============[ HttpRespone End ]================";
+    QLOG_TRACE() << "============[ HttpRespone End ]================";
+
 }
 
 void
@@ -249,11 +268,12 @@ Dialog::reqNonRespone()
         _timer->stop();
     }
     if( reply != NULL ){
-        QLOG_TRACE() << "request timeout: " << reply->url().toString() << reply->isOpen();
-        qDebug() << "request timeout: " << reply->url().toString() << reply->isOpen();
+        qDebug() <<     "Request Timeout: " << reply->url().toString() << reply->isOpen();
+        QLOG_TRACE() << "Request Timeout: " << reply->url().toString() << reply->isOpen();
+
         if( reply->isOpen() ){
-            QLOG_TRACE() << "respone data: " << reply->readAll();
-            qDebug() <<"respone data: " << reply->readAll();
+            qDebug() <<     "Respone Data: " << reply->readAll();
+            QLOG_TRACE() << "Respone Data: " << reply->readAll();
             reply->close();
         }
     }
@@ -275,82 +295,82 @@ void Dialog::confirmErrortype(QNetworkReply::NetworkError err, QString &typ)
 {
     switch (err) {
         case QNetworkReply::NoError:
-            typ = " 0 NoError";
+            typ = "0 NoError";
             break;
         case QNetworkReply::ConnectionRefusedError:
-            typ = " 1 ConnectionRefusedError";
+            typ = "1 ConnectionRefusedError";
             break;
         case QNetworkReply::RemoteHostClosedError:
-            typ = " 2 RemoteHostClosedError";
+            typ = "2 RemoteHostClosedError";
             break;
         case QNetworkReply::HostNotFoundError:
-            typ = " 3 HostNotFoundError";
+            typ = "3 HostNotFoundError";
             break;
         case QNetworkReply::TimeoutError:
-            typ = " 4 TimeoutError";
+            typ = "4 TimeoutError";
             break;
         case QNetworkReply::OperationCanceledError:
-            typ = " 5 OperationCanceledError";
+            typ = "5 OperationCanceledError";
             break;
         case QNetworkReply::SslHandshakeFailedError:
-            typ = " 6 SslHandshakeFailedError";
+            typ = "6 SslHandshakeFailedError";
             break;
         case QNetworkReply::TemporaryNetworkFailureError:
             typ = " 7 TemporaryNetworkFailureError";
             break;
         case QNetworkReply::NetworkSessionFailedError:
-            typ = " 8 NetworkSessionFailedError";
+            typ = "8 NetworkSessionFailedError";
             break;
         case QNetworkReply::BackgroundRequestNotAllowedError:
-            typ = " 9 BackgroundRequestNotAllowedError";
+            typ = "9 BackgroundRequestNotAllowedError";
             break;
         case QNetworkReply::UnknownNetworkError:
-            typ = " 99 UnknownNetworkError";
+            typ = "99 UnknownNetworkError";
             break;
         case QNetworkReply::ProxyConnectionRefusedError:
-            typ = " 101 ProxyConnectionRefusedError";
+            typ = "101 ProxyConnectionRefusedError";
             break;
         case QNetworkReply::ProxyConnectionClosedError:
-            typ = " 102 ProxyConnectionClosedError";
+            typ = "102 ProxyConnectionClosedError";
             break;
         case QNetworkReply::ProxyNotFoundError:
-            typ = " 103 ProxyNotFoundError";
+            typ = "103 ProxyNotFoundError";
             break;
         case QNetworkReply::ProxyTimeoutError:
-            typ = " 104 ProxyTimeoutError";
+            typ = "104 ProxyTimeoutError";
             break;
         case QNetworkReply::ProxyAuthenticationRequiredError:
-            typ = " 105 ProxyAuthenticationRequiredError";
+            typ = "105 ProxyAuthenticationRequiredError";
             break;
         case QNetworkReply::UnknownProxyError:
-            typ = " 199 UnknownProxyError";
+            typ = "199 UnknownProxyError";
             break;
         case QNetworkReply::ContentAccessDenied:
-            typ = " 201 ContentAccessDenied";
+            typ = "201 ContentAccessDenied";
             break;
         case QNetworkReply::ContentOperationNotPermittedError:
-            typ = " 202 ContentOperationNotPermittedError";
+            typ = "202 ContentOperationNotPermittedError";
             break;
         case QNetworkReply::ContentNotFoundError:
-            typ = " 203 ContentNotFoundError";
+            typ = "203 ContentNotFoundError";
             break;
         case QNetworkReply::AuthenticationRequiredError:
-            typ = " 204 AuthenticationRequiredError";
+            typ = "204 AuthenticationRequiredError";
             break;
         case QNetworkReply::ContentReSendError:
-            typ = " 205 ContentReSendError";
+            typ = "205 ContentReSendError";
             break;
         case QNetworkReply::UnknownContentError:
-            typ = " 299 UnknownContentError";
+            typ = "299 UnknownContentError";
             break;
         case QNetworkReply::ProtocolUnknownError:
-            typ = " 301 ProtocolUnknownError";
+            typ = "301 ProtocolUnknownError";
             break;
         case QNetworkReply::ProtocolInvalidOperationError:
-            typ = " 302 ProtocolInvalidOperationError";
+            typ = "302 ProtocolInvalidOperationError";
             break;
         case QNetworkReply::ProtocolFailure:
-            typ = " 399 ProtocolFailure";
+            typ = "399 ProtocolFailure";
             break;
         default:
             break;
@@ -360,8 +380,9 @@ void Dialog::confirmErrortype(QNetworkReply::NetworkError err, QString &typ)
 void
 Dialog::httpError(QNetworkReply::NetworkError errcode)
 {
-    QLOG_TRACE() << "http request error: "<<errcode << reply;
-    qDebug()<<"http request error: "<<errcode << reply;
+    qDebug()<<      "Http Request Err: "<< errcode << reply;
+    QLOG_TRACE() << "Http Request Err: "<< errcode << reply;
+
 }
 void
 Dialog::urlEncodeChinese(QString &url, QString &encode)
